@@ -58,16 +58,16 @@ After analyzing the expression levels of 77 proteins, a list of key proteins was
 The Random Forest classifier was utilized as the foundation for the classification task. Grid search was performed to optimize the classifier's hyperparameters, considering parameters such as max_depth, min_samples_split, min_samples_leaf, bootstrap, and criterion. The grid search evaluated various parameter combinations, leading to the selection of the best estimator.
 
 #### Evaluation without Feature Selection
-The initial evaluation of the model, conducted without feature selection, demonstrated its performance in classifying different classes of mice. Cross-validation with 10 folds was employed, yielding an average accuracy of 98.3% on the training data. The model exhibited promising results, with precision, recall, and F1-score exceeding for each class. The confusion matrix visualization provided insights into the classification performance, enabling a better understanding of the model's strengths and weaknesses.
+The initial evaluation of the model, conducted without feature selection, demonstrated its performance in classifying different classes of mice. Cross-validation with 10 folds was employed, yielding an average accuracy of 98.8% on the training data. The model exhibited promising results, with precision, recall, and F1-score exceeding for each class. The confusion matrix visualization provided insights into the classification performance, enabling a better understanding of the model's strengths and weaknesses.
 
-![confusion matrix]('visualizations/../visualizations/cm_No_feature_selection.png')
+![confusion matrix](visualizations/../visualizations/cm_No_feature_selection.png)
 
 #### Feature Selection: Unveiling the Most Informative Proteins
 Recursive Feature Elimination (RFE) was employed to select the most informative features for classification. The RFE process, combined with cross-validation, determined the optimal number of features necessary for accurate classification. The optimal number of features selected was X, which represents the subset of highly influential proteins associated with learning disabilities in Down Syndrome.
 
 #### Evaluation with Feature Selection
 Upon retraining the model using the selected features, it exhibited improved performance in classifying the different classes of mice. Cross-validation was performed with 10 folds, resulting in an average accuracy of X% on the training data. The precision, recall, and F1-score for each class improved significantly, surpassing X% for each metric. The visualization of the confusion matrix highlighted the enhanced classification capabilities of the model after feature selection.
-![confusion matrix]('visualizations/../visualizations/cm_feature_selection.png')
+![confusion matrix](visualizations/../visualizations/cm_feature_selection.png)
 
 #### Key Protein List and Insights
 The selected features revealed a key protein list consisting of X proteins strongly associated with learning disabilities in Down Syndrome. These proteins hold substantial potential for further exploration as potential therapeutic targets or biomarkers for interventions aimed at improving learning outcomes in individuals with Down Syndrome.

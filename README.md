@@ -70,7 +70,7 @@ Upon retraining the model using the selected features, it exhibited improved per
 ![confusion matrix](visualizations/../visualizations/cm_feature_selection.png)
 
 #### Key Protein List and Insights
-The selected features revealed a key protein list consisting of X proteins strongly associated with learning disabilities in Down Syndrome. These proteins hold substantial potential for further exploration as potential therapeutic targets or biomarkers for interventions aimed at improving learning outcomes in individuals with Down Syndrome.
+The selected features revealed a key protein list consisting of proteins strongly associated with learning disabilities in Down Syndrome. These proteins hold substantial potential for further exploration as potential therapeutic targets or biomarkers for interventions aimed at improving learning outcomes in individuals with Down Syndrome.
 
 #### Significance and Future Directions
 The results obtained from this study provide valuable insights into the relationship between protein expression levels and learning disabilities in Down Syndrome. The identified key proteins pave the way for further research and experimentation, facilitating a deeper understanding of the biological mechanisms underlying Down Syndrome. Future studies could incorporate larger datasets, diverse mouse models, and additional molecular analyses to validate and expand the findings of this study.

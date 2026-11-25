@@ -1,0 +1,17 @@
+\begin{tabular}{llrr}
+\toprule
+Validation & Model & Balanced accuracy & SD \\
+\midrule
+Random rows (leaky) & Logistic & 0.994 & 0.006 \\
+Held-out mice, 15 rows & Logistic & 0.602 & 0.076 \\
+Held-out mice, 15 rows & Random forest & 0.596 & 0.070 \\
+Held-out mice, means & Logistic & 0.613 & 0.105 \\
+\midrule
+Held-out mice, means & Elastic net & 0.630 & 0.024 \\
+Held-out mice, means & RBF SVM & 0.540 & 0.030 \\
+Held-out mice, means & Gradient boosting & 0.557 & 0.042 \\
+Held-out mice, means & TabPFN v2$^\dagger$ & 0.730 & 0.032 \\
+Held-out mice, means & Kumo Tabular Small$^\dagger$ & 0.828 & 0.022 \\
+Chance & -- & 0.125 & -- \\
+\bottomrule
+\end{tabular}

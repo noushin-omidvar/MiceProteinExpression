@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="321.371039pt" height="174.626835pt" viewBox="0 0 321.371039 174.626835" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-25T12:23:20.511745</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M -0 174.626835 
+L 321.371039 174.626835 
+L 321.371039 0 
+L -0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 60.977812 138.191244 
+L 274.485309 138.191244 
+L 274.485309 18.144 
+L 60.977812 18.144 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#p06b1990508)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAA3oAAAH0CAYAAABrdl/5AAAMBUlEQVR4nO3ZS2pUURhG0cRUKw9FYgyCKBECAec/AFsKYsMhiChqCCGPKu2Ycg43kOPdtVb/wsffupuzvV6v11vAg/p5fuHiM3Z8dDh6AhNdXl273UwtdnZGT4CNc7C/N3oC9/DoPh8DAADw/xF6AAAAMUIPAAAgRugBAADECD0AAIAYoQcAABAj9AAAAGKEHgAAQIzQAwAAiBF6AAAAMUIPAAAgRugBAADECD0AAIAYoQcAABAj9AAAAGKEHgAAQIzQAwAAiBF6AAAAMUIPAAAgRugBAADECD0AAIAYoQcAABAj9AAAAGKEHgAAQIzQAwAAiBF6AAAAMUIPAAAgRugBAADECD0AAIAYoQcAABAj9AAAAGKEHgAAQIzQAwAAiBF6AAAAMUIPAAAgRugBAADECD0AAIAYoQcAABAj9AAAAGKEHgAAQIzQAwAAiBF6AAAAMUIPAAAgRugBAADECD0AAIAYoQcAABAj9AAAAGKEHgAAQIzQAwAAiBF6AAAAMUIPAAAgRugBAADECD0AAIAYoQcAABAj9AAAAGKEHgAAQIzQAwAAiBF6AAAAMUIPAAAgRugBAADECD0AAIAYoQcAABAj9AAAAGKEHgAAQIzQAwAAiBF6AAAAMUIPAAAgRugBAADECD0AAIAYoQcAABAj9AAAAGKEHgAAQIzQAwAAiBF6AAAAMUIPAAAgRugBAADECD0AAIAYoQcAABAj9AAAAGKEHgAAQIzQAwAAiBF6AAAAMdvffvxajx7BNAd7u043U6vff0ZPgI10fHQ4egJsnJvb5egJTPTh02e3mzEvegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxCxGDwCYm+Xq9+gJTHR5de12M7XY2Rk9gYluliu3m6m3Z6ejJ3APXvQAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAEDM4na5Gr2BiQ72dt0OBvh7d+fuM/X0yePRE2Dj3PjXnC2dMG9e9AAAAGKEHgAAQIzQAwAAiBF6AAAAMUIPAAAgRugBAADECD0AAIAYoQcAABAj9AAAAGKEHgAAQIzQAwAAiBF6AAAAMUIPAAAgRugBAADECD0AAIAYoQcAABAj9AAAAGKEHgAAQIzQAwAAiBF6AAAAMUIPAAAgRugBAADECD0AAIAYoQcAABAj9AAAAGKEHgAAQIzQAwAAiBF6AAAAMUIPAAAgRugBAADECD0AAIAYoQcAABAj9AAAAGKEHgAAQIzQAwAAiBF6AAAAMUIPAAAgRugBAADECD0AAIAYoQcAABAj9AAAAGKEHgAAQIzQAwAAiBF6AAAAMUIPAAAgRugBAADECD0AAIAYoQcAABAj9AAAAGKEHgAAQIzQAwAAiBF6AAAAMUIPAAAgRugBAADECD0AAIAYoQcAABAj9AAAAGKEHgAAQIzQAwAAiBF6AAAAMUIPAAAgRugBAADECD0AAIAYoQcAABAj9AAAAGKEHgAAQIzQAwAAiBF6AAAAMUIPAAAgRugBAADECD0AAIAYoQcAABAj9AAAAGKEHgAAQIzQAwAAiBF6AAAAMUIPAAAgRugBAADECD0AAIAYoQcAABAj9AAAAGKEHgAAQMxi9ACmu1munG+mvnz9PnoCbKTTk1ejJwDAg/CiBwAAECP0AAAAYoQeAABAjNADAACIEXoAAAAxQg8AACBG6AEAAMQIPQAAgBihBwAAECP0AAAAYoQeAABAjNADAACIEXoAAAAxQg8AACBG6AEAAMQIPQAAgBihBwAAECP0AAAAYoQeAABAjNADAACIEXoAAAAxQg8AACBG6AEAAMQIPQAAgBihBwAAECP0AAAAYoQeAABAjNADAACIEXoAAAAxQg8AACBG6AEAAMQIPQAAgBihBwAAECP0AAAAYoQeAABAjNADAACIEXoAAAAxQg8AACBG6AEAAMQIPQAAgBihBwAAECP0AAAAYoQeAABAjNADAACIEXoAAAAxQg8AACBG6AEAAMQIPQAAgBihBwAAECP0AAAAYoQeAABAjNADAACIEXoAAAAxQg8AACBG6AEAAMQIPQAAgBihBwAAECP0AAAAYoQeAABAjNADAACIEXoAAAAxQg8AACBG6AEAAMQIPQAAgBihBwAAECP0AAAAYoQeAABAjNADAACIEXoAAAAxQg8AACBG6AEAAMQIPQAAgBihBwAAECP0AAAAYoQeAABAjNADAACIEXoAAAAxQg8AACBG6AEAAMQIPQAAgBihBwAAECP0AAAAYoQeAABAzGJ/b3f0Btg4b16/HD2Be3j3/qP7zdTZ1cnoCUx0fnHpdjP14vmz0ROY6Ha5crsZ86IHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAABihB4AAECM0AMAAIgRegAAADFCDwAAIEboAQAAxAg9AACAGKEHAAAQI/QAAAC2Wv4B2ks/AmgXJ94AAAAASUVORK5CYII=" id="imaged02bb804c7" transform="scale(1 -1) translate(0 -120)" x="60.96" y="-18.146835" width="213.6" height="120"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="md41891284d" d="M 0 0 
+L 0 2.5 
+" style="stroke: #161b1f; stroke-width: 0.5"/>
+      </defs>
+      <g>
+       <use xlink:href="#md41891284d" x="74.322031" y="138.191244" style="fill: #161b1f; stroke: #161b1f; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(52.432704 165.431699) rotate(-40)">Ctrl CS sal</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#md41891284d" x="101.010468" y="138.191244" style="fill: #161b1f; stroke: #161b1f; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(79.121141 165.431699) rotate(-40)">Ctrl SC sal</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#md41891284d" x="127.698905" y="138.191244" style="fill: #161b1f; stroke: #161b1f; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(101.204694 169.295656) rotate(-40)">Ctrl CS mem</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#md41891284d" x="154.387342" y="138.191244" style="fill: #161b1f; stroke: #161b1f; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(127.893131 169.295656) rotate(-40)">Ctrl SC mem</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#md41891284d" x="181.075779" y="138.191244" style="fill: #161b1f; stroke: #161b1f; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(162.044756 163.033298) rotate(-40)">Ts CS sal</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#md41891284d" x="207.764216" y="138.191244" style="fill: #161b1f; stroke: #161b1f; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(188.733193 163.033298) rotate(-40)">Ts SC sal</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#md41891284d" x="234.452653" y="138.191244" style="fill: #161b1f; stroke: #161b1f; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(210.816745 166.897255) rotate(-40)">Ts CS mem</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#md41891284d" x="261.14109" y="138.191244" style="fill: #161b1f; stroke: #161b1f; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(237.505182 166.897255) rotate(-40)">Ts SC mem</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_9">
+      <defs>
+       <path id="mc79154dd88" d="M 0 0 
+L -2.5 0 
+" style="stroke: #161b1f; stroke-width: 0.5"/>
+      </defs>
+      <g>
+       <use xlink:href="#mc79154dd88" x="60.977812" y="28.147937" style="fill: #161b1f; stroke: #161b1f; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #161b1f" x="54.977812" y="30.487937" transform="rotate(-0 54.977812 30.487937)">BCL2 (q=0.65)</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#mc79154dd88" x="60.977812" y="48.155811" style="fill: #161b1f; stroke: #161b1f; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #161b1f" x="54.977812" y="50.495811" transform="rotate(-0 54.977812 50.495811)">H3MeK4 (q=0.49)</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#mc79154dd88" x="60.977812" y="68.163685" style="fill: #161b1f; stroke: #161b1f; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #161b1f" x="54.977812" y="70.503685" transform="rotate(-0 54.977812 70.503685)">BAD (q=0.49)</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#mc79154dd88" x="60.977812" y="88.171559" style="fill: #161b1f; stroke: #161b1f; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #161b1f" x="54.977812" y="90.511559" transform="rotate(-0 54.977812 90.511559)">EGR1 (q=0.97)</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#mc79154dd88" x="60.977812" y="108.179433" style="fill: #161b1f; stroke: #161b1f; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #161b1f" x="54.977812" y="110.519433" transform="rotate(-0 54.977812 110.519433)">H3AcK18 (q=0.49)</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#mc79154dd88" x="60.977812" y="128.187307" style="fill: #161b1f; stroke: #161b1f; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #161b1f" x="54.977812" y="130.527307" transform="rotate(-0 54.977812 130.527307)">pCFOS (q=0.55)</text>
+     </g>
+    </g>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 600; font-size: 8px; font-family: 'Fraunces'; text-anchor: start; fill: #161b1f" x="60.977812" y="12.144" transform="rotate(-0 60.977812 12.144)">Missingness does not track experimental cell</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_3">
+    <path d="M 286.21649 138.191244 
+L 292.218852 138.191244 
+L 292.218852 18.144 
+L 286.21649 18.144 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3"/>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_7">
+     <g id="line2d_15">
+      <defs>
+       <path id="m9f102ebc67" d="M 0 0 
+L 2.5 0 
+" style="stroke: #161b1f; stroke-width: 0.5"/>
+      </defs>
+      <g>
+       <use xlink:href="#m9f102ebc67" x="292.218852" y="138.191244" style="fill: #161b1f; stroke: #161b1f; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="298.218852" y="140.531244" transform="rotate(-0 298.218852 140.531244)">0.0</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m9f102ebc67" x="292.218852" y="114.181795" style="fill: #161b1f; stroke: #161b1f; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="298.218852" y="116.521795" transform="rotate(-0 298.218852 116.521795)">0.2</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m9f102ebc67" x="292.218852" y="90.172346" style="fill: #161b1f; stroke: #161b1f; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="298.218852" y="92.512346" transform="rotate(-0 298.218852 92.512346)">0.4</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m9f102ebc67" x="292.218852" y="66.162898" style="fill: #161b1f; stroke: #161b1f; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="298.218852" y="68.502898" transform="rotate(-0 298.218852 68.502898)">0.6</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m9f102ebc67" x="292.218852" y="42.153449" style="fill: #161b1f; stroke: #161b1f; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="298.218852" y="44.493449" transform="rotate(-0 298.218852 44.493449)">0.8</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m9f102ebc67" x="292.218852" y="18.144" style="fill: #161b1f; stroke: #161b1f; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_21">
+      <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="298.218852" y="20.484" transform="rotate(-0 298.218852 20.484)">1.0</text>
+     </g>
+    </g>
+    <g id="text_22">
+     <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="315.731039" y="78.167622" transform="rotate(-90 315.731039 78.167622)">Fraction of measurements missing</text>
+    </g>
+   </g>
+   <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAABkAAAH0CAYAAADIRIaLAAACrUlEQVR4nO2a0Q1DMQgDKWL/kaEr1B9ElblbwOLZEJL2MzMTy+S2gJdIPbAkfD5XvhCpB5bEm0oiTNJVDyyJCpdmrBefK+ONJ7FO7ksEzahBuiRqbEZ92HT8PBDJBxrhtEjMvkjuS4STJ2HjyTwQyQcaYZSucUlX2ogUzx4KzC4J7vFHP1faiJTRIjEm6SonT8LGk1kXyXWFcBIpm4W7fC5BYePJuHiSNiJFxyvgydk+CZPZVT7nSdh4Mi6e5AuRohkVuGJL8OxxdKzkC5HiUU0BT44+dKaNSPGLqQIL99lLUOyTDzSCK7YEHS9Bx19txrEZ9WHkyT75QCOMxkqQLgGu2BJ0vATLnQTPHkc/V74QKZunqKISBTy5mq62qWSo5ORfSgrjFfBEgnRJkC4Jjl8J0iXB7JIgXRKkS4J03U1XrJP7EsG2okHH/1/Hl9NYmXWRXFcIKhHBEwn6RIJFQoJ0STC7zqar90VyXyKsPBkq+R08keCnDQnSJcFjgQSjXoJmlCBdEqTr7iIR6+S+RNDxGngiwXkiQbokSJcE6bq7rcy6SK4rBJWIYLwEEZbgEiRBuiQ4fiVIlwQnowTpOpuu3v+7R64rBOfJn3Z82/TJrIvkukJYza72Sde4eDIP+qSMxsq4GN9GA7LXRXJdIazSNT6VtEu62seT8amk10VyXSFYuEVYuM92fNtUMjaza1w8adIlQLqu9sk82OqLhVuBQ+vuIjHrIrmuEF4v3O3iydika3zSNS6eNH0iQJ9c7ZOx6ZNmCguQLgnO+KM/nJXP74zjc2iNTyW9LpLrCsHCLUK6rq6pYzO72mZ2jY0nY9QnvS6S6wphla62qWTY6gXok6uzq43Ok1kXSZt0ldMiMesiua4QLNwiLNxXD60x6vhZF8l1hWDhFnniyRdyB2c3Enj+jgAAAABJRU5ErkJggg==" id="image0a2dc236aa" transform="scale(1 -1) translate(0 -120)" x="286.32" y="-18" width="6" height="120"/>
+   <g id="LineCollection_1"/>
+   <g id="patch_4">
+    <path d="M 286.21649 138.191244 
+L 289.217671 138.191244 
+L 292.218852 138.191244 
+L 292.218852 18.144 
+L 289.217671 18.144 
+L 286.21649 18.144 
+L 286.21649 138.191244 
+z
+" style="fill: none; stroke: #161b1f; stroke-width: 0.5; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p06b1990508">
+   <rect x="60.977812" y="18.144" width="213.507496" height="120.047244"/>
+  </clipPath>
+ </defs>
+</svg>

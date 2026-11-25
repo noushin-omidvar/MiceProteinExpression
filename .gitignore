@@ -1,0 +1,20 @@
+# Environments and caches
+.venv/
+.venv-foundation/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Build intermediates
+paper/*.log
+paper/*.aux
+paper/*.out
+
+# Large regenerable artefacts
+results/models/
+*.egg-info/
+paper/*.synctex.gz

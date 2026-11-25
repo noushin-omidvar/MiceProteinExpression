@@ -1,0 +1,23 @@
+# Settings for the mechanistic analyses (scripts/mechanism_analysis.py).
+# Changing any value changes results; record the config with every run.
+seed: 2026
+raw_data: Data/Raw_Data/Data_Cortex_Nuclear.xls
+output_dir: results/mechanisms
+
+# Resampling. Bootstrap resamples mice within experimental cells; permutations
+# shuffle one factor within strata of the other two (see signatures.permute_factor).
+n_bootstrap: 4000
+n_permutations: 5000
+n_network_permutations: 2000
+
+# Inference thresholds
+alpha: 0.05
+fdr: 0.05
+
+# Power analysis grid (mice per cell)
+power_n_grid: [4, 6, 8, 10, 12, 15, 20, 25, 30, 40]
+power_target: 0.8
+
+# Memorization-protocol positive control (classical model only; see README for
+# running the same protocol with TabPFN/Kumo)
+obfuscation_repeats: 3

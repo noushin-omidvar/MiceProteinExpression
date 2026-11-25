@@ -1,0 +1,41 @@
+scenario,n_per_cell,power
+Learning attenuation (observed),4,0.4186831181790355
+Learning attenuation (observed),6,0.6035684882162851
+Learning attenuation (observed),8,0.7400377470563623
+Learning attenuation (observed),10,0.8349470973887715
+Learning attenuation (observed),12,0.8979760681475847
+Learning attenuation (observed),15,0.9524245585603957
+Learning attenuation (observed),20,0.9877657103485619
+Learning attenuation (observed),25,0.9971035849879087
+Learning attenuation (observed),30,0.9993564332705533
+Learning attenuation (observed),40,0.9999724598346431
+Learning attenuation (50% of control response),4,0.756750844411321
+Learning attenuation (50% of control response),6,0.9204965440634965
+Learning attenuation (50% of control response),8,0.9765508072556359
+Learning attenuation (50% of control response),10,0.9935952248393913
+Learning attenuation (50% of control response),12,0.9983519491970403
+Learning attenuation (50% of control response),15,0.9998028393864803
+Learning attenuation (50% of control response),20,0.9999951846717076
+Learning attenuation (50% of control response),25,0.9999998995579576
+Learning attenuation (50% of control response),30,0.9999999981351873
+Learning attenuation (50% of control response),40,0.9999999999995014
+"Protein 3-way interaction, 1 SD",4,0.10429020106220424
+"Protein 3-way interaction, 1 SD",6,0.1350253184081057
+"Protein 3-way interaction, 1 SD",8,0.1658991970841356
+"Protein 3-way interaction, 1 SD",10,0.19687170027826367
+"Protein 3-way interaction, 1 SD",12,0.22781924725575226
+"Protein 3-way interaction, 1 SD",15,0.2739120589644402
+"Protein 3-way interaction, 1 SD",20,0.3489142814973708
+"Protein 3-way interaction, 1 SD",25,0.42043357884756744
+"Protein 3-way interaction, 1 SD",30,0.4874893725629295
+"Protein 3-way interaction, 1 SD",40,0.606132753180897
+"Protein 3-way interaction, 2 SD",4,0.2740196065695502
+"Protein 3-way interaction, 2 SD",6,0.3939063561800749
+"Protein 3-way interaction, 2 SD",8,0.5023110895408271
+"Protein 3-way interaction, 2 SD",10,0.5972555801387683
+"Protein 3-way interaction, 2 SD",12,0.6782239876173093
+"Protein 3-way interaction, 2 SD",15,0.7749058198678035
+"Protein 3-way interaction, 2 SD",20,0.8814511769137183
+"Protein 3-way interaction, 2 SD",25,0.9403633100396428
+"Protein 3-way interaction, 2 SD",30,0.9710819555264446
+"Protein 3-way interaction, 2 SD",40,0.993761641900503

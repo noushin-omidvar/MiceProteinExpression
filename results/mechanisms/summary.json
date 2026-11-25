@@ -1,0 +1,688 @@
+{
+  "data": {
+    "rows": 1080,
+    "mice": 72,
+    "proteins": 77,
+    "unique_proteins": 76,
+    "panel_proteins": 70,
+    "duplicates": {
+      "pS6_N": "ARC_N"
+    },
+    "excluded_sparse": [
+      "BAD_N",
+      "BCL2_N",
+      "EGR1_N",
+      "H3AcK18_N",
+      "H3MeK4_N",
+      "pCFOS_N"
+    ],
+    "cell_n": {
+      "c-CS-s": 9,
+      "c-SC-s": 9,
+      "c-CS-m": 10,
+      "c-SC-m": 10,
+      "t-CS-s": 7,
+      "t-SC-s": 9,
+      "t-CS-m": 9,
+      "t-SC-m": 9
+    },
+    "nonpositive_values": 1,
+    "imputed_mouse_means": 2
+  },
+  "qc": {
+    "icc_median": 0.7167139192090451,
+    "icc_iqr": [
+      0.5730903052153666,
+      0.7835452827249842
+    ],
+    "block_share_median": 0.8240194408421175,
+    "block_share_iqr": [
+      0.7096987419431926,
+      0.8819446519772165
+    ],
+    "missing_informative": [],
+    "missing_tested": 49
+  },
+  "protein_contrasts": {
+    "Treatment": 2,
+    "Conditioning": 46,
+    "Conditioning\u00d7Treatment": 0,
+    "Genotype": 4,
+    "Genotype\u00d7Treatment": 0,
+    "Genotype\u00d7Conditioning": 9,
+    "Genotype\u00d7Conditioning\u00d7Treatment": 3,
+    "Trisomy (saline)": 3,
+    "Trisomy (memantine)": 3,
+    "Memantine in control": 0,
+    "Memantine in Ts65Dn": 1,
+    "Learning: control saline": 17,
+    "Learning: control memantine": 27,
+    "Learning: Ts65Dn saline": 6,
+    "Learning: Ts65Dn memantine": 27
+  },
+  "dosage": {
+    "expected_log2fc": 0.5849625007211562,
+    "sets": {
+      "triplicated": {
+        "estimate": 0.13263906173463738,
+        "lower": 0.06151498412078394,
+        "upper": 0.2007335985910407,
+        "n": 6
+      },
+      "hsa21_disomic": {
+        "estimate": -0.02148402217458878,
+        "lower": -0.10311174029102717,
+        "upper": 0.06103381644125307,
+        "n": 2
+      },
+      "background": {
+        "estimate": 0.012190533052788543,
+        "lower": -0.030250596392307972,
+        "upper": 0.055482640142898304,
+        "n": 62
+      }
+    },
+    "set_fraction_of_expected": 0.22674797370962527,
+    "replication_pearson": 0.6563911724145778,
+    "replication_pearson_triplicated": 0.7009936884983599,
+    "triplicated_up_both_arms": 1,
+    "triplicated_q05_saline": 1,
+    "triplicated_rank_percentile": {
+      "APP_N": 0.9354838709677419,
+      "SOD1_N": 0.8225806451612904,
+      "DYRK1A_N": 0.8870967741935484,
+      "ITSN1_N": 0.9193548387096774,
+      "DSCR1_N": 0.20967741935483872,
+      "TIAM1_N": 0.532258064516129
+    },
+    "per_protein": {
+      "APP_N": {
+        "estimate_saline": 0.23193453403773445,
+        "lower_saline": 0.13265598224718644,
+        "upper_saline": 0.33121308582828246,
+        "estimate_memantine": 0.228533057373284,
+        "q_saline": 0.0022222032122941305
+      },
+      "SOD1_N": {
+        "estimate_saline": -0.14548090261525504,
+        "lower_saline": -0.34933381750065806,
+        "upper_saline": 0.058372012270148016,
+        "estimate_memantine": 0.13272107799607863,
+        "q_saline": 0.4139003635263476
+      },
+      "DYRK1A_N": {
+        "estimate_saline": 0.1803212067049893,
+        "lower_saline": -0.15943741112373172,
+        "upper_saline": 0.5200798245337104,
+        "estimate_memantine": 0.3190202978362733,
+        "q_saline": 0.6129317236876551
+      },
+      "ITSN1_N": {
+        "estimate_saline": 0.2072196792089609,
+        "lower_saline": -0.05273362364520978,
+        "upper_saline": 0.46717298206313157,
+        "estimate_memantine": 0.3351961841686795,
+        "q_saline": 0.3208418160403216
+      },
+      "DSCR1_N": {
+        "estimate_saline": -0.026864429660885036,
+        "lower_saline": -0.2803699916435272,
+        "upper_saline": 0.22664113232175714,
+        "estimate_memantine": 0.013115397693953479,
+        "q_saline": 0.9358748882834774
+      },
+      "TIAM1_N": {
+        "estimate_saline": 0.06630577211327371,
+        "lower_saline": -0.06489557944341237,
+        "upper_saline": 0.1975071236699598,
+        "estimate_memantine": 0.04964686595856094,
+        "q_saline": 0.6129317236876551
+      }
+    }
+  },
+  "learning": {
+    "response": {
+      "control saline": 9.45731122334099,
+      "control memantine": 7.983070579766043,
+      "Ts65Dn saline": 6.340194260839537,
+      "Ts65Dn memantine": 9.861870403965185
+    },
+    "response_ci": {
+      "control saline": [
+        6.578403920483286,
+        10.83008349872571
+      ],
+      "control memantine": [
+        5.624419201391098,
+        9.269577922886711
+      ],
+      "Ts65Dn saline": [
+        3.8355269561483323,
+        7.970347126674916
+      ],
+      "Ts65Dn memantine": [
+        6.554887003479091,
+        11.30117083167513
+      ]
+    },
+    "relative": {
+      "control saline": 1.0,
+      "control memantine": 0.8441163023231733,
+      "Ts65Dn saline": 0.6704013552172953,
+      "Ts65Dn memantine": 1.0427773995240557
+    },
+    "relative_ci": {
+      "control saline": [
+        1.0,
+        1.0
+      ],
+      "control memantine": [
+        0.6099721088701547,
+        1.175447179818307
+      ],
+      "Ts65Dn saline": [
+        0.4072202215729617,
+        1.0125773384117018
+      ],
+      "Ts65Dn memantine": [
+        0.6730175905161314,
+        1.494361742071775
+      ]
+    },
+    "cosine": {
+      "control memantine": 0.9481606972955301,
+      "Ts65Dn saline": 0.8597057193756567,
+      "Ts65Dn memantine": 0.8569759317432692
+    },
+    "cosine_ci": {
+      "control memantine": [
+        0.6001015006329199,
+        0.966335013193291
+      ],
+      "Ts65Dn saline": [
+        0.4179081268236138,
+        0.9232903112127889
+      ],
+      "Ts65Dn memantine": [
+        0.511953097088789,
+        0.9428902409892993
+      ]
+    },
+    "attenuation": 3.117116962501454,
+    "attenuation_p": 0.03079384123175365,
+    "restoration": 3.5216761431256476,
+    "restoration_p": 0.003599280143971206,
+    "within_cell_sd": 1.6345896870603964,
+    "top_loadings": {
+      "SOD1_N": -0.43444944596335516,
+      "pERK_N": 0.25162139066427053,
+      "ARC_N": -0.24530542023883886,
+      "IL1B_N": -0.21505053931191634,
+      "CaNA_N": 0.2126509498963022,
+      "SNCA_N": -0.20398483871687095,
+      "pGSK3B_N": 0.2016821003148084,
+      "pPKCAB_N": 0.19928740026565384,
+      "pNUMB_N": 0.1973921626463331,
+      "DYRK1A_N": 0.19614264322225225
+    }
+  },
+  "rescue": {
+    "arm_means": {
+      "control saline": -0.6975339622419514,
+      "control memantine": -1.4784731117030472,
+      "Ts65Dn saline": 2.3707078515660065,
+      "Ts65Dn memantine": 0.40712491454685495
+    },
+    "arm_means_ci": {
+      "control saline": [
+        -1.7764605807855918,
+        0.9015225376312387
+      ],
+      "control memantine": [
+        -2.090444122903532,
+        -0.4301129615774751
+      ],
+      "Ts65Dn saline": [
+        0.5955659573502381,
+        3.7596477681432927
+      ],
+      "Ts65Dn memantine": [
+        -0.5820826589600426,
+        1.1945493958574342
+      ]
+    },
+    "rescue_fraction": 0.6399700728223153,
+    "rescue_fraction_ci": [
+      -0.014079840647194418,
+      1.7060563273906675
+    ],
+    "rescue_shift": 1.9635829370191515,
+    "rescue_shift_p": 0.01899620075984803,
+    "persistence": 0.6145532655751501,
+    "persistence_ci": [
+      -0.009546022700074017,
+      2.7279781142821147
+    ],
+    "control_shift": -0.2545233383974654,
+    "control_shift_ci": [
+      -2.8978598897482963,
+      0.33905680903684005
+    ],
+    "rescue_by_conditioning": {
+      "CS": 0.2157594516745784,
+      "SC": 0.8383144267252367
+    },
+    "rescue_by_conditioning_ci": {
+      "CS": [
+        -3.9228725956928514,
+        3.8238172906942656
+      ],
+      "SC": [
+        0.09142134688802846,
+        2.098199398187791
+      ]
+    },
+    "magnitudes": {
+      "Trisomy (saline)": 3.823721575616534,
+      "Memantine in Ts65Dn": 3.0362909276608954,
+      "Memantine in control": 1.4797525536465062
+    },
+    "along_axis_share": 0.41822668083866554,
+    "along_axis_share_ci": [
+      0.0031851901003751935,
+      0.4795440663511887
+    ],
+    "per_protein_counts": {
+      "Not affected (saline)": 73,
+      "Not detected under memantine": 2,
+      "Persists under memantine": 1
+    },
+    "persistence_slope_naive": 0.434742688656568,
+    "reliability_saline": 0.5909257442925366,
+    "persistence_slope_corrected": 0.7356976622791196,
+    "top_loadings": {
+      "APP_N": 0.3506495694070689,
+      "S6_N": 0.317203968786412,
+      "P38_N": -0.22121456633423706,
+      "pNR1_N": -0.2174629689838557,
+      "Tau_N": 0.21428291552408593,
+      "ARC_N": -0.20043720481326113,
+      "NR2A_N": -0.19769113186448178,
+      "NR2B_N": -0.19368845052204475,
+      "GluR3_N": -0.1903901928880488,
+      "pPKCG_N": 0.18274042663299908
+    }
+  },
+  "pathways": {
+    "coherence": {
+      "MAPK/ERK": -0.04380254612858792,
+      "AKT-mTOR": 0.1112940300482723,
+      "CaMKII-CREB": 0.05655449071568596,
+      "NMDA receptor": -0.03293608926716827
+    },
+    "significant": [
+      {
+        "feature": "MAPK/ERK",
+        "contrast": "Treatment",
+        "estimate": 0.4185159463617147,
+        "q": 0.0008166583658180361
+      },
+      {
+        "feature": "PKC",
+        "contrast": "Treatment",
+        "estimate": -0.944086577232319,
+        "q": 0.001186453452504515
+      },
+      {
+        "feature": "AKT-mTOR",
+        "contrast": "Conditioning",
+        "estimate": -0.4719383035895649,
+        "q": 0.009972117836729445
+      },
+      {
+        "feature": "CaMKII-CREB",
+        "contrast": "Conditioning",
+        "estimate": -0.6950229076289882,
+        "q": 0.0003576264895813516
+      },
+      {
+        "feature": "NMDA receptor",
+        "contrast": "Conditioning",
+        "estimate": -0.4493187836274697,
+        "q": 0.0034094305097627435
+      },
+      {
+        "feature": "JNK stress",
+        "contrast": "Conditioning",
+        "estimate": -1.625920781012243,
+        "q": 2.1009400497567662e-07
+      },
+      {
+        "feature": "PKC",
+        "contrast": "Conditioning",
+        "estimate": 1.865335384345907,
+        "q": 1.1527369094742787e-08
+      },
+      {
+        "feature": "NMDA receptor",
+        "contrast": "Conditioning\u00d7Treatment",
+        "estimate": -0.9675990216135861,
+        "q": 0.0032981919639878143
+      },
+      {
+        "feature": "JNK stress",
+        "contrast": "Conditioning\u00d7Treatment",
+        "estimate": -1.743388242125905,
+        "q": 0.0032981919639878143
+      },
+      {
+        "feature": "JNK stress",
+        "contrast": "Genotype\u00d7Treatment",
+        "estimate": -1.7814419757602238,
+        "q": 0.005260078497445635
+      },
+      {
+        "feature": "NMDA receptor",
+        "contrast": "Genotype\u00d7Conditioning",
+        "estimate": 0.8486343963471623,
+        "q": 0.022741586744551436
+      },
+      {
+        "feature": "AKT-mTOR",
+        "contrast": "Genotype\u00d7Conditioning\u00d7Treatment",
+        "estimate": 1.941041506649714,
+        "q": 0.04088050274276908
+      },
+      {
+        "feature": "JNK stress",
+        "contrast": "Trisomy (memantine)",
+        "estimate": -1.1055026788787097,
+        "q": 0.012940357754454858
+      },
+      {
+        "feature": "MAPK/ERK",
+        "contrast": "Memantine in control",
+        "estimate": 0.4943399532969132,
+        "q": 0.02054192606032452
+      },
+      {
+        "feature": "JNK stress",
+        "contrast": "Memantine in control",
+        "estimate": 1.4223081278267027,
+        "q": 0.0014469391387307142
+      },
+      {
+        "feature": "MAPK/ERK",
+        "contrast": "Memantine in Ts65Dn",
+        "estimate": 0.3426919394265162,
+        "q": 0.016272886822726467
+      },
+      {
+        "feature": "PKC",
+        "contrast": "Memantine in Ts65Dn",
+        "estimate": -1.204504316873841,
+        "q": 0.016272886822726467
+      },
+      {
+        "feature": "PKC",
+        "contrast": "Learning: control saline",
+        "estimate": 2.5004605650510645,
+        "q": 0.00024853460823920994
+      },
+      {
+        "feature": "MAPK/ERK",
+        "contrast": "Learning: control memantine",
+        "estimate": -0.4235921874802833,
+        "q": 0.040386789941948414
+      },
+      {
+        "feature": "AKT-mTOR",
+        "contrast": "Learning: control memantine",
+        "estimate": -0.9518026136737479,
+        "q": 0.010960206781086265
+      },
+      {
+        "feature": "CaMKII-CREB",
+        "contrast": "Learning: control memantine",
+        "estimate": -1.1473701069730602,
+        "q": 0.014913213882873935
+      },
+      {
+        "feature": "NMDA receptor",
+        "contrast": "Learning: control memantine",
+        "estimate": -1.2252451506049646,
+        "q": 0.00045796869615183995
+      },
+      {
+        "feature": "JNK stress",
+        "contrast": "Learning: control memantine",
+        "estimate": -2.17432858384063,
+        "q": 0.00045796869615183995
+      },
+      {
+        "feature": "PKC",
+        "contrast": "Learning: control memantine",
+        "estimate": 1.5400714913756826,
+        "q": 0.009993016886573365
+      },
+      {
+        "feature": "JNK stress",
+        "contrast": "Learning: Ts65Dn memantine",
+        "estimate": -2.8209012203097608,
+        "q": 0.00048116331501639
+      },
+      {
+        "feature": "PKC",
+        "contrast": "Learning: Ts65Dn memantine",
+        "estimate": 2.120784844939272,
+        "q": 0.009223999584997679
+      }
+    ],
+    "ratio_significant": [
+      {
+        "feature": "pMEK/MEK",
+        "contrast": "Treatment",
+        "estimate": 0.08766606923571059,
+        "q": 0.003074397476686612
+      },
+      {
+        "feature": "pCREB/CREB",
+        "contrast": "Treatment",
+        "estimate": -0.08373197238089022,
+        "q": 0.003074397476686612
+      },
+      {
+        "feature": "pPKCA/PKCA",
+        "contrast": "Treatment",
+        "estimate": -0.1780422744670726,
+        "q": 0.003074397476686612
+      },
+      {
+        "feature": "pNUMB/NUMB",
+        "contrast": "Treatment",
+        "estimate": 0.15261602763742502,
+        "q": 0.03207765630228915
+      },
+      {
+        "feature": "pBRAF/BRAF",
+        "contrast": "Conditioning",
+        "estimate": -0.8401843481882542,
+        "q": 1.683617846372481e-08
+      },
+      {
+        "feature": "pMEK/MEK",
+        "contrast": "Conditioning",
+        "estimate": -0.1300043958866549,
+        "q": 6.112947968418825e-06
+      },
+      {
+        "feature": "pERK/ERK",
+        "contrast": "Conditioning",
+        "estimate": 0.7956504969729606,
+        "q": 3.3859438121643696e-09
+      },
+      {
+        "feature": "pELK/ELK",
+        "contrast": "Conditioning",
+        "estimate": 0.2144605217748706,
+        "q": 0.008127052922524265
+      },
+      {
+        "feature": "pP70S6/P70S6",
+        "contrast": "Conditioning",
+        "estimate": -0.5051662645359687,
+        "q": 0.0016130030289067839
+      },
+      {
+        "feature": "pCAMKII/CAMKII",
+        "contrast": "Conditioning",
+        "estimate": -0.46770740806866795,
+        "q": 7.753958338904187e-06
+      },
+      {
+        "feature": "pNR1/NR1",
+        "contrast": "Conditioning",
+        "estimate": -0.039615768524590755,
+        "q": 0.012070819661234085
+      },
+      {
+        "feature": "pNR2A/NR2A",
+        "contrast": "Conditioning",
+        "estimate": -0.3796405143325692,
+        "q": 7.628184609706239e-07
+      },
+      {
+        "feature": "pNR2B/NR2B",
+        "contrast": "Conditioning",
+        "estimate": 0.12743070148928004,
+        "q": 0.008025522873527424
+      },
+      {
+        "feature": "pJNK/JNK",
+        "contrast": "Conditioning",
+        "estimate": -0.16410762060155198,
+        "q": 2.551141488990375e-07
+      },
+      {
+        "feature": "pPKCA/PKCA",
+        "contrast": "Conditioning",
+        "estimate": 0.35177764675615314,
+        "q": 1.3997519615044888e-08
+      },
+      {
+        "feature": "pNR2A/NR2A",
+        "contrast": "Conditioning\u00d7Treatment",
+        "estimate": -0.3797300041475782,
+        "q": 0.031195143665859876
+      },
+      {
+        "feature": "pJNK/JNK",
+        "contrast": "Conditioning\u00d7Treatment",
+        "estimate": -0.17596385970409117,
+        "q": 0.016003655348222366
+      },
+      {
+        "feature": "pJNK/JNK",
+        "contrast": "Genotype\u00d7Treatment",
+        "estimate": -0.1798047034614638,
+        "q": 0.012774476350939423
+      }
+    ]
+  },
+  "network": {
+    "statistic": 0.28883092254036724,
+    "null_mean": 0.26295362107921344,
+    "null_95": 0.30755030974070163,
+    "p_global": 0.15242378810594703,
+    "pairs_q05": 0,
+    "pairs_total": 2415
+  },
+  "power": {
+    "Learning attenuation (observed)": {
+      "effect": 3.117116962501454,
+      "sd": 1.6345896870603964,
+      "power_at_9": 0.7920995115898992,
+      "n_for_80": 10
+    },
+    "Learning attenuation (50% of control response)": {
+      "effect": 4.728655611670495,
+      "sd": 1.6345896870603964,
+      "power_at_9": 0.9876419192361251,
+      "n_for_80": 5
+    },
+    "Protein 3-way interaction, 1 SD": {
+      "effect": 1.0,
+      "sd": 1.0,
+      "power_at_9": 0.18138035801492663,
+      "n_for_80": 64
+    },
+    "Protein 3-way interaction, 2 SD": {
+      "effect": 2.0,
+      "sd": 1.0,
+      "power_at_9": 0.5515293559689387,
+      "n_for_80": 16
+    }
+  },
+  "obfuscation": [
+    {
+      "model": "logistic",
+      "obfuscated": false,
+      "mean": 0.5775396825396826,
+      "min": 0.5775396825396826,
+      "max": 0.5775396825396826
+    },
+    {
+      "model": "logistic",
+      "obfuscated": true,
+      "mean": 0.5775396825396826,
+      "min": 0.5775396825396826,
+      "max": 0.5775396825396826
+    },
+    {
+      "model": "random_forest",
+      "obfuscated": false,
+      "mean": 0.513452380952381,
+      "min": 0.513452380952381,
+      "max": 0.513452380952381
+    },
+    {
+      "model": "random_forest",
+      "obfuscated": true,
+      "mean": 0.5270105820105819,
+      "min": 0.5253174603174603,
+      "max": 0.529047619047619
+    }
+  ],
+  "provenance": {
+    "config": {
+      "seed": 2026,
+      "raw_data": "Data/Raw_Data/Data_Cortex_Nuclear.xls",
+      "output_dir": "results/mechanisms",
+      "n_bootstrap": 4000,
+      "n_permutations": 5000,
+      "n_network_permutations": 2000,
+      "alpha": 0.05,
+      "fdr": 0.05,
+      "power_n_grid": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        15,
+        20,
+        25,
+        30,
+        40
+      ],
+      "power_target": 0.8,
+      "obfuscation_repeats": 3
+    },
+    "python": "3.11.9",
+    "platform": "macOS-14.3-arm64-arm-64bit",
+    "numpy": "2.4.6",
+    "pandas": "3.1.1",
+    "scikit_learn": "1.9.1",
+    "generated": "2026-11-25 12:23:11"
+  }
+}

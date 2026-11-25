@@ -1,0 +1,7 @@
+seed: 2025
+raw_data: Data/Raw_Data/Data_Cortex_Nuclear.xls
+n_splits: 5
+n_repeats: 5
+primary_target: class
+models: [dummy, logistic, random_forest]
+

@@ -1,79 +1,172 @@
-# Mice Protein Expression
+# Ts65Dn cortical protein signatures
 
-## Description
+**What does an extra chromosome do to the learning brain, and what does the drug memantine do
+about it?** This project answers that question with cortical protein measurements from the
+Ts65Dn mouse model of Down syndrome, treating the data as the designed experiment they come
+from. Every number, figure, the paper, the report and the slides are generated from the raw
+data by one command.
 
-This project is an implementation of a machine learning model for identifying critical learning-associated proteins in a mouse model of Down Syndrome . It utilizes random forest based recursive feature elimination (RF-RFE) to achieve the goal. The model is trained on [Mice Protein Expression Data Set](https://archive.ics.uci.edu/ml/datasets/Mice+Protein+Expression#).
+**Data:** *Mice Protein Expression*, UCI Machine Learning Repository —
+<https://archive.ics.uci.edu/dataset/342/mice+protein+expression> (CC BY 4.0).
 
+![Study at a glance](results/mechanisms/figures/fig0_overview.png)
 
-## Dataset
+## Where to start
 
-### Data Set Information:
+| If you want | Read |
+|---|---|
+| The story in plain language | [`report/study_report.md`](report/study_report.md) ([PDF](report/study_report.pdf)) |
+| The full scientific paper, with methods | [`paper/main.pdf`](paper/main.pdf) |
+| A talk with speaker notes (16 slides) | [`presentation/presentation.pptx`](presentation/presentation.pptx) ([PDF](presentation/presentation.pdf)) |
+| A hands-on tour of the code | [`notebooks/walkthrough.ipynb`](notebooks/walkthrough.ipynb) |
+| Why each statistical choice was made | [`docs/analysis_decisions.md`](docs/analysis_decisions.md) |
 
-The data set consists of the expression levels of 77 proteins/protein modifications that produced detectable signals in the nuclear fraction of cortex. There are 38 control mice and 34 trisomic mice (Down syndrome), for a total of 72 mice. In the experiments, 15 measurements were registered of each protein per sample/mouse. Therefore, for control mice, there are 38x15, or 570 measurements, and for trisomic mice, there are 34x15, or 510 measurements. The dataset contains a total of 1080 measurements per protein. Each measurement can be considered as an independent sample/mouse.
+## The problem
 
-The eight classes of mice are described based on features such as genotype, behavior and treatment. According to genotype, mice can be control or trisomic. According to behavior, some mice have been stimulated to learn (context-shock) and others have not (shock-context) and in order to assess the effect of the drug memantine in recovering the ability to learn in trisomic mice, some mice have been injected with the drug and others have not.
+Down syndrome, caused by an extra copy of human chromosome 21, is the most common genetic cause
+of intellectual disability. Ts65Dn mice carry an extra copy of about 90 of the same genes, fail
+a simple memory task, and learn again after an injection of memantine. A public dataset records
+77 brain proteins from these mice, and could show what goes wrong at the molecular level and
+what the drug changes.
 
-Classes:
-c-CS-s: control mice, stimulated to learn, injected with saline (9 mice)
-c-CS-m: control mice, stimulated to learn, injected with memantine (10 mice)
-c-SC-s: control mice, not stimulated to learn, injected with saline (9 mice)
-c-SC-m: control mice, not stimulated to learn, injected with memantine (10 mice)
+The dataset is mostly used to benchmark classifiers instead, and that leaves two problems:
 
-t-CS-s: trisomy mice, stimulated to learn, injected with saline (7 mice)
-t-CS-m: trisomy mice, stimulated to learn, injected with memantine (9 mice)
-t-SC-s: trisomy mice, not stimulated to learn, injected with saline (9 mice)
-t-SC-m: trisomy mice, not stimulated to learn, injected with memantine (9 mice)
+1. **Accuracy is overstated.** The 1,080 rows come from only 72 mice, each measured 15 times.
+   Splitting rows at random puts the same mouse in training and test data, so a model can score
+   well by recognising mice it has already seen.
+2. **The biology goes unanswered.** A classifier shows that the groups differ, not *how* they
+   differ, which is what the experiment was designed to find out.
 
-The aim is to identify subsets of proteins that are discriminant between the classes.
+## The experiment
 
+| Factor | Levels |
+|---|---|
+| Genotype | control, **Ts65Dn** |
+| Conditioning | **CS** (context, then shock: the mouse learns to fear the box), **SC** (shock first: no association can form) |
+| Treatment | **memantine** (an NMDA-receptor blocker), saline |
 
-Attribute Information:
+That gives 8 groups of 7–10 male mice. Seventy-seven proteins and protein modifications were
+measured in the cortex, 15 times per mouse.
 
-1 Mouse ID
-2..78 Values of expression levels of 77 proteins; the names of proteins 
-79 Genotype: control (c) or trisomy (t)
-80 Treatment type: memantine (m) or saline (s)
-81 Behavior: context-shock (CS) or shock-context (SC)
-82 Class: c-CS-s, c-CS-m, c-SC-s, c-SC-m, t-CS-s, t-CS-m, t-SC-s, t-SC-m
+## Questions and answers
 
-Imputation employed for completing missing values using k-Nearest Neighbors. Each sample’s missing values are imputed using the mean value from n_neighbors nearest neighbors found in the training set. Two samples are close if the features that neither is missing are close.
+| | Question | Answer |
+|---|---|---|
+| **Q1** | Do three gene copies give 1.5 times as much protein? | **No, only about 23% of that increase.** Chromosome-21 genes that are not triplicated do not change, so the effect follows copy number. |
+| **Q2** | Does trisomy change the brain's protein response to learning? | **Yes, it weakens it to 0.67× (p = 0.031), and memantine restores it to 1.04× (p = 0.004).** The same proteins respond in every group; only the size changes. |
+| **Q3** | Does memantine move the trisomic brain back toward normal? | **Partly.** It closes 64% of the trisomy gap (p = 0.019), but moves normal mice the same way, so it is not a targeted repair. |
+| **Q4** | Does trisomy change how proteins co-vary? | **No evidence (p = 0.15)**, though only large changes were detectable with these group sizes. |
 
+Two further results support these answers:
 
-## Model Training and Feature Selection 
+- **Counting rows as mice inflates accuracy.** Eight-group balanced accuracy is 0.994 with
+  random row splits and 0.602 when whole mice are held out (chance: 0.125).
+- **The best prediction scores are not explained by memorisation.** Pretrained models score
+  highest (Kumo 0.828, TabPFN 0.730). Hiding the dataset's identity left both unchanged under a
+  decision rule fixed in advance.
 
-Data Preprocessing
-The code includes several data preprocessing steps:
+Exact estimates, intervals and tests are in
+[`results/mechanisms/summary.json`](results/mechanisms/summary.json). They come from one
+cohort of male mice and have not been replicated in an independent cohort.
 
-### Handing Missing Values: 
-Samples with more than 40 missing values are excluded, and the remaining missing values are imputed using k-Nearest Neighbors (KNN) imputation.
-Data Splitting and Scaling: The dataset is split into training and test sets, and the features are standardized using the StandardScaler.
+## How the analysis works
 
-### Model Building
-The implementation of the machine learning model for identifying critical learning-associated proteins in a mouse model of Down Syndrome has yielded promising and informative results. The model was trained and evaluated using the Mice Protein Expression Data Set, and the following key findings were obtained:
+```mermaid
+flowchart LR
+    A[Raw workbook<br/>1,080 rows] --> B[Validate<br/>72 mice × 15 rows]
+    B --> C[Quality control:<br/>duplicates, blocks, missingness]
+    C --> D[One log2 value<br/>per mouse]
+    D --> E[Planned contrasts<br/>per protein]
+    D --> F[Signature scores<br/>leave-one-out]
+    E --> G[Q1 dosage · pathways]
+    F --> H[Q2 learning · Q3 rescue]
+    D --> I[Q4 networks]
+    G & H & I --> J[Bootstrap and<br/>permutation tests]
+    J --> K[summary.json → figures,<br/>paper, report, slides]
+```
 
-#### Uncovering Essential Learning-Associated Proteins
-After analyzing the expression levels of 77 proteins, a list of key proteins was identified, providing valuable insights into the molecular basis of learning disabilities in Down Syndrome. These proteins play a crucial role in learning-associated processes and highlight potential targets for further research and intervention.
+Four rules keep the analysis honest:
 
-#### Model Building and Optimization
-The Random Forest classifier was utilized as the foundation for the classification task. Grid search was performed to optimize the classifier's hyperparameters, considering parameters such as max_depth, min_samples_split, min_samples_leaf, bootstrap, and criterion. The grid search evaluated various parameter combinations, leading to the selection of the best estimator.
+1. **The mouse is the unit.** Each mouse's 15 measurements are averaged into one value per protein.
+2. **Signatures, not 77 separate tests.** Proteins are combined into one score per mouse for each
+   effect, which is far more reliable with 7–10 mice per group.
+3. **No mouse scores itself.** A mouse is scored on a signature rebuilt without it, and rescue
+   is measured in separate mice to avoid regression to the mean.
+4. **Uncertainty from the design.** Mice are re-drawn within groups (bootstrap), and labels are
+   shuffled only in ways the design allows (permutation tests).
 
-#### Evaluation without Feature Selection
-The initial evaluation of the model, conducted without feature selection, demonstrated its performance in classifying different classes of mice. Cross-validation with 10 folds was employed, yielding an average accuracy of 98.8% on the training data. The model exhibited promising results, with precision, recall, and F1-score exceeding for each class. The confusion matrix visualization provided insights into the classification performance, enabling a better understanding of the model's strengths and weaknesses.
+## Run it
 
-![confusion matrix](visualizations/../visualizations/cm_No_feature_selection.png)
+Requirements: Python ≥ 3.10. Building the paper and report also needs
+[tectonic](https://tectonic-typesetting.github.io) and [pandoc](https://pandoc.org).
 
-#### Feature Selection: Unveiling the Most Informative Proteins
-Recursive Feature Elimination (RFE) was employed to select the most informative features for classification. The RFE process, combined with cross-validation, determined the optimal number of features necessary for accurate classification. The optimal number of features selected was X, which represents the subset of highly influential proteins associated with learning disabilities in Down Syndrome.
+```bash
+make install      # create .venv and install the package
+make reproduce    # tests → lint → analyses → figures → paper, report, slides
+make help         # list every target
+```
 
-#### Evaluation with Feature Selection
-Upon retraining the model using the selected features, it exhibited improved performance in classifying the different classes of mice. Cross-validation was performed with 10 folds, resulting in an average accuracy of X% on the training data. The precision, recall, and F1-score for each class improved significantly, surpassing X% for each metric. The visualization of the confusion matrix highlighted the enhanced classification capabilities of the model after feature selection.
-![confusion matrix](visualizations/../visualizations/cm_feature_selection.png)
+The main analysis takes about two minutes (4,000 bootstrap resamples and 5,000 permutations per
+test). All settings, including the random seed, are in
+[`configs/mechanisms.yaml`](configs/mechanisms.yaml), and results are identical across runs.
 
-#### Key Protein List and Insights
-The selected features revealed a key protein list consisting of proteins strongly associated with learning disabilities in Down Syndrome. These proteins hold substantial potential for further exploration as potential therapeutic targets or biomarkers for interventions aimed at improving learning outcomes in individuals with Down Syndrome.
+The pretrained models (TabPFN, Kumo) need PyTorch, so they run in a separate environment:
 
-#### Significance and Future Directions
-The results obtained from this study provide valuable insights into the relationship between protein expression levels and learning disabilities in Down Syndrome. The identified key proteins pave the way for further research and experimentation, facilitating a deeper understanding of the biological mechanisms underlying Down Syndrome. Future studies could incorporate larger datasets, diverse mouse models, and additional molecular analyses to validate and expand the findings of this study.
+```bash
+make foundation-install   # creates .venv-foundation (large download)
+make memorization         # original vs identity-hidden data, pre-specified decision rule
+make foundation PYTHON=.venv-foundation/bin/python   # full prediction benchmark
+```
 
-#### Acknowledgments and References
-The successful execution of this project was made possible through the utilization of the Mice Protein Expression Data Set and the invaluable contributions of relevant publications and resources.
+## Project layout
+
+```text
+Data/                 Raw UCI workbook and its provenance
+src/mice_protein/     Library: data checks, contrasts, signatures, dosage, pathways,
+                      networks, quality control, power, obfuscation, plotting style
+scripts/              Pipelines: analysis → figures → paper, report, slides
+configs/              Settings (seeds, resample counts, thresholds)
+tests/                Data checks, leakage checks, estimator correctness, determinism
+results/
+  mechanisms/         Q1–Q4 results: summary.json, tables/, figures/
+  metrics/, tables/, figures/   Prediction benchmark
+paper/                LaTeX manuscript; its numbers are generated (paper/generated/)
+report/               Plain-language report: template, Markdown, PDF
+presentation/         Slide deck: PowerPoint with speaker notes, PDF
+notebooks/            Executed walkthrough notebook
+docs/                 Analysis decisions and the visual-identity guide
+assets/fonts/         IBM Plex and Fraunces (SIL Open Font License)
+```
+
+## Quality checks
+
+- **Tests** cover the data checks, leakage-free splitting, the fast leave-one-out scores against
+  slow exact refitting, unbiasedness of the noise corrections, recovery of a simulated 50%
+  rescue, the group comparisons against SciPy, power against simulation, and identical results
+  across Python processes.
+- **Continuous integration** runs lint, the tests and a fast run of the full analysis pipeline on
+  every push.
+- **No hand-typed numbers.** The paper, report and slides read every value from `results/`.
+
+## Visual identity
+
+Figures, paper, report, slides and notebook share one style: IBM Plex Sans, Fraunces and
+IBM Plex Mono, with cobalt `#2457D6` and vermilion `#E33D3F` on white. It is implemented once
+in `src/mice_protein/plotting.py` and described in [`docs/figure_style.md`](docs/figure_style.md).
+
+## Data and references
+
+The data are distributed by the UCI Machine Learning Repository under CC BY 4.0; provenance and
+the file checksum are in [`Data/README.md`](Data/README.md). Fonts are under the SIL Open Font
+License (`assets/fonts/OFL-*.txt`).
+
+1. Higuera C, Gardiner K, Cios K. *Mice Protein Expression* [dataset]. UCI Machine Learning
+   Repository (2015). doi:10.24432/C50S3Z.
+   <https://archive.ics.uci.edu/dataset/342/mice+protein+expression>
+2. Ahmed MM et al. Protein dynamics associated with failed and rescued learning in the Ts65Dn
+   mouse model of Down syndrome. *PLoS ONE* 10, e0119491 (2015).
+3. Higuera C, Gardiner KJ, Cios KJ. Self-organizing feature maps identify proteins critical to
+   learning in a mouse model of Down syndrome. *PLoS ONE* 10, e0129126 (2015).
+4. Costa ACS, Scott-McKean JJ, Stasko MR. Acute injections of the NMDA receptor antagonist
+   memantine rescue performance deficits of the Ts65Dn mouse model of Down syndrome on a fear
+   conditioning test. *Neuropsychopharmacology* 33, 1624–1632 (2008).

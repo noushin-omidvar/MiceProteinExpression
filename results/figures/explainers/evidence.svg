@@ -90,7 +90,7 @@ L 446.805354 167.042835
 L 446.805354 157.291654 
 L 421.905827 157.291654 
 z
-" clip-path="url(#pff9338a3d3)" style="fill: #2457d6"/>
+" clip-path="url(#pff9338a3d3)" style="fill: #d9dde0"/>
    </g>
    <g id="patch_10">
     <path d="M 450.436535 167.042835 
@@ -140,60 +140,57 @@ L 515.279055 185.935748
 " clip-path="url(#pff9338a3d3)" style="fill: none; stroke: #d9dde0; stroke-width: 0.6; stroke-linecap: square"/>
    </g>
    <g id="text_1">
-    <text style="font-weight: 600; font-size: 8.4px; font-family: 'Fraunces'; text-anchor: start; fill: #161b1f" x="12.101102" y="19.848586" transform="rotate(-0 12.101102 19.848586)">How sure are we? Strength of evidence for each answer</text>
-   </g>
-   <g id="text_2">
     <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6670" x="434.874331" y="39.980243" transform="rotate(-0 434.874331 39.980243)">strength of evidence</text>
    </g>
-   <g id="text_3">
+   <g id="text_2">
     <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #2457d6" x="12.101102" y="68.786322" transform="rotate(-0 12.101102 68.786322)">Q1 · Dosage</text>
    </g>
-   <g id="text_4">
+   <g id="text_3">
     <text style="font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="159.942047" y="62.793834" transform="rotate(-0 159.942047 62.793834)">Extra gene copies add only ~23% of the expected protein</text>
    </g>
-   <g id="text_5">
+   <g id="text_4">
     <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6670" x="159.942047" y="78.468409" transform="rotate(-0 159.942047 78.468409)">replicated in separate mice (r = 0.66)</text>
    </g>
-   <g id="text_6">
+   <g id="text_5">
     <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6670" x="481.560945" y="68.389619" transform="rotate(-0 481.560945 68.389619)">strong</text>
    </g>
-   <g id="text_7">
+   <g id="text_6">
     <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #2457d6" x="12.101102" y="116.445517" transform="rotate(-0 12.101102 116.445517)">Q2 · Learning</text>
    </g>
-   <g id="text_8">
-    <text style="font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="159.942047" y="110.398842" transform="rotate(-0 159.942047 110.398842)">Weaker learning response (0.67×); memantine restores it</text>
+   <g id="text_7">
+    <text style="font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="159.942047" y="110.398842" transform="rotate(-0 159.942047 110.398842)">Weaker learning response (0.67×); near normal with memantine</text>
    </g>
-   <g id="text_9">
+   <g id="text_8">
     <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6670" x="159.942047" y="125.947417" transform="rotate(-0 159.942047 125.947417)">two-sided p = 0.049; interval reaches 1; exploratory</text>
    </g>
-   <g id="text_10">
+   <g id="text_9">
     <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6670" x="481.560945" y="116.741346" transform="rotate(-0 481.560945 116.741346)">weak</text>
    </g>
-   <g id="text_11">
+   <g id="text_10">
     <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #2457d6" x="12.101102" y="163.97615" transform="rotate(-0 12.101102 163.97615)">Q3 · Rescue</text>
    </g>
+   <g id="text_11">
+    <text style="font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="159.942047" y="158.54785" transform="rotate(-0 159.942047 158.54785)">Memantine shifts trisomic mice ~64% toward normal</text>
+   </g>
    <g id="text_12">
-    <text style="font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="159.942047" y="157.86785" transform="rotate(-0 159.942047 157.86785)">Memantine closes 64% of the gap, but moves controls too</text>
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6670" x="159.942047" y="173.484425" transform="rotate(-0 159.942047 173.484425)">p = 0.019, but interval includes no shift; controls move too</text>
    </g>
    <g id="text_13">
-    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6670" x="159.942047" y="173.484425" transform="rotate(-0 159.942047 173.484425)">p = 0.019; very wide interval; not specific</text>
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6670" x="481.560945" y="164.278353" transform="rotate(-0 481.560945 164.278353)">weak</text>
    </g>
    <g id="text_14">
-    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6670" x="481.560945" y="164.278353" transform="rotate(-0 481.560945 164.278353)">moderate</text>
-   </g>
-   <g id="text_15">
     <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #2457d6" x="12.101102" y="211.615158" transform="rotate(-0 12.101102 211.615158)">Q4 · Networks</text>
    </g>
-   <g id="text_16">
+   <g id="text_15">
     <text style="font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="159.942047" y="205.404858" transform="rotate(-0 159.942047 205.404858)">No detectable rewiring</text>
    </g>
-   <g id="text_17">
+   <g id="text_16">
     <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6670" x="159.942047" y="220.986542" transform="rotate(-0 159.942047 220.986542)">p = 0.15; only large changes detectable</text>
    </g>
-   <g id="text_18">
+   <g id="text_17">
     <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6670" x="481.560945" y="211.815361" transform="rotate(-0 481.560945 211.815361)">weak</text>
    </g>
-   <g id="text_19">
+   <g id="text_18">
     <text style="font-size: 5px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #5b6670" x="517.872756" y="244.561732" transform="rotate(-0 517.872756 244.561732)">SUMMARY</text>
    </g>
   </g>

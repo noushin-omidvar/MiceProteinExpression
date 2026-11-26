@@ -177,8 +177,8 @@ def build() -> Deck:
               WF / "wf_q2_learning.png", READ_WF,
               notes="Each mouse is scored on a learning signature it did not help build; the "
                     "signature is defined in normal mice on saline."),
-        ClaimSplit("Q2 · The learning response looks weaker in trisomic mice; memantine "
-                   "restores it",
+        ClaimSplit("Q2 · The learning response looks weaker in trisomic mice and near normal "
+                   "with memantine",
                    s / "learning.png",
                    [f"Trisomic, saline: {v['LearnRelTsSal']}× normal (p = {v['LearnAttP']})",
                     f"Trisomic, memantine: {v['LearnRelTsMem']}× (p = {v['LearnResP']})",
@@ -190,13 +190,15 @@ def build() -> Deck:
               WF / "wf_q3_rescue.png", READ_WF,
               notes="We measure how far memantine moves trisomic mice along the trisomy "
                     "signature, built from saline mice only."),
-        ClaimSplit("Q3 · Memantine partly offsets trisomy, but moves normal mice the same way",
+        ClaimSplit("Q3 · Memantine may shift trisomic mice toward normal, but by an uncertain "
+                   "amount",
                    s / "rescue.png",
                    [f"Closes {v['RescueFrac']}% of the trisomy gap (p = {v['RescueP']})",
                     f"{v['Persist']}% of the gap remains against drug-treated controls",
                     f"Drug effect ({v['MagDrugTs']} SD) rivals trisomy ({v['MagTri']} SD)"],
                    "Arrows: effect of memantine within each genotype.",
-                   notes="So memantine is not a targeted repair."),
+                   notes="The interval is very wide, and normal mice also shift, so neither "
+                         "the size nor the specificity of the effect is settled."),
         Claim("Q4 · Does trisomy rewire how proteins work together?",
               WF / "wf_q4_network.png", READ_WF,
               notes="We compare how protein pairs co-vary in each genotype, after removing "
@@ -211,11 +213,11 @@ def build() -> Deck:
         # ------------------------------------------------------------ 7 HOW SURE
         Section(7, "HOW SURE", "How much weight can each answer bear?",
                 notes="Confidence differs a lot between the four answers."),
-        Claim("One strong answer, one moderate, two weak",
+        Claim("One strong answer and three tentative ones",
               EXPLAIN / "evidence.png",
               "Strength combines effect size, interval width, replication and design.",
-              notes="Q1 replicates in separate mice. Q2 is borderline. Q3 is clear in "
-                    "direction but not specific. Q4 is a null with low power."),
+              notes="Q1 replicates in separate mice. Q2 is borderline. Q3 points toward "
+                    "normal, but its interval includes no shift. Q4 is a null with low power."),
         Points("Read every p-value as exploratory",
                [("The analyses were not pre-registered",
                  "questions and methods were refined while examining the data"),
@@ -239,10 +241,10 @@ def build() -> Deck:
                    notes="This study had 7–10 mice per group."),
         Points("Three things to remember",
                [("Count mice, not rows", "otherwise accuracy is badly inflated"),
-                ("Extra gene copies add far less protein than expected",
-                 "the brain buffers most of the dosage"),
-                ("Memantine’s protein effects are broad, not targeted",
-                 "it partly offsets trisomy rather than repairing it")],
+                ("Extra gene copies show far less extra protein than expected",
+                 "compensation or measurement compression; these data cannot tell which"),
+                ("Memantine’s protein effects are suggestive, not settled",
+                 "a replication with more mice is the next step")],
                notes="Close here. Everything is reproducible with `make reproduce`."),
     ]
     return Deck("Ts65Dn cortical protein signatures", SECTIONS, slides, document_author())

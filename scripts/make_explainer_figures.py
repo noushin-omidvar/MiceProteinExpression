@@ -55,7 +55,7 @@ def chromosomes():
 
 def gene_protein():
     fig, ax = X.canvas(183, 62)
-    X.heading(ax, 0.015, 0.95, "Genes make proteins; a chemical tag switches many of them on")
+    X.figure_title(ax, "Genes make proteins; a chemical tag switches many of them on")
     # gene
     xs = np.linspace(0.04, 0.2, 40)
     ax.plot(xs, 0.55 + 0.05 * np.sin(xs * 120), color=P.COBALT, lw=1.6)
@@ -84,7 +84,7 @@ def plt_ellipse(x, y, w, h, color):
 
 def memantine():
     fig, ax = X.canvas(183, 64)
-    X.heading(ax, 0.015, 0.95, "Memantine partly blocks a receptor that controls signalling for memory")
+    X.figure_title(ax, "Memantine partly blocks a receptor that controls signalling for memory")
     for x0, title, blocked in ((0.08, "Without memantine", False), (0.55, "With memantine", True)):
         X.label(ax, x0 + 0.17, 0.82, title, color=P.INK, size=7, fontweight="semibold")
         ax.add_patch(plt_rect(x0, 0.42, 0.34, 0.05, P.RULE))  # membrane
@@ -116,7 +116,7 @@ def plt_rect(x, y, w, h, color):
 
 def signature():
     fig, ax = X.canvas(183, 66)
-    X.heading(ax, 0.015, 0.95, "A signature turns 70 protein levels into one score per mouse")
+    X.figure_title(ax, "A signature turns 70 protein levels into one score per mouse")
     rng = np.random.default_rng(3)
     for m in range(3):
         y0 = 0.62 - m * 0.2
@@ -142,7 +142,7 @@ def signature():
 
 def approach():
     fig, ax = X.canvas(183, 62)
-    X.heading(ax, 0.015, 0.95, "Four rules for trustworthy answers from 72 mice")
+    X.figure_title(ax, "Four rules for trustworthy answers from 72 mice")
     rules = [("1", "Count mice,\nnot rows", "15 readings of a mouse\nbecome one value"),
              ("2", "Combine\nproteins", "one signature score\nper mouse"),
              ("3", "No mouse\nscores itself", "signature rebuilt\nwithout that mouse"),
@@ -163,11 +163,11 @@ def evidence():
         ("Q1 · Dosage", (f"Extra gene copies add only ~{100 * d['set_fraction_of_expected']:.0f}% "
          "of the expected protein"), 3, f"replicated in separate mice (r = {d['replication_pearson']:.2f})"),
         ("Q2 · Learning", (f"Weaker learning response ({L['relative']['Ts65Dn saline']:.2f}×); "
-         "memantine restores it"), 1,
+         "near normal with memantine"), 1,
          f"two-sided p = {L['attenuation_p']:.3f}; interval reaches 1; exploratory"),
-        ("Q3 · Rescue", (f"Memantine closes {100 * R['rescue_fraction']:.0f}% of the gap, "
-         "but moves controls too"), 2,
-         f"p = {R['rescue_shift_p']:.3f}; very wide interval; not specific"),
+        ("Q3 · Rescue", (f"Memantine shifts trisomic mice ~{100 * R['rescue_fraction']:.0f}% "
+         "toward normal"), 1,
+         f"p = {R['rescue_shift_p']:.3f}, but interval includes no shift; controls move too"),
         ("Q4 · Networks", "No detectable rewiring", 1,
          f"p = {N['p_global']:.2f}; only large changes detectable"),
     ], "How sure are we? Strength of evidence for each answer")

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="527.380157pt" height="190.057323pt" viewBox="0 0 527.380157 190.057323" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 190.057323 
+L 527.380157 190.057323 
+L 527.380157 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 25.069606 85.957795 
+L 502.310551 85.957795 
+" clip-path="url(#p8acbbe3be4)" style="fill: none; stroke: #d9dde0; stroke-width: 2.2; stroke-linecap: square"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 45.819213 95.295118 
+C 48.2955 95.295118 50.670698 94.311279 52.421697 92.56028 
+C 54.172696 90.80928 55.156535 88.434082 55.156535 85.957795 
+C 55.156535 83.481508 54.172696 81.10631 52.421697 79.355311 
+C 50.670698 77.604312 48.2955 76.620472 45.819213 76.620472 
+C 43.342926 76.620472 40.967728 77.604312 39.216728 79.355311 
+C 37.465729 81.10631 36.48189 83.481508 36.48189 85.957795 
+C 36.48189 88.434082 37.465729 90.80928 39.216728 92.56028 
+C 40.967728 94.311279 43.342926 95.295118 45.819213 95.295118 
+z
+" clip-path="url(#p8acbbe3be4)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 159.942047 95.295118 
+C 162.418334 95.295118 164.793532 94.311279 166.544532 92.56028 
+C 168.295531 90.80928 169.27937 88.434082 169.27937 85.957795 
+C 169.27937 83.481508 168.295531 81.10631 166.544532 79.355311 
+C 164.793532 77.604312 162.418334 76.620472 159.942047 76.620472 
+C 157.46576 76.620472 155.090562 77.604312 153.339563 79.355311 
+C 151.588564 81.10631 150.604724 83.481508 150.604724 85.957795 
+C 150.604724 88.434082 151.588564 90.80928 153.339563 92.56028 
+C 155.090562 94.311279 157.46576 95.295118 159.942047 95.295118 
+z
+" clip-path="url(#p8acbbe3be4)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 274.064882 95.295118 
+C 276.541169 95.295118 278.916367 94.311279 280.667366 92.56028 
+C 282.418365 90.80928 283.402205 88.434082 283.402205 85.957795 
+C 283.402205 83.481508 282.418365 81.10631 280.667366 79.355311 
+C 278.916367 77.604312 276.541169 76.620472 274.064882 76.620472 
+C 271.588595 76.620472 269.213397 77.604312 267.462398 79.355311 
+C 265.711398 81.10631 264.727559 83.481508 264.727559 85.957795 
+C 264.727559 88.434082 265.711398 90.80928 267.462398 92.56028 
+C 269.213397 94.311279 271.588595 95.295118 274.064882 95.295118 
+z
+" clip-path="url(#p8acbbe3be4)" style="fill: #161b1f"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 388.187717 95.295118 
+C 390.664003 95.295118 393.039202 94.311279 394.790201 92.56028 
+C 396.5412 90.80928 397.525039 88.434082 397.525039 85.957795 
+C 397.525039 83.481508 396.5412 81.10631 394.790201 79.355311 
+C 393.039202 77.604312 390.664003 76.620472 388.187717 76.620472 
+C 385.71143 76.620472 383.336232 77.604312 381.585232 79.355311 
+C 379.834233 81.10631 378.850394 83.481508 378.850394 85.957795 
+C 378.850394 88.434082 379.834233 90.80928 381.585232 92.56028 
+C 383.336232 94.311279 385.71143 95.295118 388.187717 95.295118 
+z
+" clip-path="url(#p8acbbe3be4)" style="fill: #e33d3f"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 486.748346 95.295118 
+C 489.224633 95.295118 491.599831 94.311279 493.350831 92.56028 
+C 495.10183 90.80928 496.085669 88.434082 496.085669 85.957795 
+C 496.085669 83.481508 495.10183 81.10631 493.350831 79.355311 
+C 491.599831 77.604312 489.224633 76.620472 486.748346 76.620472 
+C 484.272059 76.620472 481.896861 77.604312 480.145862 79.355311 
+C 478.394863 81.10631 477.411024 83.481508 477.411024 85.957795 
+C 477.411024 88.434082 478.394863 90.80928 480.145862 92.56028 
+C 481.896861 94.311279 484.272059 95.295118 486.748346 95.295118 
+z
+" clip-path="url(#p8acbbe3be4)" style="fill: #161b1f"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 274.064882 100.471181 
+L 515.279055 100.471181 
+L 515.279055 71.444409 
+L 274.064882 71.444409 
+z
+" clip-path="url(#p8acbbe3be4)" style="fill: #e33d3f; opacity: 0.07"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #2457d6" transform="translate(32.641556 49.883598)">Protocol</text>
+    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #2457d6" transform="translate(28.754931 58.063785)">committed</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(12.252025 123.889606)">4 questions, hypotheses,</text>
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(26.846088 131.089606)">pass/fail rules</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #2457d6" transform="translate(146.926953 49.883598)">Planned</text>
+    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #2457d6" transform="translate(140.15086 57.424691)">experiments</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(134.169235 123.853513)">8 models · learning</text>
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(135.165328 131.653513)">curves · 3 controls</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(262.313632 49.883598)">Results</text>
+    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(266.574788 57.34341)">seen</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(251.708319 123.889606)">planned verdicts</text>
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(261.950038 131.653513)">recorded</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #e33d3f" transform="translate(369.705529 49.883598)">Added later</text>
+    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #e33d3f" transform="translate(367.743092 57.472504)">(exploratory)</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(352.548185 124.453513)">tuned baselines · matched</text>
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(364.74881 131.089606)">curve · sensitivity</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="486.748346" y="53.181598" transform="rotate(-0 486.748346 53.181598)">Report</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(471.826628 124.0907)">both kinds,</text>
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(466.27194 131.089606)">clearly labelled</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="263.690079" y="169.263294" transform="rotate(-0 263.690079 169.263294)">Planned results test the hypotheses. Later analyses can only suggest; they are marked “exploratory” everywhere.</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 5px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #5b6670" x="517.872756" y="182.82315" transform="rotate(-0 517.872756 182.82315)">SCHEMATIC</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8acbbe3be4">
+   <rect x="4.32" y="4.32" width="518.740157" height="181.417323"/>
+  </clipPath>
+ </defs>
+</svg>

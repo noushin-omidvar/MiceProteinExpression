@@ -81,54 +81,51 @@ z
 " clip-path="url(#p136fe8cc8a)" style="fill: #2457d6"/>
    </g>
    <g id="text_1">
-    <text style="font-weight: 600; font-size: 8.4px; font-family: 'Fraunces'; text-anchor: start; fill: #161b1f" x="12.101102" y="21.322602" transform="rotate(-0 12.101102 21.322602)">Four rules for trustworthy answers from 72 mice</text>
-   </g>
-   <g id="text_2">
     <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="71.75622" y="67.327831" transform="rotate(-0 71.75622 67.327831)">1</text>
    </g>
-   <g id="text_3">
+   <g id="text_2">
     <text style="font-weight: 600; font-size: 7px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(52.496377 100.649288)">Count mice,</text>
     <text style="font-weight: 600; font-size: 7px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(57.707549 109.224288)">not rows</text>
    </g>
-   <g id="text_4">
+   <g id="text_3">
     <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(40.402939 142.902331)">15 readings of a mouse</text>
     <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(47.266845 150.702331)">become one value</text>
    </g>
-   <g id="text_5">
+   <g id="text_4">
     <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="201.44126" y="67.327831" transform="rotate(-0 201.44126 67.327831)">2</text>
    </g>
-   <g id="text_6">
+   <g id="text_5">
     <text style="font-weight: 600; font-size: 7px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(187.039307 101.10757)">Combine</text>
     <text style="font-weight: 600; font-size: 7px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(188.008916 108.849679)">proteins</text>
    </g>
-   <g id="text_7">
+   <g id="text_6">
     <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(175.037979 142.902331)">one signature score</text>
     <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(187.134072 149.502331)">per mouse</text>
    </g>
-   <g id="text_8">
+   <g id="text_7">
     <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="331.126299" y="67.327831" transform="rotate(-0 331.126299 67.327831)">3</text>
    </g>
-   <g id="text_9">
+   <g id="text_8">
     <text style="font-weight: 600; font-size: 7px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(314.977627 100.939679)">No mouse</text>
     <text style="font-weight: 600; font-size: 7px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(311.51919 109.50757)">scores itself</text>
    </g>
-   <g id="text_10">
+   <g id="text_9">
     <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(309.046299 142.902331)">signature rebuilt</text>
     <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(304.940518 150.702331)">without that mouse</text>
    </g>
-   <g id="text_11">
+   <g id="text_10">
     <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="460.811339" y="67.327831" transform="rotate(-0 460.811339 67.327831)">4</text>
    </g>
-   <g id="text_12">
+   <g id="text_11">
     <text style="font-weight: 600; font-size: 7px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(443.336495 101.086788)">Let chance</text>
     <text style="font-weight: 600; font-size: 7px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(451.087901 108.828898)">speak</text>
    </g>
-   <g id="text_13">
+   <g id="text_12">
     <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(427.927589 139.902331)">shuffle labels thousands</text>
     <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(433.676807 147.102331)">of times to see what</text>
     <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(437.896964 153.738425)">chance produces</text>
    </g>
-   <g id="text_14">
+   <g id="text_13">
     <text style="font-size: 5px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #5b6670" x="517.872756" y="177.210551" transform="rotate(-0 517.872756 177.210551)">SCHEMATIC</text>
    </g>
   </g>

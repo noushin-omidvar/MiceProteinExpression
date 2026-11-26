@@ -188,32 +188,29 @@ z
 " clip-path="url(#p8acbbe3be4)" style="fill: #d9dde0; stroke: #d9dde0; stroke-linecap: round"/>
    </g>
    <g id="text_1">
-    <text style="font-weight: 600; font-size: 8.4px; font-family: 'Fraunces'; text-anchor: start; fill: #161b1f" x="12.101102" y="21.606066" transform="rotate(-0 12.101102 21.606066)">Memantine partly blocks a receptor that controls signalling for memory</text>
-   </g>
-   <g id="text_2">
     <text style="font-weight: 600; font-size: 7px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="134.005039" y="39.54379" transform="rotate(-0 134.005039 39.54379)">Without memantine</text>
    </g>
-   <g id="text_3">
+   <g id="text_2">
     <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6670" x="134.005039" y="138.434646" transform="rotate(-0 134.005039 138.434646)">NMDA receptor (a channel)</text>
    </g>
-   <g id="text_4">
+   <g id="text_3">
     <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(191.066457 93.249755)">ions flow in,</text>
     <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(191.066457 100.212568)">signal to the cell</text>
    </g>
-   <g id="text_5">
+   <g id="text_4">
     <text style="font-weight: 600; font-size: 7px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="377.812913" y="39.54379" transform="rotate(-0 377.812913 39.54379)">With memantine</text>
    </g>
-   <g id="text_6">
+   <g id="text_5">
     <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6670" x="377.812913" y="138.434646" transform="rotate(-0 377.812913 138.434646)">NMDA receptor (a channel)</text>
    </g>
-   <g id="text_7">
+   <g id="text_6">
     <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(434.874331 93.612568)">memantine</text>
     <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(434.874331 100.212568)">plugs the channel</text>
    </g>
-   <g id="text_8">
+   <g id="text_7">
     <text style="font-size: 6.2px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="263.690079" y="169.232294" transform="rotate(-0 263.690079 169.232294)">Earlier studies found that a memantine injection restores learning in Ts65Dn mice.</text>
    </g>
-   <g id="text_9">
+   <g id="text_8">
     <text style="font-size: 5px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #5b6670" x="517.872756" y="182.82315" transform="rotate(-0 517.872756 182.82315)">SCHEMATIC</text>
    </g>
   </g>

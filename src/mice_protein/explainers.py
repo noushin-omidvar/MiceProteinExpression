@@ -42,6 +42,13 @@ def heading(ax, x, y, text, color=P.INK, size=8.4):
             va="top")
 
 
+def figure_title(ax, text: str) -> None:
+    """Deliberately a no-op: the slide headline or report caption states each figure's message,
+    so repeating it inside the image would only duplicate it. Kept so call sites document the
+    intended message."""
+    del ax, text
+
+
 def label(ax, x, y, text, color=P.SUBTLE_TEXT, size=6.2, ha="center", va="center", **kw):
     ax.text(x, y, text, fontsize=size, color=color, ha=ha, va=va, linespacing=1.2, **kw)
 
@@ -80,7 +87,7 @@ def schematic_tag(ax, text="SCHEMATIC"):
 def story_map(out: Path, name: str, steps: list[tuple[str, str]], title: str) -> None:
     """Horizontal outline of a talk or report: numbered stops with one-line descriptions."""
     fig, ax = canvas(183, 58)
-    heading(ax, 0.015, 0.95, title)
+    figure_title(ax, title)
     n = len(steps)
     xs = [0.07 + i * (0.86 / (n - 1)) for i in range(n)]
     ax.plot([xs[0], xs[-1]], [0.55, 0.55], color=P.RULE, lw=2.2, zorder=0)
@@ -96,7 +103,7 @@ def evidence_summary(out: Path, name: str, rows: list[tuple[str, str, int, str]]
                      title: str) -> None:
     """Answers with a three-level evidence meter (1 = weak, 2 = moderate, 3 = strong)."""
     fig, ax = canvas(183, 26 + 15 * len(rows))
-    heading(ax, 0.015, 0.97, title)
+    figure_title(ax, title)
     top = 0.84
     step = (top - 0.06) / len(rows)
     label(ax, 0.83, top + 0.02, "strength of evidence", size=5.8, ha="center")

@@ -236,152 +236,136 @@ Q 56.195547 88.928092 75.014074 83.868685
   <g id="axes_3">
    <g id="patch_11">
     <path d="M 121.762772 48.48378 
-L 146.662299 48.48378 
-L 146.662299 46.04315 
+L 151.642205 48.48378 
+L 151.642205 46.04315 
 L 121.762772 46.04315 
 z
-" clip-path="url(#pba3174a8b3)" style="fill: #8ea8ec; opacity: 0.712548"/>
+" clip-path="url(#pba3174a8b3)" style="fill: #e33d3f; opacity: 0.85"/>
    </g>
    <g id="patch_12">
-    <path d="M 121.762772 51.970394 
-L 146.662299 51.970394 
-L 146.662299 49.529764 
-L 121.762772 49.529764 
+    <path d="M 164.921953 51.970394 
+L 194.801386 51.970394 
+L 194.801386 49.529764 
+L 164.921953 49.529764 
 z
-" clip-path="url(#pba3174a8b3)" style="fill: #8ea8ec; opacity: 0.848607"/>
+" clip-path="url(#pba3174a8b3)" style="fill: #e33d3f; opacity: 0.85"/>
    </g>
    <g id="patch_13">
     <path d="M 121.762772 55.457008 
-L 146.662299 55.457008 
-L 146.662299 53.016378 
+L 151.642205 55.457008 
+L 151.642205 53.016378 
 L 121.762772 53.016378 
 z
-" clip-path="url(#pba3174a8b3)" style="fill: #8ea8ec; opacity: 0.787843"/>
+" clip-path="url(#pba3174a8b3)" style="fill: #e33d3f; opacity: 0.85"/>
    </g>
    <g id="patch_14">
     <path d="M 121.762772 58.943622 
-L 146.662299 58.943622 
-L 146.662299 56.502992 
+L 151.642205 58.943622 
+L 151.642205 56.502992 
 L 121.762772 56.502992 
 z
-" clip-path="url(#pba3174a8b3)" style="fill: #8ea8ec; opacity: 0.512604"/>
+" clip-path="url(#pba3174a8b3)" style="fill: #e33d3f; opacity: 0.85"/>
    </g>
    <g id="patch_15">
     <path d="M 121.762772 62.430236 
-L 146.662299 62.430236 
-L 146.662299 59.989606 
+L 151.642205 62.430236 
+L 151.642205 59.989606 
 L 121.762772 59.989606 
 z
-" clip-path="url(#pba3174a8b3)" style="fill: #8ea8ec; opacity: 0.550083"/>
+" clip-path="url(#pba3174a8b3)" style="fill: #e33d3f; opacity: 0.85"/>
    </g>
    <g id="patch_16">
-    <path d="M 121.762772 65.91685 
-L 146.662299 65.91685 
-L 146.662299 63.47622 
-L 121.762772 63.47622 
+    <path d="M 164.921953 65.91685 
+L 194.801386 65.91685 
+L 194.801386 63.47622 
+L 164.921953 63.47622 
 z
-" clip-path="url(#pba3174a8b3)" style="fill: #8ea8ec; opacity: 0.836777"/>
+" clip-path="url(#pba3174a8b3)" style="fill: #e33d3f; opacity: 0.85"/>
    </g>
    <g id="patch_17">
     <path d="M 121.762772 69.403465 
-L 146.662299 69.403465 
-L 146.662299 66.962835 
+L 151.642205 69.403465 
+L 151.642205 66.962835 
 L 121.762772 66.962835 
 z
-" clip-path="url(#pba3174a8b3)" style="fill: #8ea8ec; opacity: 0.402633"/>
+" clip-path="url(#pba3174a8b3)" style="fill: #e33d3f; opacity: 0.85"/>
    </g>
    <g id="patch_18">
     <path d="M 121.762772 72.890079 
-L 146.662299 72.890079 
-L 146.662299 70.449449 
+L 151.642205 72.890079 
+L 151.642205 70.449449 
 L 121.762772 70.449449 
 z
-" clip-path="url(#pba3174a8b3)" style="fill: #8ea8ec; opacity: 0.810614"/>
+" clip-path="url(#pba3174a8b3)" style="fill: #e33d3f; opacity: 0.85"/>
    </g>
    <g id="patch_19">
     <path d="M 121.762772 76.376693 
-L 146.662299 76.376693 
-L 146.662299 73.936063 
+L 151.642205 76.376693 
+L 151.642205 73.936063 
 L 121.762772 73.936063 
 z
-" clip-path="url(#pba3174a8b3)" style="fill: #8ea8ec; opacity: 0.798535"/>
+" clip-path="url(#pba3174a8b3)" style="fill: #e33d3f; opacity: 0.85"/>
    </g>
    <g id="patch_20">
-    <path d="M 121.762772 79.863307 
-L 146.662299 79.863307 
-L 146.662299 77.422677 
-L 121.762772 77.422677 
+    <path d="M 164.921953 79.863307 
+L 194.801386 79.863307 
+L 194.801386 77.422677 
+L 164.921953 77.422677 
 z
-" clip-path="url(#pba3174a8b3)" style="fill: #8ea8ec; opacity: 0.633967"/>
+" clip-path="url(#pba3174a8b3)" style="fill: #e33d3f; opacity: 0.85"/>
    </g>
    <g id="patch_21">
-    <path d="M 121.762772 83.349921 
-L 146.662299 83.349921 
-L 146.662299 80.909291 
-L 121.762772 80.909291 
+    <path d="M 164.921953 83.349921 
+L 194.801386 83.349921 
+L 194.801386 80.909291 
+L 164.921953 80.909291 
 z
-" clip-path="url(#pba3174a8b3)" style="fill: #8ea8ec; opacity: 0.551516"/>
+" clip-path="url(#pba3174a8b3)" style="fill: #e33d3f; opacity: 0.85"/>
    </g>
    <g id="patch_22">
     <path d="M 121.762772 86.836535 
-L 146.662299 86.836535 
-L 146.662299 84.395906 
+L 151.642205 86.836535 
+L 151.642205 84.395906 
 L 121.762772 84.395906 
 z
-" clip-path="url(#pba3174a8b3)" style="fill: #8ea8ec; opacity: 0.539213"/>
+" clip-path="url(#pba3174a8b3)" style="fill: #e33d3f; opacity: 0.85"/>
    </g>
    <g id="patch_23">
     <path d="M 121.762772 90.32315 
-L 146.662299 90.32315 
-L 146.662299 87.88252 
+L 151.642205 90.32315 
+L 151.642205 87.88252 
 L 121.762772 87.88252 
 z
-" clip-path="url(#pba3174a8b3)" style="fill: #8ea8ec; opacity: 0.527435"/>
+" clip-path="url(#pba3174a8b3)" style="fill: #e33d3f; opacity: 0.85"/>
    </g>
    <g id="patch_24">
     <path d="M 121.762772 93.809764 
-L 146.662299 93.809764 
-L 146.662299 91.369134 
+L 151.642205 93.809764 
+L 151.642205 91.369134 
 L 121.762772 91.369134 
 z
-" clip-path="url(#pba3174a8b3)" style="fill: #8ea8ec; opacity: 0.622538"/>
+" clip-path="url(#pba3174a8b3)" style="fill: #e33d3f; opacity: 0.85"/>
    </g>
    <g id="patch_25">
-    <path d="M 121.762772 97.296378 
-L 146.662299 97.296378 
-L 146.662299 94.855748 
-L 121.762772 94.855748 
+    <path d="M 164.921953 97.296378 
+L 194.801386 97.296378 
+L 194.801386 94.855748 
+L 164.921953 94.855748 
 z
-" clip-path="url(#pba3174a8b3)" style="fill: #8ea8ec; opacity: 0.652274"/>
-   </g>
-   <g id="patch_26">
-    <path d="M 153.642596 72.890079 
-Q 158.281287 72.890079 162.02555 72.890079 
-" clip-path="url(#pba3174a8b3)" style="fill: none; stroke: #161b1f; stroke-width: 0.8; stroke-linecap: round"/>
-    <path d="M 159.22555 71.490079 
-L 162.02555 72.890079 
-L 159.22555 74.290079 
-z
-" clip-path="url(#pba3174a8b3)" style="fill: #161b1f; stroke: #161b1f; stroke-width: 0.8; stroke-linecap: round"/>
-   </g>
-   <g id="patch_27">
-    <path d="M 169.901858 75.67937 
-L 198.121323 75.67937 
-L 198.121323 70.100787 
-L 169.901858 70.100787 
-z
-" clip-path="url(#pba3174a8b3)" style="fill: #161b1f"/>
+" clip-path="url(#pba3174a8b3)" style="fill: #e33d3f; opacity: 0.85"/>
    </g>
    <g id="text_33">
-    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6670" x="134.212535" y="105.781606" transform="rotate(-0 134.212535 105.781606)">15 measurements</text>
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6670" x="136.702488" y="105.781606" transform="rotate(-0 136.702488 105.781606)">train</text>
    </g>
    <g id="text_34">
-    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(175.258106 84.141213)">1 value</text>
-    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(171.135122 91.161213)">per mouse</text>
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6670" x="179.861669" y="105.781606" transform="rotate(-0 179.861669 105.781606)">test</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #e33d3f" x="159.942047" y="40.930583" transform="rotate(-0 159.942047 40.930583)">rows of one mouse</text>
    </g>
   </g>
   <g id="axes_4">
-   <g id="patch_28">
+   <g id="patch_26">
     <path d="M 237.848612 60.204796 
 Q 249.994922 70.100448 261.62116 79.572395 
 " clip-path="url(#p0de63ff75f)" style="fill: none; stroke: #d9dde0; stroke-width: 0.6; stroke-linecap: round"/>
@@ -391,7 +375,7 @@ L 259.438984 79.084429
 z
 " clip-path="url(#p0de63ff75f)" style="fill: #d9dde0; stroke: #d9dde0; stroke-width: 0.6; stroke-linecap: round"/>
    </g>
-   <g id="patch_29">
+   <g id="patch_27">
     <path d="M 265.238093 60.204796 
 Q 277.384402 70.100448 289.01064 79.572395 
 " clip-path="url(#p0de63ff75f)" style="fill: none; stroke: #d9dde0; stroke-width: 0.6; stroke-linecap: round"/>
@@ -401,7 +385,7 @@ L 286.828465 79.084429
 z
 " clip-path="url(#p0de63ff75f)" style="fill: #d9dde0; stroke: #d9dde0; stroke-width: 0.6; stroke-linecap: round"/>
    </g>
-   <g id="patch_30">
+   <g id="patch_28">
     <path d="M 289.230635 59.696785 
 Q 263.691182 70.100338 238.772982 80.250822 
 " clip-path="url(#p0de63ff75f)" style="fill: none; stroke: #d9dde0; stroke-width: 0.6; stroke-linecap: round"/>
@@ -411,30 +395,30 @@ L 240.247949 78.570206
 z
 " clip-path="url(#p0de63ff75f)" style="fill: #d9dde0; stroke: #d9dde0; stroke-width: 0.6; stroke-linecap: round"/>
    </g>
-   <g id="text_35">
+   <g id="text_36">
     <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="236.300598" y="54.179717" transform="rotate(-0 236.300598 54.179717)">APP</text>
    </g>
-   <g id="text_36">
+   <g id="text_37">
     <text style="font-size: 5.4px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #5b6670" x="263.690079" y="89.045858" transform="rotate(-0 263.690079 89.045858)">f07</text>
    </g>
-   <g id="text_37">
+   <g id="text_38">
     <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="263.690079" y="54.179717" transform="rotate(-0 263.690079 54.179717)">SOD1</text>
    </g>
-   <g id="text_38">
+   <g id="text_39">
     <text style="font-size: 5.4px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #5b6670" x="291.079559" y="89.045858" transform="rotate(-0 291.079559 89.045858)">f42</text>
    </g>
-   <g id="text_39">
+   <g id="text_40">
     <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="291.079559" y="54.179717" transform="rotate(-0 291.079559 54.179717)">pERK</text>
    </g>
-   <g id="text_40">
+   <g id="text_41">
     <text style="font-size: 5.4px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #5b6670" x="236.300598" y="89.045858" transform="rotate(-0 236.300598 89.045858)">f13</text>
    </g>
-   <g id="text_41">
+   <g id="text_42">
     <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6670" x="263.690079" y="107.176252" transform="rotate(-0 263.690079 107.176252)">rename · reorder · rescale</text>
    </g>
   </g>
   <g id="axes_5">
-   <g id="patch_31">
+   <g id="patch_29">
     <path d="M 327.598866 62.430236 
 L 407.277354 62.430236 
 L 407.277354 47.786457 
@@ -442,7 +426,7 @@ L 327.598866 47.786457
 z
 " clip-path="url(#p3038513d5d)" style="fill: #ffffff; stroke: #d9dde0; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
-   <g id="patch_32">
+   <g id="patch_30">
     <path d="M 327.598866 83.349921 
 L 407.277354 83.349921 
 L 407.277354 68.706142 
@@ -450,7 +434,7 @@ L 327.598866 68.706142
 z
 " clip-path="url(#p3038513d5d)" style="fill: #ffffff; stroke: #d9dde0; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
-   <g id="patch_33">
+   <g id="patch_31">
     <path d="M 327.598866 104.269606 
 L 407.277354 104.269606 
 L 407.277354 89.625827 
@@ -458,27 +442,27 @@ L 327.598866 89.625827
 z
 " clip-path="url(#p3038513d5d)" style="fill: #ffffff; stroke: #d9dde0; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
-   <g id="text_42">
+   <g id="text_43">
     <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="330.918803" y="56.969008" transform="rotate(-0 330.918803 56.969008)">shuffle labels</text>
    </g>
-   <g id="text_43">
+   <g id="text_44">
     <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6670" x="403.957417" y="56.969008" transform="rotate(-0 403.957417 56.969008)">→ chance</text>
    </g>
-   <g id="text_44">
+   <g id="text_45">
     <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="330.918803" y="77.888693" transform="rotate(-0 330.918803 77.888693)">let rows leak</text>
    </g>
-   <g id="text_45">
+   <g id="text_46">
     <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6670" x="403.957417" y="77.888693" transform="rotate(-0 403.957417 77.888693)">→ inflated</text>
    </g>
-   <g id="text_46">
+   <g id="text_47">
     <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="330.918803" y="98.808378" transform="rotate(-0 330.918803 98.808378)">hide identity</text>
    </g>
-   <g id="text_47">
+   <g id="text_48">
     <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6670" x="403.957417" y="98.808378" transform="rotate(-0 403.957417 98.808378)">→ unchanged</text>
    </g>
   </g>
   <g id="axes_6">
-   <g id="patch_34">
+   <g id="patch_32">
     <path d="M 424.707024 115.426772 
 L 517.66526 115.426772 
 L 517.66526 34.537323 
@@ -486,23 +470,23 @@ L 424.707024 34.537323
 z
 " style="fill: #f4f6f8"/>
    </g>
-   <g id="text_48">
-    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="433.006866" y="55.574362" transform="rotate(-0 433.006866 55.574362)">shuffled → chance</text>
-   </g>
    <g id="text_49">
-    <text style="font-size: 5.4px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #2457d6" x="509.365417" y="55.574362" transform="rotate(-0 509.365417 55.574362)">as expected</text>
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="434.666835" y="52.087748" transform="rotate(-0 434.666835 52.087748)">shuffled → chance</text>
    </g>
    <g id="text_50">
-    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="433.006866" y="76.494047" transform="rotate(-0 433.006866 76.494047)">leaky → inflated</text>
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Mono'; text-anchor: start; fill: #2457d6" x="434.666835" y="60.455622" transform="rotate(-0 434.666835 60.455622)">as expected</text>
    </g>
    <g id="text_51">
-    <text style="font-size: 5.4px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #2457d6" x="509.365417" y="76.494047" transform="rotate(-0 509.365417 76.494047)">as expected</text>
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="434.666835" y="73.007433" transform="rotate(-0 434.666835 73.007433)">leaky → inflated</text>
    </g>
    <g id="text_52">
-    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="433.006866" y="97.413732" transform="rotate(-0 433.006866 97.413732)">hidden → unchanged</text>
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Mono'; text-anchor: start; fill: #2457d6" x="434.666835" y="81.375307" transform="rotate(-0 434.666835 81.375307)">as expected</text>
    </g>
    <g id="text_53">
-    <text style="font-size: 5.4px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #2457d6" x="509.365417" y="97.413732" transform="rotate(-0 509.365417 97.413732)">as expected</text>
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="434.666835" y="93.927118" transform="rotate(-0 434.666835 93.927118)">hidden → unchanged</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Mono'; text-anchor: start; fill: #2457d6" x="434.666835" y="102.294992" transform="rotate(-0 434.666835 102.294992)">as expected</text>
    </g>
   </g>
  </g>

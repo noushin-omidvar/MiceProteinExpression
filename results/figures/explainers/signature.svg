@@ -407,34 +407,31 @@ L 519.586368 97.863307
 " clip-path="url(#p2bf77456db)" style="fill: none; stroke: #161b1f; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="text_1">
-    <text style="font-weight: 600; font-size: 8.4px; font-family: 'Fraunces'; text-anchor: start; fill: #161b1f" x="24.189518" y="21.889531" transform="rotate(-0 24.189518 21.889531)">A signature turns 70 protein levels into one score per mouse</text>
-   </g>
-   <g id="text_2">
     <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6670" x="26.783219" y="69.918668" transform="rotate(-0 26.783219 69.918668)">mouse 1</text>
    </g>
-   <g id="text_3">
+   <g id="text_2">
     <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6670" x="26.783219" y="107.370881" transform="rotate(-0 26.783219 107.370881)">mouse 2</text>
    </g>
-   <g id="text_4">
+   <g id="text_3">
     <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #5b6670" x="26.783219" y="144.788204" transform="rotate(-0 26.783219 144.788204)">mouse 3</text>
    </g>
-   <g id="text_5">
+   <g id="text_4">
     <text style="font-size: 6.2px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(65.80335 151.943291)">70 protein levels</text>
     <text style="font-size: 6.2px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(74.247944 158.725994)">per mouse</text>
    </g>
-   <g id="text_6">
+   <g id="text_5">
     <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(246.510254 88.647213)">weighted sum</text>
     <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(232.116347 95.907213)">(weights = the signature:</text>
     <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(233.961816 103.083307)">how much each protein</text>
     <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(235.436972 110.532213)">moves with the effect)</text>
    </g>
-   <g id="text_7">
+   <g id="text_6">
     <text style="font-size: 6.2px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6670" x="452.150148" y="121.330404" transform="rotate(-0 452.150148 121.330404)">one score per mouse</text>
    </g>
-   <g id="text_8">
+   <g id="text_7">
     <text style="font-size: 6.2px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="275.778494" y="181.81812" transform="rotate(-0 275.778494 181.81812)">Why: 7–10 mice per group are too few to test 70 proteins one by one; one score per mouse is far more reliable.</text>
    </g>
-   <g id="text_9">
+   <g id="text_8">
     <text style="font-size: 5px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #5b6670" x="529.961172" y="188.435748" transform="rotate(-0 529.961172 188.435748)">SCHEMATIC</text>
    </g>
   </g>

@@ -79,8 +79,8 @@ def workflows():
                   r"$p=\frac{1+\#(T^{*}\geq T)}{1+B}$", "T* = effect after shuffling; B = shuffles",
                   args={"n": f"{S['provenance']['config']['n_permutations']:,}"}),
             Stage("RESULT", "Learning response", "result_bars",
-                  w(f"Trisomy weakens the response to {rel['Ts65Dn saline']:.2f}× "
-                    f"(p = {L['attenuation_p']:.3f}); memantine restores it "
+                  w(f"Trisomic response {rel['Ts65Dn saline']:.2f}× normal "
+                    f"(p = {L['attenuation_p']:.3f}); near normal with memantine "
                     f"(p = {L['restoration_p']:.3f})."),
                   args={"values": [rel["control saline"], rel["control memantine"],
                                    rel["Ts65Dn saline"], rel["Ts65Dn memantine"]],
@@ -107,8 +107,8 @@ def workflows():
                   r"{\bar s_{\mathrm{Ts,sal}}-\bar s_{\mathrm{Ctrl,sal}}}$",
                   "F = fraction of the gap closed"),
             Stage("RESULT", "Partial, not specific", "result_bars",
-                  w(f"Memantine closes {100 * R['rescue_fraction']:.0f}% of the gap "
-                    f"(p = {R['rescue_shift_p']:.3f}) but shifts controls too, so "
+                  w(f"Memantine closes ~{100 * R['rescue_fraction']:.0f}% of the gap "
+                    f"(p = {R['rescue_shift_p']:.3f}; wide interval) and shifts controls too; "
                     f"{100 * R['persistence']:.0f}% remains against drug-treated controls."),
                   args={"values": [100 * R["rescue_fraction"], 100 * R["persistence"]],
                         "labels": ["gap closed", "gap remaining\nvs drug controls"],

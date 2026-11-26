@@ -138,89 +138,86 @@ z
 " clip-path="url(#pe19c82429a)" style="fill: #2457d6"/>
    </g>
    <g id="text_1">
-    <text style="font-weight: 600; font-size: 8.4px; font-family: 'Fraunces'; text-anchor: start; fill: #161b1f" x="12.101102" y="20.755672" transform="rotate(-0 12.101102 20.755672)">The story in eight steps</text>
-   </g>
-   <g id="text_2">
     <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="40.631811" y="81.557752" transform="rotate(-0 40.631811 81.557752)">1</text>
    </g>
+   <g id="text_2">
+    <text style="font-weight: 600; font-size: 7.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="40.631811" y="111.700328" transform="rotate(-0 40.631811 111.700328)">Question</text>
+   </g>
    <g id="text_3">
-    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="40.631811" y="111.473141" transform="rotate(-0 40.631811 111.473141)">Question</text>
+    <text style="font-size: 6.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(16.733624 133.629856)">what changes in</text>
+    <text style="font-size: 6.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(13.06753 142.209856)">the trisomic brain?</text>
    </g>
    <g id="text_4">
-    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(19.630374 133.898668)">what changes in</text>
-    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(16.408655 141.438668)">the trisomic brain?</text>
-   </g>
-   <g id="text_5">
     <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="104.362745" y="81.557752" transform="rotate(-0 104.362745 81.557752)">2</text>
    </g>
+   <g id="text_5">
+    <text style="font-weight: 600; font-size: 7.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="104.362745" y="111.594047" transform="rotate(-0 104.362745 111.594047)">Why</text>
+   </g>
    <g id="text_6">
-    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="104.362745" y="111.378047" transform="rotate(-0 104.362745 111.378047)">Why</text>
+    <text style="font-size: 6.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(82.345042 133.629856)">learning deficit</text>
+    <text style="font-size: 6.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(88.750651 141.549856)">and a drug</text>
    </g>
    <g id="text_7">
-    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(85.013854 133.898668)">learning deficit</text>
-    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(90.643026 140.858668)">and a drug</text>
-   </g>
-   <g id="text_8">
     <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="168.093678" y="81.557752" transform="rotate(-0 168.093678 81.557752)">3</text>
    </g>
+   <g id="text_8">
+    <text style="font-weight: 600; font-size: 7.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="168.093678" y="111.548328" transform="rotate(-0 168.093678 111.548328)">Background</text>
+   </g>
    <g id="text_9">
-    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="168.093678" y="111.337141" transform="rotate(-0 168.093678 111.337141)">Background</text>
+    <text style="font-size: 6.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(146.151772 133.890762)">chromosomes,</text>
+    <text style="font-size: 6.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(147.472288 141.549856)">proteins, drug</text>
    </g>
    <g id="text_10">
-    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(148.811397 134.12795)">chromosomes,</text>
-    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(149.97185 140.858668)">proteins, drug</text>
-   </g>
-   <g id="text_11">
     <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="231.824612" y="81.557752" transform="rotate(-0 231.824612 81.557752)">4</text>
    </g>
+   <g id="text_11">
+    <text style="font-weight: 600; font-size: 7.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="231.824612" y="112.14861" transform="rotate(-0 231.824612 112.14861)">Data</text>
+   </g>
    <g id="text_12">
-    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="231.824612" y="111.874235" transform="rotate(-0 231.824612 111.874235)">Data</text>
+    <text style="font-size: 6.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(217.169518 134.289856)">72 mice ×</text>
+    <text style="font-size: 6.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(214.866221 141.589559)">77 proteins</text>
    </g>
    <g id="text_13">
-    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(218.945893 134.478668)">72 mice ×</text>
-    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(216.921784 140.893559)">77 proteins</text>
-   </g>
-   <g id="text_14">
     <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="295.555546" y="81.557752" transform="rotate(-0 295.555546 81.557752)">5</text>
    </g>
+   <g id="text_14">
+    <text style="font-weight: 600; font-size: 7.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="295.555546" y="111.594047" transform="rotate(-0 295.555546 111.594047)">Approach</text>
+   </g>
    <g id="text_15">
-    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="295.555546" y="111.378047" transform="rotate(-0 295.555546 111.378047)">Approach</text>
+    <text style="font-size: 6.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(276.491342 134.289856)">four rules for</text>
+    <text style="font-size: 6.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(274.266421 141.589559)">small samples</text>
    </g>
    <g id="text_16">
-    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(278.802155 134.478668)">four rules for</text>
-    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(276.846921 140.893559)">small samples</text>
-   </g>
-   <g id="text_17">
     <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="359.286479" y="81.557752" transform="rotate(-0 359.286479 81.557752)">6</text>
    </g>
+   <g id="text_17">
+    <text style="font-weight: 600; font-size: 7.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="359.286479" y="111.570891" transform="rotate(-0 359.286479 111.570891)">Findings</text>
+   </g>
    <g id="text_18">
-    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="359.286479" y="111.357328" transform="rotate(-0 359.286479 111.357328)">Findings</text>
+    <text style="font-size: 6.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(337.140385 133.669559)">four questions,</text>
+    <text style="font-size: 6.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(340.156276 142.209856)">four answers</text>
    </g>
    <g id="text_19">
-    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(339.82476 133.933559)">four questions,</text>
-    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(342.475089 141.438668)">four answers</text>
-   </g>
-   <g id="text_20">
     <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="423.017413" y="81.557752" transform="rotate(-0 423.017413 81.557752)">7</text>
    </g>
+   <g id="text_20">
+    <text style="font-weight: 600; font-size: 7.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="423.017413" y="112.14861" transform="rotate(-0 423.017413 112.14861)">How sure</text>
+   </g>
    <g id="text_21">
-    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="423.017413" y="111.874235" transform="rotate(-0 423.017413 111.874235)">How sure</text>
+    <text style="font-size: 6.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(406.943319 133.629856)">strength of</text>
+    <text style="font-size: 6.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(409.730788 142.209856)">evidence</text>
    </g>
    <g id="text_22">
-    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(408.891694 133.898668)">strength of</text>
-    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(411.341288 141.438668)">evidence</text>
-   </g>
-   <g id="text_23">
     <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="486.748346" y="81.557752" transform="rotate(-0 486.748346 81.557752)">8</text>
    </g>
+   <g id="text_23">
+    <text style="font-weight: 600; font-size: 7.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="486.748346" y="112.14861" transform="rotate(-0 486.748346 112.14861)">Next</text>
+   </g>
    <g id="text_24">
-    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="486.748346" y="111.874235" transform="rotate(-0 486.748346 111.874235)">Next</text>
+    <text style="font-size: 6.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(461.959159 133.669559)">what a follow-up</text>
+    <text style="font-size: 6.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(477.729034 142.209856)">needs</text>
    </g>
    <g id="text_25">
-    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(464.963909 133.933559)">what a follow-up</text>
-    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(478.822284 141.438668)">needs</text>
-   </g>
-   <g id="text_26">
     <text style="font-size: 5px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #5b6670" x="517.872756" y="165.985354" transform="rotate(-0 517.872756 165.985354)">OUTLINE</text>
    </g>
   </g>

@@ -174,33 +174,30 @@ L 108.068031 75.448933
 " clip-path="url(#p136fe8cc8a)" style="fill: none; stroke: #8ea8ec; stroke-width: 1.6; stroke-linecap: square"/>
    </g>
    <g id="text_1">
-    <text style="font-weight: 600; font-size: 8.4px; font-family: 'Fraunces'; text-anchor: start; fill: #161b1f" x="12.101102" y="21.322602" transform="rotate(-0 12.101102 21.322602)">Genes make proteins; a chemical tag switches many of them on</text>
-   </g>
-   <g id="text_2">
     <text style="font-size: 6.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(50.207319 119.984681)">gene (DNA)</text>
     <text style="font-size: 6.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(52.178319 127.639181)">the recipe</text>
    </g>
-   <g id="text_3">
+   <g id="text_2">
     <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6670" x="154.754646" y="71.457881" transform="rotate(-0 154.754646 71.457881)">made into</text>
    </g>
-   <g id="text_4">
+   <g id="text_3">
     <text style="font-size: 6.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(227.462071 119.959181)">protein</text>
     <text style="font-size: 6.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(213.170571 127.904681)">the machine (off)</text>
    </g>
-   <g id="text_5">
+   <g id="text_4">
     <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #e33d3f" x="315.564094" y="70.877881" transform="rotate(-0 315.564094 70.877881)">+ phosphate tag</text>
    </g>
-   <g id="text_6">
+   <g id="text_5">
     <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="429.686929" y="70.842791" transform="rotate(-0 429.686929 70.842791)">p</text>
    </g>
-   <g id="text_7">
+   <g id="text_6">
     <text style="font-size: 6.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(382.892421 119.920681)">tagged protein</text>
     <text style="font-size: 6.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(369.814921 127.664681)">switched on (e.g. pERK)</text>
    </g>
-   <g id="text_8">
+   <g id="text_7">
     <text style="font-size: 6.2px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="263.690079" y="164.160931" transform="rotate(-0 263.690079 164.160931)">The study measured 77 proteins and tagged forms; names starting with “p” are tagged forms.</text>
    </g>
-   <g id="text_9">
+   <g id="text_8">
     <text style="font-size: 5px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #5b6670" x="517.872756" y="177.210551" transform="rotate(-0 517.872756 177.210551)">SCHEMATIC</text>
    </g>
   </g>

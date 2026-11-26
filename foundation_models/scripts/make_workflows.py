@@ -125,7 +125,7 @@ def workflows():
                   w("Shuffle group labels across mice; any model scoring above chance would "
                     "reveal a bug or leak."), r"$y\rightarrow\pi(y)$", "π = random permutation",
                   args={"n": "10"}),
-            Stage("LEAK", "Split by rows", "rows_to_mean",
+            Stage("LEAK", "Split by rows", "row_leak",
                   w("Split the 1,080 rows at random instead of by mouse; every model should "
                     "look better than it is."), "random rows vs whole mice", ""),
             Stage("HIDE", "Hide the dataset", "obfuscate",

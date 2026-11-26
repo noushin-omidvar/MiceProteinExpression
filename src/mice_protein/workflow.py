@@ -74,6 +74,19 @@ def _rows_to_mean(ax, **_):
     _label(ax, 0.79, 0.36, "1 value\nper mouse")
 
 
+@glyph("row_leak")
+def _row_leak(ax, **_):
+    """One mouse's 15 rows scattered across training and test sets."""
+    rng = _rng()
+    side = rng.permutation([0] * 10 + [1] * 5)
+    for r, s in enumerate(side):
+        ax.add_patch(Rectangle((0.04 + 0.52 * s, 0.9 - r * 0.05), 0.36, 0.035,
+                               color=P.VERMILION, alpha=0.85, lw=0))
+    _label(ax, 0.22, 0.1, "train")
+    _label(ax, 0.74, 0.1, "test")
+    _label(ax, 0.5, 1.03, "rows of one mouse", color=P.VERMILION)
+
+
 @glyph("copy_number")
 def _copy_number(ax, **_):
     for k, (name, n, c) in enumerate((("control", 2, P.COBALT), ("Ts65Dn", 3, P.VERMILION))):
@@ -318,8 +331,8 @@ def _result_null(ax, observed, null, p, **_):
 def _result_checks(ax, items, **_):
     for i, (name, ok) in enumerate(items):
         y = 0.82 - i * 0.3
-        _label(ax, 0.04, y, name, color=P.INK, ha="left")
-        _label(ax, 0.96, y, "as expected" if ok else "not as expected", ha="right",
+        _label(ax, 0.06, y + 0.05, name, color=P.INK, ha="left")
+        _label(ax, 0.06, y - 0.07, "as expected" if ok else "not as expected", ha="left",
                fontfamily=P.MONO, color=P.COBALT if ok else P.VERMILION)
 
 

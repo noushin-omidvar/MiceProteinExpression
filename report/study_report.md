@@ -1,233 +1,213 @@
 ---
-title: "What protein levels reveal about trisomy, learning and memantine"
-subtitle: "A plain-language report on the Ts65Dn mouse protein study"
+title: "What does an extra chromosome change in the learning brain?"
+subtitle: "A plain-language report on brain proteins in the Ts65Dn mouse model of Down syndrome"
 ---
 
 <!-- Generated from report/study_report.template.md by scripts/make_report.py.
      Edit the template, not study_report.md: $Name placeholders are filled from results/. -->
 
-## Summary
+## At a glance
 
-A public dataset of brain proteins from a Down syndrome mouse model is widely used to test
-machine-learning methods. We analysed it as the biological experiment it is and found the
-following.
+We measured how 77 brain proteins differ between mice that carry extra copies of Down-syndrome
+genes and normal mice, while they learn and after a drug called memantine. The data are public
+(UCI Machine Learning Repository,
+<https://archive.ics.uci.edu/dataset/342/mice+protein+expression>).
 
-- **The usual benchmark is misleading.** The data hold 1,080 measurements but only 72
-  mice. Counting measurements as mice inflates classification accuracy from 0.602 to
-  0.994.
-- **Q1 · Attenuated measured dosage effect.** Across six selected proteins from triplicated
-  genes, the mean observed log₂ difference is about 23% of the simple 1.5-fold
-  expectation *on the log₂ scale*. This does not characterize all triplicated genes.
-- **Q2 · A weaker conditioning-associated signature.** The untreated trisomic estimate is
-  smaller; the treated estimate is near the control reference, with substantial uncertainty.
-- **Q3 · Possible shift toward control.** The estimated rescue fraction is 64%, with
-  a wide bootstrap interval (-0.01 to 1.71); its magnitude and specificity remain uncertain.
-- **Q4 · No detected covariance difference.** This analysis did not detect a difference in
-  residual protein correlations; power to detect modest changes is limited.
+![The report follows eight steps; the slides and README use the same outline.](../results/figures/explainers/story_map.png)
 
-![The study at a glance. Schematic; numbers are generated from the results.](../results/mechanisms/figures/fig0_overview.png)
-
-## 1. The problem
-
-**What the data are.** In 2015 a research team measured 77 proteins in the brains of 72 mice.
-Some mice model Down syndrome, some had learned to fear a place, and some received a drug. They
-published the data in the UCI Machine Learning Repository
-(<https://archive.ics.uci.edu/dataset/342/mice+protein+expression>) so that others could
-analyse them.
-
-**How the data have been used.** Most later work treats the dataset as a puzzle for algorithms:
-given a mouse's protein levels, can a model guess which of the eight groups it came from?
-
-**What is wrong with that.**
-
-1. *It overstates accuracy.* Each mouse was measured 15 times. When the measurements are split
-   at random into training and test data, the same mouse appears in both, and the model can
-   score well by recognising individual mice rather than learning the biology.
-2. *It answers the wrong question.* Even an accurate classifier tells us only that the groups
-   differ. It does not tell us *how* they differ, which is what the experiment was designed to
-   find out.
-
-**Why it matters.** Down syndrome is the most common genetic cause of intellectual disability.
-Knowing what an extra chromosome does to brain proteins, and whether a drug can undo it, is
-the kind of evidence that guides treatment research.
-
-## 2. Background you need
-
-| Term | What it means here |
-|---|---|
-| **Down syndrome** | Caused by an extra copy of human chromosome 21 |
-| **Ts65Dn mouse** | Carries an extra copy of about 90 genes that are also on human chromosome 21; widely used to model Down syndrome |
-| **Fear conditioning** | A memory test. **CS** mice explore a box and then receive a mild shock, so they learn to fear the box. **SC** mice are shocked immediately and cannot link the shock to the box. Comparing CS with SC isolates the effect of learning |
-| **Memantine** | A drug that blocks NMDA receptors, a type of receptor involved in memory. Earlier work showed it restores learning in Ts65Dn mice |
-| **The experiment** | 2 genotypes × 2 conditioning types × 2 treatments = 8 groups of 7–10 mice; 77 proteins measured in the cortex |
-
-### How the experiment worked
-
-![One training session. CS mice explore, then get a shock and learn to fear the cage; SC mice get the same shock first and cannot form that link. Schematic; protocol from Ahmed et al. 2015.](../results/figures/primer/experiment_timeline.png)
-
-![From one brain to 15 numbers per protein: each sample was printed as 3 replicates × 5 dilutions on a protein array. Schematic.](../results/figures/primer/measurement.png)
-
-![The data table (real rows): every 15 rows are one mouse; 77 protein columns, then the experimental labels.](../results/figures/primer/data_anatomy.png)
-
-## 3. Our questions
-
-| | Question | Why it matters |
+| Question | Short answer | How sure |
 |---|---|---|
-| **Q1** | Do three copies of a gene give 1.5 times as much protein? | Tests the simplest explanation of trisomy |
-| **Q2** | Does trisomy change the brain's protein response to learning? | Links molecules to the known learning deficit |
-| **Q3** | Does memantine move the trisomic brain back toward normal? | Asks how the drug works |
-| **Q4** | Does trisomy change how proteins work together? | Effects may lie in coordination, not in levels |
+| **Q1** Do extra gene copies make extra protein? | Yes, but only about 23% of what the extra copies predict | Strong |
+| **Q2** Does trisomy change the brain's response to learning? | It looks weaker (0.67× normal) and near normal with memantine | Weak |
+| **Q3** Does memantine move trisomic mice back toward normal? | Possibly (64% of the gap), but by a very uncertain amount | Weak |
+| **Q4** Does trisomy rewire how proteins work together? | No difference detected; only large changes were detectable | Weak |
 
-## 4. How we answered them
+One practical lesson applies to anyone who uses this dataset: **count mice, not rows.** The
+table has 1,080 rows but only 72 mice; treating rows as mice inflates prediction accuracy
+from 0.602 to 0.994.
 
-| Step | What we did | Why |
-|---|---|---|
-| 1. Count mice, not rows | Averaged each mouse's 15 measurements into one value per protein | Measurements of the same mouse are not independent |
-| 2. Check the data | Found that the 15 measurements form five technical blocks of three, removed one duplicated column, and checked that missing values are random | Problems in the data would distort every result |
-| 3. Build signatures | Combined proteins into a single score per mouse that captures one effect, such as learning or trisomy | One score per mouse is far more reliable with 7–10 mice per group than 77 separate tests |
-| 4. Avoid self-flattery | Scored each mouse on a signature rebuilt without that mouse | A mouse that helped define a signature would look artificially typical on it |
-| 5. Measure uncertainty | Re-drew mice 4,000 times (bootstrap) and shuffled group labels 5,000 times (permutation tests) | Shows how much results could change by chance |
-| 6. Test the tools | Checked every shortcut against a slow, exact version or a simulation with a known answer | Ensures the method works before it touches real data |
+## 1. The question
 
-## 5. What we found
+**What changes in the brain's proteins when a mouse carries extra copies of Down-syndrome
+genes, while it learns and after the drug memantine?**
 
-### First: why the benchmark misleads
+![One experiment, four questions. Schematic; numbers are generated from the results.](../results/mechanisms/figures/fig0_overview.png)
 
-![Accuracy of eight-group prediction under three ways of splitting the data.](../results/figures/validation_comparison.png)
+## 2. Why it matters
 
-*How to read this figure:* each dot is one test of a classifier. The left group splits rows at
-random; the other two hold out whole mice. The dashed line is chance (1 in 8).
+Down syndrome is the most common genetic cause of intellectual disability. Two facts are
+already known:
 
-When the same mouse can appear in training and test data, accuracy is almost perfect
-(0.994). When whole mice are held out, it falls to 0.602. The near-perfect scores often
-reported for this dataset mostly measure recognition of individual mice.
+- A mouse model carrying extra copies of the same genes **fails a simple memory test**.
+- The drug **memantine restores the mice's learning** in earlier behavioural experiments.
 
-### Q1 · Do three gene copies give 1.5 times as much protein?
+What happens to brain proteins between the extra genes and the behaviour is still unclear.
+Proteins are where that missing step can be measured.
 
-**Short answer:** across six measured proteins, the mean log₂ difference is about
-23% of the simple dosage expectation on the log₂ scale.
+## 3. Background in pictures
 
-![How we answered Q1: each step and its equation. Schematic.](../results/mechanisms/figures/workflows/wf_q1_dosage.png)
+Four ideas are enough to follow the rest of the report.
 
-![Average change in protein level in Ts65Dn mice for three groups of proteins.](../results/mechanisms/figures/slides/dosage.png)
+**Idea 1 · The mouse model.** People with Down syndrome have three copies of chromosome 21.
+Ts65Dn mice carry an extra piece of mouse chromosome 16 with about 90 of the same genes.
 
-*How to read this figure:* each point is the average change (with 95% interval) for a group of
-proteins. The dashed red line is where triplicated genes would sit if three copies meant 1.5
-times the protein.
+![Chromosomes in a typical person, in Down syndrome and in the Ts65Dn mouse. Schematic.](../results/figures/explainers/chromosomes.png)
 
-The six proteins from triplicated genes rose by 1.10-fold on average (95% interval
-0.06–0.20 on the log₂ scale). Two genes that are on human chromosome 21 but *not*
-triplicated in this mouse did not show a detectable change (-0.02), a pattern consistent
-with copy number. Estimates from two separate groups of mice agreed (r = 0.66).
+**Idea 2 · Proteins.** Genes are recipes; proteins are the machines they make. Many proteins
+are switched on by a small chemical tag (phosphorylation). Protein names that start with *p*,
+such as pERK, are the tagged forms.
 
-**Caveat:** the shortfall could come from the measurement method compressing large differences,
-from measuring only the cell nucleus, or from cells compensating for the extra copies. These
-data cannot tell these explanations apart.
+![From gene to protein to switched-on protein. Schematic.](../results/figures/explainers/gene_protein.png)
+
+**Idea 3 · The memory test.** Mice learn to fear a cage only if the shock comes *after* they
+explore it (CS). Mice shocked first (SC) receive the same shock but cannot make the link. CS
+minus SC therefore isolates learning.
+
+![One training session for CS and SC mice. Schematic; protocol from Ahmed et al. 2015.](../results/figures/primer/experiment_timeline.png)
+
+**Idea 4 · The drug.** Memantine partly blocks the NMDA receptor, a channel that drives the
+signalling behind memory. It is an approved Alzheimer's drug.
+
+![How memantine acts on the NMDA receptor. Schematic.](../results/figures/explainers/memantine.png)
+
+## 4. The data
+
+Three yes/no choices make **eight groups of 7–10 mice**: Ts65Dn or normal, CS or SC training,
+memantine or saline. Brains were collected one hour after training and 77 proteins were
+measured in the cortex.
+
+![The eight groups and their learning outcome. Reproduced from Higuera, Gardiner & Cios, PLoS ONE 10(6): e0129126 (2015), Fig 1A (cropped), CC BY 4.0.](../assets/external/higuera2015_fig1A.png)
+
+Each brain sample was measured **15 times** (3 replicates × 5 dilutions), so every mouse fills
+15 rows of the table.
+
+![From one brain to 15 numbers per protein. Schematic.](../results/figures/primer/measurement.png)
+
+![The data table (real rows): every 15 rows are one mouse.](../results/figures/primer/data_anatomy.png)
+
+> **Key fact:** 1,080 rows, but only **72 independent mice**. Every analysis below uses
+> one value per mouse.
+
+**What these data cannot tell us:** which individual mouse learned (no per-mouse memory score
+was recorded); cause and effect for single proteins; anything about females, other ages or
+other brain regions.
+
+## 5. Our approach
+
+Seventy-two mice is a small sample. Four rules keep the answers trustworthy.
+
+![Four rules for trustworthy answers from 72 mice. Schematic.](../results/figures/explainers/approach.png)
+
+**Rule 1 in action.** When rows are split at random, the same mouse sits in both training and
+test data, and a classifier learns to recognise mice rather than groups.
+
+![Eight-group prediction accuracy under three ways of splitting the data. Dashed line: chance (1 in 8).](../results/figures/validation_comparison.png)
+
+**Rule 2 in action.** With 7–10 mice per group, 70 separate protein tests are noisy. A
+*signature* combines the proteins into one score per mouse for each effect.
+
+![How a signature turns many protein levels into one score per mouse. Schematic.](../results/figures/explainers/signature.png)
+
+Rules 3 and 4: each mouse is scored on a signature rebuilt without it, and chance is measured
+by re-drawing mice 4,000 times (bootstrap) and shuffling labels 5,000 times within the design
+(permutation tests). Every shortcut was checked against an exact calculation or a simulation.
+
+## 6. What we found
+
+Each question has two pictures: **how we answered it** (a workflow, read left to right) and
+**the answer** (the measured result).
+
+### Q1 · Do extra gene copies make extra protein?
+
+![How we answered Q1. Steps 1–4 are schematic; the last panel shows data.](../results/mechanisms/figures/workflows/wf_q1_dosage.png)
+
+![Average change in protein level in Ts65Dn mice for three groups of proteins. Dashed line: the 1.5× expected from three gene copies.](../results/mechanisms/figures/slides/dosage.png)
+
+**Answer.** Six proteins from triplicated genes rose by 1.10-fold on average (95%
+interval 0.06–0.20 on the log₂ scale), about **23% of the simple 1.5-fold
+expectation**. Two chromosome-21 genes that are *not* triplicated in this mouse did not change
+(-0.02), as copy number predicts. Two separate groups of mice agreed (r = 0.66).
+
+**Why it might fall short:** cells may compensate for the extra copies, or the measurement may
+compress large differences. These data cannot tell the two apart.
 
 ### Q2 · Does trisomy change the brain's response to learning?
 
-**Short answer:** the untreated trisomic estimate is lower; the treated estimate is near the
-control reference, without establishing equivalence or complete restoration.
+![How we answered Q2. Steps are schematic; the last panel shows data.](../results/mechanisms/figures/workflows/wf_q2_learning.png)
 
-![How we answered Q2: each step and its equation. Schematic.](../results/mechanisms/figures/workflows/wf_q2_learning.png)
+![Size of the learning response in each group, relative to normal mice on saline (1.0).](../results/mechanisms/figures/slides/learning.png)
 
-![Size of the protein response to learning in each group, relative to normal mice on saline.](../results/mechanisms/figures/slides/learning.png)
+**Answer.** On a learning signature defined in normal mice, trisomic mice on saline responded
+at **0.67× the normal level** (95% interval 0.41–1.01; p = 0.049). With
+memantine they responded at **1.04×** (p = 0.008).
 
-*How to read this figure:* 1.0 is the response of normal mice on saline. Points below 1 are
-weaker responses. Brackets show permutation tests.
+**Caveat:** the interval nearly reaches 1, and the link to behaviour holds only at the group
+level, because no per-mouse learning score exists. This needs replication.
 
-We defined a *learning signature* as the protein difference between mice that learned (CS) and
-mice that could not (SC), using normal mice on saline. Measured on that signature, trisomic
-mice on saline responded at **0.67** times the normal level (95% interval
-0.41–1.01; p = 0.049). With memantine they responded at **1.04** times
-(p = 0.008 for the within-analysis contrast). This shared-axis analysis measures the
-projection of each group on a signature defined in control mice; it cannot establish that
-exactly the same proteins respond in every group. Earlier behavioral work found that
-memantine improved task performance, but this dataset has no per-mouse learning outcome.
+### Q3 · Does memantine move trisomic mice back toward normal?
 
-**Caveat:** the dataset has no learning score for each mouse, so the link to behaviour holds at
-the group level only. The upper end of the interval is close to 1, so this result needs
-replication.
+![How we answered Q3. Steps are schematic; the last panel shows data.](../results/mechanisms/figures/workflows/wf_q3_rescue.png)
 
-### Q3 · Does memantine move the trisomic brain back toward normal?
+![Average position of each group on the trisomy signature. Arrows: effect of memantine within each genotype.](../results/mechanisms/figures/slides/rescue.png)
 
-**Short answer:** the point estimate suggests a shift toward the control reference, but its
-magnitude and specificity are uncertain.
+**Answer.** Memantine shifted trisomic mice about **64%** of the way toward normal
+(bootstrap interval -0.01 to 1.71; p = 0.019). The interval runs from no shift to beyond a
+full return, and normal mice also shifted, so neither the size nor the specificity is settled.
+Against drug-treated normal mice, 61% of the difference remains.
 
-![How we answered Q3: each step and its equation. Schematic.](../results/mechanisms/figures/workflows/wf_q3_rescue.png)
+**A trap we avoided:** picking the proteins most changed by trisomy and then checking whether
+the drug "fixes" them in the same mice exaggerates rescue (regression to the mean). We
+measured the two effects in separate mice.
 
-![Average position of each group on the trisomy signature.](../results/mechanisms/figures/slides/rescue.png)
+### Q4 · Does trisomy rewire how proteins work together?
 
-*How to read this figure:* the vertical axis measures how "trisomic" a group's protein profile
-looks. Arrows show the effect of memantine within each genotype.
+![How we answered Q4. Steps are schematic; the last panel shows data.](../results/mechanisms/figures/workflows/wf_q4_network.png)
 
-The estimated shift was 64% of the untreated trisomy gap (bootstrap interval
--0.01 to 1.71; p = 0.019 under the specified analysis). The interval includes no rescue and
-values beyond complete closure of the constructed signature gap. A shift in control mice was
-also estimated, but its uncertainty prevents a firm claim that the drug effect is nonspecific.
-Compared with treated control mice, 61% of the signature difference remains as a point
-estimate.
+![Observed difference in correlation patterns between genotypes (red) against differences produced by chance (bars).](../results/mechanisms/figures/slides/network.png)
 
-**A trap we avoided.** A tempting shortcut is to pick the proteins most changed by trisomy and
-then check whether the drug "fixes" them in the same mice. That makes rescue look larger than it
-is, through regression to the mean. We measured the two effects in separate mice instead.
+**Answer.** No difference was detected (p = 0.15). With about 34 mice per genotype only large
+changes would be visible, so this is inconclusive rather than proof of no effect.
 
-### Q4 · Does trisomy change how proteins work together?
+## 7. How sure we are
 
-**Short answer:** this analysis did not detect a difference.
+![Strength of evidence for each answer.](../results/figures/explainers/evidence.png)
 
-![How we answered Q4: each step and its equation. Schematic.](../results/mechanisms/figures/workflows/wf_q4_network.png)
-
-![How different the two genotypes' correlation patterns are, compared with chance.](../results/mechanisms/figures/slides/network.png)
-
-*How to read this figure:* the blue bars show the differences expected by chance, obtained by
-shuffling genotype labels. The red line is the observed difference. It falls within the chance
-range (p = 0.15).
-
-**Caveat:** with about 34 mice per genotype only large changes would be visible, so this result
-is inconclusive rather than a proof of no effect.
-
-## 6. What this means and what comes next
-
-- **For researchers using this dataset:** split by mouse, never by row.
-- **For Down syndrome biology:** the conditioning-associated signature may be attenuated in
-  untreated trisomic mice and larger after memantine. This is a hypothesis to test in an
-  independent cohort with per-mouse learning outcomes.
-- **For drug research:** this dataset does not establish complete restoration or a
-  trisomy-specific effect.
-- **For the next experiment:** about 10 mice per group would confirm the learning
-  result with 80% power. Single-protein interaction effects would need 16–64
-  mice per group. Include female mice, an independent cohort and per-mouse learning scores.
-
-## 7. Limitations
-
-- **The p-values are exploratory.** The analyses were refined while looking at the data and
-  are not corrected across questions, so they suggest hypotheses to replicate rather than
-  prove them. All tests are two-sided.
-- One laboratory, one measurement method, male mice only, and no independent replication.
-- CS and SC differ in timing as well as in learning, so the learning signature also contains
+- **The p-values are exploratory.** The analyses were refined while looking at the data, are
+  not corrected across the four questions and are all two-sided. They suggest hypotheses to
+  replicate.
+- One laboratory, one measurement method, male mice only, no independent replication.
+- CS and SC differ in timing as well as learning, so the learning signature also carries
   protocol differences.
-- The replicate and dilution structure is inferred from the data, not documented.
-- The original publication describes two cortical print runs, but print-run identifiers are
-  unavailable here; batch-related confounding cannot be excluded.
-- Signature axes omit the scored mouse, but pooled within-cell standardization was computed
-  from all mice using labels. Thus these scores are not fully out-of-sample, and permutation
-  results are conditional on that observed standardization.
+- The replicate and dilution structure is inferred from the data, and print-run identifiers
+  are unavailable, so batch effects cannot be excluded.
+- Signatures omit the scored mouse, but the standardisation used all mice, so scores are not
+  fully out-of-sample.
 
-## 8. Glossary
+## 8. What it means and what's next
+
+| For | Take-away |
+|---|---|
+| Anyone using this dataset | Split by mouse, never by row |
+| Down syndrome biology | Extra gene copies show far less extra protein than expected; the learning response may be weaker |
+| Drug research | Memantine's protein effects are suggestive, not a demonstrated targeted repair |
+
+**A follow-up study needs:** about **10 mice per group** to confirm the weaker learning
+response with 80% power; 16–64 mice per group for single-protein interaction
+effects; female mice; an independent cohort; and a memory score for every mouse.
+
+## Glossary
 
 | Term | Meaning |
 |---|---|
-| Balanced accuracy | Average of the accuracies for each group; 0.125 is chance for 8 groups |
+| Balanced accuracy | Average of the per-group hit rates; 0.125 is chance for 8 groups |
 | Bootstrap | Re-drawing mice with replacement many times to measure uncertainty |
-| Confidence interval (95%) | A range of values compatible with the data |
-| False discovery rate (q) | The expected share of false positives among findings reported as significant |
-| log₂ fold change | A ratio on a doubling scale: 1 means double, −1 means half, 0.58 means 1.5 times |
+| 95% interval | A range of values compatible with the data |
+| log₂ fold change | A ratio on a doubling scale: 1 = double, −1 = half, 0.58 = 1.5 times |
 | p-value | How often chance alone would give a result at least this extreme |
-| Permutation test | Shuffling group labels to see how often chance produces an effect this large |
+| Permutation test | Shuffling labels to see how often chance produces an effect this large |
 | Signature | A weighted combination of proteins that captures one effect |
 
-## 9. Where everything is
+## Where everything is
 
 | What | Where |
 |---|---|

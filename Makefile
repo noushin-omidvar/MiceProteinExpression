@@ -39,6 +39,7 @@ figures:  ## All figures (prediction and mechanistic) from saved results
 	$(PYTHON) scripts/make_mechanism_figures.py
 	$(PYTHON) scripts/make_workflows.py
 	$(PYTHON) scripts/make_primer_figures.py
+	$(PYTHON) scripts/make_explainer_figures.py
 
 paper:  ## Manuscript PDF (needs tectonic)
 	$(PYTHON) scripts/make_paper.py
@@ -98,6 +99,7 @@ fm-figures:  ## Figures for the foundation-model study
 	$(PYTHON) foundation_models/scripts/make_figures.py
 	$(PYTHON) foundation_models/scripts/make_extension_figures.py
 	$(PYTHON) foundation_models/scripts/make_workflows.py
+	$(PYTHON) foundation_models/scripts/make_explainer_figures.py
 
 fm-paper:  ## Foundation-model study paper PDF (needs tectonic)
 	$(PYTHON) foundation_models/scripts/make_paper.py

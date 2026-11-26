@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="527.380157pt" height="173.049449pt" viewBox="0 0 527.380157 173.049449" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 173.049449 
+L 527.380157 173.049449 
+L 527.380157 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 40.631811 78.304252 
+L 486.748346 78.304252 
+" clip-path="url(#pe19c82429a)" style="fill: none; stroke: #d9dde0; stroke-width: 2.2; stroke-linecap: square"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 40.631811 101.647559 
+C 46.822528 101.647559 52.760524 99.187961 57.138022 94.810463 
+C 61.51552 90.432964 63.975118 84.494969 63.975118 78.304252 
+C 63.975118 72.113535 61.51552 66.175539 57.138022 61.798041 
+C 52.760524 57.420543 46.822528 54.960945 40.631811 54.960945 
+C 34.441094 54.960945 28.503099 57.420543 24.1256 61.798041 
+C 19.748102 66.175539 17.288504 72.113535 17.288504 78.304252 
+C 17.288504 84.494969 19.748102 90.432964 24.1256 94.810463 
+C 28.503099 99.187961 34.441094 101.647559 40.631811 101.647559 
+z
+" clip-path="url(#pe19c82429a)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 104.362745 101.647559 
+C 110.553462 101.647559 116.491457 99.187961 120.868955 94.810463 
+C 125.246454 90.432964 127.706052 84.494969 127.706052 78.304252 
+C 127.706052 72.113535 125.246454 66.175539 120.868955 61.798041 
+C 116.491457 57.420543 110.553462 54.960945 104.362745 54.960945 
+C 98.172027 54.960945 92.234032 57.420543 87.856534 61.798041 
+C 83.479036 66.175539 81.019438 72.113535 81.019438 78.304252 
+C 81.019438 84.494969 83.479036 90.432964 87.856534 94.810463 
+C 92.234032 99.187961 98.172027 101.647559 104.362745 101.647559 
+z
+" clip-path="url(#pe19c82429a)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 168.093678 101.647559 
+C 174.284396 101.647559 180.222391 99.187961 184.599889 94.810463 
+C 188.977387 90.432964 191.436985 84.494969 191.436985 78.304252 
+C 191.436985 72.113535 188.977387 66.175539 184.599889 61.798041 
+C 180.222391 57.420543 174.284396 54.960945 168.093678 54.960945 
+C 161.902961 54.960945 155.964966 57.420543 151.587468 61.798041 
+C 147.209969 66.175539 144.750371 72.113535 144.750371 78.304252 
+C 144.750371 84.494969 147.209969 90.432964 151.587468 94.810463 
+C 155.964966 99.187961 161.902961 101.647559 168.093678 101.647559 
+z
+" clip-path="url(#pe19c82429a)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 231.824612 101.647559 
+C 238.015329 101.647559 243.953324 99.187961 248.330823 94.810463 
+C 252.708321 90.432964 255.167919 84.494969 255.167919 78.304252 
+C 255.167919 72.113535 252.708321 66.175539 248.330823 61.798041 
+C 243.953324 57.420543 238.015329 54.960945 231.824612 54.960945 
+C 225.633895 54.960945 219.695899 57.420543 215.318401 61.798041 
+C 210.940903 66.175539 208.481305 72.113535 208.481305 78.304252 
+C 208.481305 84.494969 210.940903 90.432964 215.318401 94.810463 
+C 219.695899 99.187961 225.633895 101.647559 231.824612 101.647559 
+z
+" clip-path="url(#pe19c82429a)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 295.555546 101.647559 
+C 301.746263 101.647559 307.684258 99.187961 312.061756 94.810463 
+C 316.439255 90.432964 318.898853 84.494969 318.898853 78.304252 
+C 318.898853 72.113535 316.439255 66.175539 312.061756 61.798041 
+C 307.684258 57.420543 301.746263 54.960945 295.555546 54.960945 
+C 289.364828 54.960945 283.426833 57.420543 279.049335 61.798041 
+C 274.671837 66.175539 272.212238 72.113535 272.212238 78.304252 
+C 272.212238 84.494969 274.671837 90.432964 279.049335 94.810463 
+C 283.426833 99.187961 289.364828 101.647559 295.555546 101.647559 
+z
+" clip-path="url(#pe19c82429a)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 359.286479 101.647559 
+C 365.477197 101.647559 371.415192 99.187961 375.79269 94.810463 
+C 380.170188 90.432964 382.629786 84.494969 382.629786 78.304252 
+C 382.629786 72.113535 380.170188 66.175539 375.79269 61.798041 
+C 371.415192 57.420543 365.477197 54.960945 359.286479 54.960945 
+C 353.095762 54.960945 347.157767 57.420543 342.780268 61.798041 
+C 338.40277 66.175539 335.943172 72.113535 335.943172 78.304252 
+C 335.943172 84.494969 338.40277 90.432964 342.780268 94.810463 
+C 347.157767 99.187961 353.095762 101.647559 359.286479 101.647559 
+z
+" clip-path="url(#pe19c82429a)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 423.017413 101.647559 
+C 429.20813 101.647559 435.146125 99.187961 439.523624 94.810463 
+C 443.901122 90.432964 446.36072 84.494969 446.36072 78.304252 
+C 446.36072 72.113535 443.901122 66.175539 439.523624 61.798041 
+C 435.146125 57.420543 429.20813 54.960945 423.017413 54.960945 
+C 416.826695 54.960945 410.8887 57.420543 406.511202 61.798041 
+C 402.133704 66.175539 399.674106 72.113535 399.674106 78.304252 
+C 399.674106 84.494969 402.133704 90.432964 406.511202 94.810463 
+C 410.8887 99.187961 416.826695 101.647559 423.017413 101.647559 
+z
+" clip-path="url(#pe19c82429a)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 486.748346 101.647559 
+C 492.939064 101.647559 498.877059 99.187961 503.254557 94.810463 
+C 507.632055 90.432964 510.091654 84.494969 510.091654 78.304252 
+C 510.091654 72.113535 507.632055 66.175539 503.254557 61.798041 
+C 498.877059 57.420543 492.939064 54.960945 486.748346 54.960945 
+C 480.557629 54.960945 474.619634 57.420543 470.242136 61.798041 
+C 465.864637 66.175539 463.405039 72.113535 463.405039 78.304252 
+C 463.405039 84.494969 465.864637 90.432964 470.242136 94.810463 
+C 474.619634 99.187961 480.557629 101.647559 486.748346 101.647559 
+z
+" clip-path="url(#pe19c82429a)" style="fill: #2457d6"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 600; font-size: 8.4px; font-family: 'Fraunces'; text-anchor: start; fill: #161b1f" x="12.101102" y="20.755672" transform="rotate(-0 12.101102 20.755672)">The story in eight steps</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="40.631811" y="81.557752" transform="rotate(-0 40.631811 81.557752)">1</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="40.631811" y="111.473141" transform="rotate(-0 40.631811 111.473141)">Question</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(19.630374 133.898668)">what changes in</text>
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(16.408655 141.438668)">the trisomic brain?</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="104.362745" y="81.557752" transform="rotate(-0 104.362745 81.557752)">2</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="104.362745" y="111.378047" transform="rotate(-0 104.362745 111.378047)">Why</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(85.013854 133.898668)">learning deficit</text>
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(90.643026 140.858668)">and a drug</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="168.093678" y="81.557752" transform="rotate(-0 168.093678 81.557752)">3</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="168.093678" y="111.337141" transform="rotate(-0 168.093678 111.337141)">Background</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(148.811397 134.12795)">chromosomes,</text>
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(149.97185 140.858668)">proteins, drug</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="231.824612" y="81.557752" transform="rotate(-0 231.824612 81.557752)">4</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="231.824612" y="111.874235" transform="rotate(-0 231.824612 111.874235)">Data</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(218.945893 134.478668)">72 mice ×</text>
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(216.921784 140.893559)">77 proteins</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="295.555546" y="81.557752" transform="rotate(-0 295.555546 81.557752)">5</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="295.555546" y="111.378047" transform="rotate(-0 295.555546 111.378047)">Approach</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(278.802155 134.478668)">four rules for</text>
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(276.846921 140.893559)">small samples</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="359.286479" y="81.557752" transform="rotate(-0 359.286479 81.557752)">6</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="359.286479" y="111.357328" transform="rotate(-0 359.286479 111.357328)">Findings</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(339.82476 133.933559)">four questions,</text>
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(342.475089 141.438668)">four answers</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="423.017413" y="81.557752" transform="rotate(-0 423.017413 81.557752)">7</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="423.017413" y="111.874235" transform="rotate(-0 423.017413 111.874235)">How sure</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(408.891694 133.898668)">strength of</text>
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(411.341288 141.438668)">evidence</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="486.748346" y="81.557752" transform="rotate(-0 486.748346 81.557752)">8</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="486.748346" y="111.874235" transform="rotate(-0 486.748346 111.874235)">Next</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(464.963909 133.933559)">what a follow-up</text>
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(478.822284 141.438668)">needs</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 5px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #5b6670" x="517.872756" y="165.985354" transform="rotate(-0 517.872756 165.985354)">OUTLINE</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pe19c82429a">
+   <rect x="4.32" y="4.32" width="518.740157" height="164.409449"/>
+  </clipPath>
+ </defs>
+</svg>

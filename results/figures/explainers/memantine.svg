@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="527.380157pt" height="190.057323pt" viewBox="0 0 527.380157 190.057323" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 190.057323 
+L 527.380157 190.057323 
+L 527.380157 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 45.819213 109.542047 
+L 222.190866 109.542047 
+L 222.190866 100.471181 
+L 45.819213 100.471181 
+z
+" clip-path="url(#p8acbbe3be4)" style="fill: #d9dde0"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 113.255433 122.24126 
+L 128.817638 122.24126 
+L 128.817638 85.957795 
+L 113.255433 85.957795 
+z
+" clip-path="url(#p8acbbe3be4)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 139.192441 122.24126 
+L 154.754646 122.24126 
+L 154.754646 85.957795 
+L 139.192441 85.957795 
+z
+" clip-path="url(#p8acbbe3be4)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 92.505827 59.266772 
+C 93.606399 59.266772 94.662042 58.82951 95.440264 58.051288 
+C 96.218486 57.273066 96.655748 56.217422 96.655748 55.11685 
+C 96.655748 54.016278 96.218486 52.960635 95.440264 52.182413 
+C 94.662042 51.404191 93.606399 50.966929 92.505827 50.966929 
+C 91.405255 50.966929 90.349611 51.404191 89.571389 52.182413 
+C 88.793167 52.960635 88.355906 54.016278 88.355906 55.11685 
+C 88.355906 56.217422 88.793167 57.273066 89.571389 58.051288 
+C 90.349611 58.82951 91.405255 59.266772 92.505827 59.266772 
+z
+" clip-path="url(#p8acbbe3be4)" style="fill: #e33d3f"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 102.88063 70.151811 
+C 103.981202 70.151811 105.036845 69.714549 105.815067 68.936327 
+C 106.593289 68.158105 107.030551 67.102462 107.030551 66.00189 
+C 107.030551 64.901318 106.593289 63.845674 105.815067 63.067452 
+C 105.036845 62.28923 103.981202 61.851969 102.88063 61.851969 
+C 101.780058 61.851969 100.724414 62.28923 99.946192 63.067452 
+C 99.167971 63.845674 98.730709 64.901318 98.730709 66.00189 
+C 98.730709 67.102462 99.167971 68.158105 99.946192 68.936327 
+C 100.724414 69.714549 101.780058 70.151811 102.88063 70.151811 
+z
+" clip-path="url(#p8acbbe3be4)" style="fill: #e33d3f"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 113.255433 81.03685 
+C 114.356005 81.03685 115.411649 80.599589 116.189871 79.821367 
+C 116.968092 79.043145 117.405354 77.987501 117.405354 76.886929 
+C 117.405354 75.786357 116.968092 74.730714 116.189871 73.952492 
+C 115.411649 73.17427 114.356005 72.737008 113.255433 72.737008 
+C 112.154861 72.737008 111.099218 73.17427 110.320996 73.952492 
+C 109.542774 74.730714 109.105512 75.786357 109.105512 76.886929 
+C 109.105512 77.987501 109.542774 79.043145 110.320996 79.821367 
+C 111.099218 80.599589 112.154861 81.03685 113.255433 81.03685 
+z
+" clip-path="url(#p8acbbe3be4)" style="fill: #e33d3f"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 134.005039 82.51503 
+Q 134.005039 105.914345 134.005039 128.195627 
+" clip-path="url(#p8acbbe3be4)" style="fill: none; stroke: #e33d3f; stroke-linecap: round"/>
+    <path d="M 135.805039 124.595627 
+L 134.005039 128.195627 
+L 132.205039 124.595627 
+z
+" clip-path="url(#p8acbbe3be4)" style="fill: #e33d3f; stroke: #e33d3f; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 289.627087 109.542047 
+L 465.99874 109.542047 
+L 465.99874 100.471181 
+L 289.627087 100.471181 
+z
+" clip-path="url(#p8acbbe3be4)" style="fill: #d9dde0"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 357.063307 122.24126 
+L 372.625512 122.24126 
+L 372.625512 85.957795 
+L 357.063307 85.957795 
+z
+" clip-path="url(#p8acbbe3be4)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 383.000315 122.24126 
+L 398.56252 122.24126 
+L 398.56252 85.957795 
+L 383.000315 85.957795 
+z
+" clip-path="url(#p8acbbe3be4)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 336.313701 59.266772 
+C 337.414273 59.266772 338.469916 58.82951 339.248138 58.051288 
+C 340.02636 57.273066 340.463622 56.217422 340.463622 55.11685 
+C 340.463622 54.016278 340.02636 52.960635 339.248138 52.182413 
+C 338.469916 51.404191 337.414273 50.966929 336.313701 50.966929 
+C 335.213129 50.966929 334.157485 51.404191 333.379263 52.182413 
+C 332.601041 52.960635 332.16378 54.016278 332.16378 55.11685 
+C 332.16378 56.217422 332.601041 57.273066 333.379263 58.051288 
+C 334.157485 58.82951 335.213129 59.266772 336.313701 59.266772 
+z
+" clip-path="url(#p8acbbe3be4)" style="fill: #e33d3f"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 346.688504 70.151811 
+C 347.789076 70.151811 348.844719 69.714549 349.622941 68.936327 
+C 350.401163 68.158105 350.838425 67.102462 350.838425 66.00189 
+C 350.838425 64.901318 350.401163 63.845674 349.622941 63.067452 
+C 348.844719 62.28923 347.789076 61.851969 346.688504 61.851969 
+C 345.587932 61.851969 344.532288 62.28923 343.754066 63.067452 
+C 342.975845 63.845674 342.538583 64.901318 342.538583 66.00189 
+C 342.538583 67.102462 342.975845 68.158105 343.754066 68.936327 
+C 344.532288 69.714549 345.587932 70.151811 346.688504 70.151811 
+z
+" clip-path="url(#p8acbbe3be4)" style="fill: #e33d3f"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 357.063307 81.03685 
+C 358.163879 81.03685 359.219523 80.599589 359.997745 79.821367 
+C 360.775966 79.043145 361.213228 77.987501 361.213228 76.886929 
+C 361.213228 75.786357 360.775966 74.730714 359.997745 73.952492 
+C 359.219523 73.17427 358.163879 72.737008 357.063307 72.737008 
+C 355.962735 72.737008 354.907092 73.17427 354.12887 73.952492 
+C 353.350648 74.730714 352.913386 75.786357 352.913386 76.886929 
+C 352.913386 77.987501 353.350648 79.043145 354.12887 79.821367 
+C 354.907092 80.599589 355.962735 81.03685 357.063307 81.03685 
+z
+" clip-path="url(#p8acbbe3be4)" style="fill: #e33d3f"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 377.812913 103.328504 
+C 380.014057 103.328504 382.125344 102.45398 383.681788 100.897536 
+C 385.238232 99.341093 386.112756 97.229805 386.112756 95.028661 
+C 386.112756 92.827517 385.238232 90.71623 383.681788 89.159786 
+C 382.125344 87.603343 380.014057 86.728819 377.812913 86.728819 
+C 375.611769 86.728819 373.500482 87.603343 371.944038 89.159786 
+C 370.387595 90.71623 369.513071 92.827517 369.513071 95.028661 
+C 369.513071 97.229805 370.387595 99.341093 371.944038 100.897536 
+C 373.500482 102.45398 375.611769 103.328504 377.812913 103.328504 
+z
+" clip-path="url(#p8acbbe3be4)" style="fill: #161b1f"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 377.812913 115.170148 
+Q 377.812913 119.520721 377.812913 122.75326 
+" clip-path="url(#p8acbbe3be4)" style="fill: none; stroke: #d9dde0; stroke-linecap: round"/>
+    <path d="M 379.612913 119.15326 
+L 377.812913 122.75326 
+L 376.012913 119.15326 
+z
+" clip-path="url(#p8acbbe3be4)" style="fill: #d9dde0; stroke: #d9dde0; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 600; font-size: 8.4px; font-family: 'Fraunces'; text-anchor: start; fill: #161b1f" x="12.101102" y="21.606066" transform="rotate(-0 12.101102 21.606066)">Memantine partly blocks a receptor that controls signalling for memory</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 600; font-size: 7px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="134.005039" y="39.54379" transform="rotate(-0 134.005039 39.54379)">Without memantine</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6670" x="134.005039" y="138.434646" transform="rotate(-0 134.005039 138.434646)">NMDA receptor (a channel)</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(191.066457 93.249755)">ions flow in,</text>
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(191.066457 100.212568)">signal to the cell</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 600; font-size: 7px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="377.812913" y="39.54379" transform="rotate(-0 377.812913 39.54379)">With memantine</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6670" x="377.812913" y="138.434646" transform="rotate(-0 377.812913 138.434646)">NMDA receptor (a channel)</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(434.874331 93.612568)">memantine</text>
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(434.874331 100.212568)">plugs the channel</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="263.690079" y="169.232294" transform="rotate(-0 263.690079 169.232294)">Earlier studies found that a memantine injection restores learning in Ts65Dn mice.</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 5px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #5b6670" x="517.872756" y="182.82315" transform="rotate(-0 517.872756 182.82315)">SCHEMATIC</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8acbbe3be4">
+   <rect x="4.32" y="4.32" width="518.740157" height="181.417323"/>
+  </clipPath>
+ </defs>
+</svg>

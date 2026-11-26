@@ -9,7 +9,7 @@ jobs:
         with: {python-version: "3.11", cache: pip}
       - run: python -m pip install -e '.[dev]'
       - name: Lint
-        run: ruff check src scripts tests
+        run: ruff check src scripts tests foundation_models
       - name: Tests (data contracts, leakage, estimator correctness)
         run: pytest -q
       - name: Mechanistic pipeline smoke test (reduced resampling)

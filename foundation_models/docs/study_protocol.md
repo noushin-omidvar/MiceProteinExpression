@@ -95,5 +95,37 @@ generated from `results/`.
 One dataset, one cohort, CPU inference, default TFM settings, and no external test set. The
 results describe this dataset and should not be generalised to all small tables.
 
-## 8. Deviations
-None at the time of writing. Any later deviation is added here with its date and reason.
+## 8. Deviations and later work
+The original analyses above were run as specified. The original protocol did not include
+CatBoost, XGBoost, a newer TabPFN checkpoint, a fixed-holdout learning curve, broader
+conventional tuning, or the missingness and aggregation controls. The analyses in
+`configs/matched_holdout.yaml`, `configs/tuned_baselines.yaml`, and
+`configs/sensitivity.yaml` were specified **after** inspecting the original results on
+2026-11-25 and are exploratory. They must not be presented as preregistered tests.
+
+The original RQ2 uses log loss, which evaluates probabilistic prediction quality; it is
+**not** a standalone calibration test. The original RQ3 draws different test mice at each
+training size, so its gap-versus-size comparison mixes training-size and test-composition
+effects. Its bootstrap treats repeated draws from the same 72 animals as independent and
+understates biological uncertainty. The fixed-holdout extension addresses the first issue,
+but it cannot create independent biological replication. The original obfuscation test
+cannot establish absence of pretraining contamination, because the transformations may be
+invisible to preprocessing or irrelevant to memorized structure.
+
+### Post hoc amendments (2026-11-25)
+
+* `configs/matched_holdout_review.yaml` increases nested subset draws from one to five for
+  the three headline models. It retains the same outer split seed and is post hoc.
+* `svm_decision_audit.py` and `svm_main_audit.py` evaluate SVC classification using
+  `predict()` with `probability=False`. Earlier balanced-accuracy values obtained from the
+  argmax of `predict_proba()` are retained only as an audit trail; SVC documentation allows
+  those decisions to differ. Probability metrics remain separate.
+* `configs/factorized.yaml` specifies a design-informed baseline that reconstructs the
+  eight-class target from three binary logistic classifiers. Product probabilities assume
+  conditional independence of factors given protein features.
+* The original H1/H2 corrected intervals are individual approximate intervals, not
+  simultaneous multiple-comparison-adjusted intervals. Holm correction was applied within
+  each foundation model's six original comparisons, not across both foundation models or
+  later exploratory analyses. Primary scores pool out-of-fold predictions by repeat;
+  original tests average paired **fold** differences. Test folds are small and overlapping,
+  and no statistical correction supplies an independent biological cohort.

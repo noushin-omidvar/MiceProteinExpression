@@ -1,0 +1,8 @@
+model,mean,std
+factorized_logistic,0.6626,0.021
+gradient_boosting,0.5137,0.0147
+kumo,0.8178,0.0172
+logistic,0.6749,0.0385
+random_forest,0.5785,0.0229
+svm,0.6453,0.031
+tabpfn,0.7439,0.0176

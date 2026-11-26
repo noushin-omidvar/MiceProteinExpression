@@ -68,3 +68,28 @@ def animal_vote_predictions(record: dict) -> tuple[list[str], list[str]]:
         true=("true", "first"), pred=("pred", lambda s: s.value_counts().index[0])
     )
     return agg["true"].tolist(), agg["pred"].tolist()
+
+
+MOUSE_CV_SEED = 2025
+
+
+def mouse_level_cv(x: pd.DataFrame, y: pd.Series, strata: pd.Series, model, *,
+                   repeats: int = 5, splits: int = 5, seed: int = MOUSE_CV_SEED):
+    """Out-of-fold class probabilities from repeated stratified CV on one row per mouse.
+
+    Returns a DataFrame indexed like ``x`` (repeated once per repeat) with one probability
+    column per class plus ``repeat``, ``fold`` and ``observed`` columns.
+    """
+    labels = np.unique(y)
+    parts = []
+    for repeat in range(repeats):
+        splitter = StratifiedKFold(splits, shuffle=True, random_state=seed + repeat)
+        for fold, (train, test) in enumerate(splitter.split(x, strata)):
+            fitted = clone(model).fit(x.iloc[train], y.iloc[train])
+            if not np.array_equal(fitted.classes_, labels):
+                raise ValueError("A training fold is missing an outcome class")
+            proba = np.asarray(fitted.predict_proba(x.iloc[test]), dtype=float)
+            part = pd.DataFrame(proba / proba.sum(axis=1, keepdims=True), columns=labels,
+                                index=x.index[test])
+            parts.append(part.assign(repeat=repeat, fold=fold, observed=y.iloc[test]))
+    return pd.concat(parts)

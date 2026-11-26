@@ -1,0 +1,238 @@
+{
+  "status": "post_hoc_exploratory",
+  "independent_mice": 72,
+  "tuned_baselines": {
+    "factorized_logistic": {
+      "mean": 0.6626,
+      "std": 0.021
+    },
+    "gradient_boosting": {
+      "mean": 0.5137,
+      "std": 0.0147
+    },
+    "kumo": {
+      "mean": 0.8178,
+      "std": 0.0172
+    },
+    "logistic": {
+      "mean": 0.6749,
+      "std": 0.0385
+    },
+    "random_forest": {
+      "mean": 0.5785,
+      "std": 0.0229
+    },
+    "svm": {
+      "mean": 0.6453,
+      "std": 0.031
+    },
+    "tabpfn": {
+      "mean": 0.7439,
+      "std": 0.0176
+    }
+  },
+  "paired_vs_tuned_logistic": [
+    {
+      "foundation": "kumo",
+      "baseline": "tuned_logistic",
+      "status": "post_hoc_exploratory",
+      "mean_difference": 0.13,
+      "se": 0.06896088346501851,
+      "t": 1.885126661202717,
+      "df": 24,
+      "p": 0.07157702930158637,
+      "lower": -0.01232826819204949,
+      "upper": 0.27232826819204947
+    },
+    {
+      "foundation": "tabpfn",
+      "baseline": "tuned_logistic",
+      "status": "post_hoc_exploratory",
+      "mean_difference": 0.0525,
+      "se": 0.06813241418054233,
+      "t": 0.7705583404234231,
+      "df": 24,
+      "p": 0.44848828635695676,
+      "lower": -0.08811839162746612,
+      "upper": 0.1931183916274661
+    }
+  ],
+  "matched_holdout": [
+    {
+      "n_train": 16,
+      "model": "kumo",
+      "mean": 0.4348,
+      "std": 0.1506
+    },
+    {
+      "n_train": 16,
+      "model": "logistic",
+      "mean": 0.358,
+      "std": 0.1415
+    },
+    {
+      "n_train": 16,
+      "model": "tabpfn",
+      "mean": 0.4152,
+      "std": 0.125
+    },
+    {
+      "n_train": 24,
+      "model": "kumo",
+      "mean": 0.5714,
+      "std": 0.1476
+    },
+    {
+      "n_train": 24,
+      "model": "logistic",
+      "mean": 0.467,
+      "std": 0.153
+    },
+    {
+      "n_train": 24,
+      "model": "tabpfn",
+      "mean": 0.55,
+      "std": 0.1526
+    },
+    {
+      "n_train": 32,
+      "model": "kumo",
+      "mean": 0.6536,
+      "std": 0.153
+    },
+    {
+      "n_train": 32,
+      "model": "logistic",
+      "mean": 0.5304,
+      "std": 0.1442
+    },
+    {
+      "n_train": 32,
+      "model": "tabpfn",
+      "mean": 0.5866,
+      "std": 0.1384
+    },
+    {
+      "n_train": 40,
+      "model": "kumo",
+      "mean": 0.7304,
+      "std": 0.1314
+    },
+    {
+      "n_train": 40,
+      "model": "logistic",
+      "mean": 0.6009,
+      "std": 0.1528
+    },
+    {
+      "n_train": 40,
+      "model": "tabpfn",
+      "mean": 0.667,
+      "std": 0.1382
+    },
+    {
+      "n_train": 48,
+      "model": "kumo",
+      "mean": 0.7795,
+      "std": 0.1271
+    },
+    {
+      "n_train": 48,
+      "model": "logistic",
+      "mean": 0.6571,
+      "std": 0.1496
+    },
+    {
+      "n_train": 48,
+      "model": "tabpfn",
+      "mean": 0.725,
+      "std": 0.1356
+    },
+    {
+      "n_train": 61,
+      "model": "kumo",
+      "mean": 0.7812,
+      "std": 0.1301
+    },
+    {
+      "n_train": 61,
+      "model": "logistic",
+      "mean": 0.6094,
+      "std": 0.1288
+    },
+    {
+      "n_train": 61,
+      "model": "tabpfn",
+      "mean": 0.7656,
+      "std": 0.0786
+    },
+    {
+      "n_train": 62,
+      "model": "kumo",
+      "mean": 0.85,
+      "std": 0.1357
+    },
+    {
+      "n_train": 62,
+      "model": "logistic",
+      "mean": 0.6938,
+      "std": 0.1457
+    },
+    {
+      "n_train": 62,
+      "model": "tabpfn",
+      "mean": 0.775,
+      "std": 0.1619
+    }
+  ],
+  "sensitivity": [
+    {
+      "version": "arithmetic",
+      "model": "kumo",
+      "mean": 0.8231,
+      "std": 0.0363
+    },
+    {
+      "version": "arithmetic",
+      "model": "logistic",
+      "mean": 0.6589,
+      "std": 0.0393
+    },
+    {
+      "version": "geometric",
+      "model": "kumo",
+      "mean": 0.8445,
+      "std": 0.0313
+    },
+    {
+      "version": "geometric",
+      "model": "logistic",
+      "mean": 0.652,
+      "std": 0.0295
+    },
+    {
+      "version": "geometric_no_duplicate_sparse",
+      "model": "kumo",
+      "mean": 0.8667,
+      "std": 0.0
+    },
+    {
+      "version": "geometric_no_duplicate_sparse",
+      "model": "logistic",
+      "mean": 0.6824,
+      "std": 0.0706
+    },
+    {
+      "version": "missingness_only",
+      "model": "kumo",
+      "mean": 0.1285,
+      "std": 0.0088
+    },
+    {
+      "version": "missingness_only",
+      "model": "logistic",
+      "mean": 0.0818,
+      "std": 0.0391
+    }
+  ]
+}

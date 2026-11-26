@@ -1,0 +1,16 @@
+{
+  "config": {
+    "seed": 20261128,
+    "outer_splits": "foundation_models/results/folds.csv",
+    "inner_folds": 3,
+    "c_grid": [
+      0.01,
+      0.1,
+      1.0,
+      10.0
+    ],
+    "scoring": "balanced_accuracy",
+    "probability_rule": "product_of_three_binary_marginals",
+    "decision_rule": "tuple_of_binary_argmax_equivalent_to_joint_argmax"
+  }
+}

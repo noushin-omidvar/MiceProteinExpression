@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="527.380157pt" height="241.080945pt" viewBox="0 0 527.380157 241.080945" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-25T17:01:18.352250</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 241.080945 
+L 527.380157 241.080945 
+L 527.380157 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 125.628703 100.782992 
+Q 134.003998 100.782992 141.26126 100.782992 
+" clip-path="url(#p83c00c5104)" style="fill: none; stroke: #2457d6; stroke-linecap: round"/>
+    <path d="M 138.06126 99.182992 
+L 141.26126 100.782992 
+L 138.06126 102.382992 
+z
+" clip-path="url(#p83c00c5104)" style="fill: #2457d6; stroke: #2457d6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 255.313742 100.782992 
+Q 263.689038 100.782992 270.946299 100.782992 
+" clip-path="url(#p83c00c5104)" style="fill: none; stroke: #2457d6; stroke-linecap: round"/>
+    <path d="M 267.746299 99.182992 
+L 270.946299 100.782992 
+L 267.746299 102.382992 
+z
+" clip-path="url(#p83c00c5104)" style="fill: #2457d6; stroke: #2457d6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 384.998782 100.782992 
+Q 393.374077 100.782992 400.631338 100.782992 
+" clip-path="url(#p83c00c5104)" style="fill: none; stroke: #2457d6; stroke-linecap: round"/>
+    <path d="M 397.431338 99.182992 
+L 400.631338 100.782992 
+L 397.431338 102.382992 
+z
+" clip-path="url(#p83c00c5104)" style="fill: #2457d6; stroke: #2457d6; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 10.544882 27.564094 
+L 516.835276 27.564094 
+" clip-path="url(#p83c00c5104)" style="fill: none; stroke: #d9dde0; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 600; font-size: 9.6px; font-family: 'Fraunces'; text-anchor: start; fill: #161b1f" x="10.544882" y="19.519824" transform="rotate(-0 10.544882 19.519824)">Q1 · Do three gene copies give 1.5 times as much protein?</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 5.67px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #2457d6" x="69.16252" y="40.122128" transform="rotate(-0 69.16252 40.122128)">STEP 1 · AVERAGE</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 600; font-size: 7.686px; font-family: 'Fraunces'; text-anchor: middle; fill: #161b1f" x="69.16252" y="54.838483" transform="rotate(-0 69.16252 54.838483)">One value per mouse</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(35.029784 149.284688)">Average each mouse’s 15</text>
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(37.590242 157.071267)">measurements of every</text>
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(44.220032 164.875613)">protein (log scale).</text>
+   </g>
+   <g id="text_5">
+    <!-- $y_{mp}=\mathrm{mean}_r\,\log_2 x_{mpr}$ -->
+    <g style="fill: #161b1f" transform="translate(40.40302 202.159984)">
+     <text>
+      <tspan x="0" y="-0.34375" style="font-style: italic; font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">y</tspan>
+      <tspan x="46.308211" y="-0.34375" style="font-style: italic; font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">x</tspan>
+      <tspan x="3.047684" y="0.63125" style="font-style: italic; font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">m</tspan>
+      <tspan x="6.78551" y="0.63125" style="font-style: italic; font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">p</tspan>
+      <tspan x="31.333499" y="0.63125" style="font-style: italic; font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">r</tspan>
+      <tspan x="49.418868" y="0.63125" style="font-style: italic; font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">m</tspan>
+      <tspan x="53.156694" y="0.63125" style="font-style: italic; font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">p</tspan>
+      <tspan x="55.677959" y="0.63125" style="font-style: italic; font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">r</tspan>
+      <tspan x="10.537225" y="-0.34375" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">=</tspan>
+      <tspan x="15.383298" y="-0.34375" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">m</tspan>
+      <tspan x="20.880475" y="-0.34375" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">e</tspan>
+      <tspan x="24.33746" y="-0.34375" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">a</tspan>
+      <tspan x="27.699994" y="-0.34375" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">n</tspan>
+      <tspan x="33.990423" y="-0.34375" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">l</tspan>
+      <tspan x="35.703176" y="-0.34375" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">o</tspan>
+      <tspan x="39.229421" y="-0.34375" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">g</tspan>
+      <tspan x="42.611049" y="0.63125" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">2</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 5.04px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6670" x="69.16252" y="220.22606" transform="rotate(-0 69.16252 220.22606)">m = mouse, p = protein, r = repeat</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 5.67px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #2457d6" x="198.847559" y="40.122128" transform="rotate(-0 198.847559 40.122128)">STEP 2 · LABEL</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 600; font-size: 7.686px; font-family: 'Fraunces'; text-anchor: middle; fill: #161b1f" x="198.847559" y="54.838483" transform="rotate(-0 198.847559 54.838483)">Gene copy number</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(162.16512 149.254763)">Mark proteins whose genes</text>
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(165.110395 157.071267)">are triplicated in Ts65Dn;</text>
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(173.357538 164.851767)">use non-triplicated</text>
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(161.614313 172.596263)">chromosome-21 genes as a</text>
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(188.517356 180.975263)">control.</text>
+   </g>
+   <g id="text_10">
+    <!-- $c_p\in\{2,3\}$ -->
+    <g style="fill: #161b1f" transform="translate(185.460059 202.159984)">
+     <text>
+      <tspan x="0" y="-0.21875" style="font-style: italic; font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">c</tspan>
+      <tspan x="3.072876" y="0.75625" style="font-style: italic; font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">p</tspan>
+      <tspan x="6.824591" y="-0.21875" style="font-size: 6.3px; font-family: 'cmsy10'; fill: #161b1f">2</tspan>
+      <tspan x="12.086359" y="-0.21875" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">{</tspan>
+      <tspan x="14.246179" y="-0.21875" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">2</tspan>
+      <tspan x="18.024301" y="-0.21875" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">,</tspan>
+      <tspan x="20.805005" y="-0.21875" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">3</tspan>
+      <tspan x="24.583127" y="-0.21875" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">}</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 5.04px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6670" x="198.847559" y="220.195741" transform="rotate(-0 198.847559 220.195741)">c = gene copies in Ts65Dn</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 5.67px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #2457d6" x="328.532598" y="40.122128" transform="rotate(-0 328.532598 40.122128)">STEP 3 · COMPARE</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 600; font-size: 7.686px; font-family: 'Fraunces'; text-anchor: middle; fill: #161b1f" x="328.532598" y="54.838483" transform="rotate(-0 328.532598 54.838483)">Ts65Dn vs control</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(294.241821 149.290767)">For each protein, take the</text>
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(292.591738 157.035263)">difference of group means,</text>
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(296.895327 164.851767)">separately in saline and</text>
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(305.274795 173.194763)">memantine mice.</text>
+   </g>
+   <g id="text_15">
+    <!-- $\Delta_p=\bar y_{\mathrm{Ts}}-\bar y_{\mathrm{Ctrl}}$ -->
+    <g style="fill: #161b1f" transform="translate(309.695598 202.159984)">
+     <text>
+      <tspan x="0" y="-0.540625" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">Δ</tspan>
+      <tspan x="7.857479" y="-0.540625" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">=</tspan>
+      <tspan x="14.430114" y="-0.5625" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">̄</tspan>
+      <tspan x="22.064994" y="-0.540625" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">−</tspan>
+      <tspan x="28.637628" y="-0.5625" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">̄</tspan>
+      <tspan x="4.105764" y="0.434375" style="font-style: italic; font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">p</tspan>
+      <tspan x="12.703552" y="-0.540625" style="font-style: italic; font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">y</tspan>
+      <tspan x="26.911066" y="-0.540625" style="font-style: italic; font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">y</tspan>
+      <tspan x="16.166677" y="1.6375" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">T</tspan>
+      <tspan x="18.687941" y="1.6375" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">s</tspan>
+      <tspan x="30.374191" y="1.6375" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">C</tspan>
+      <tspan x="33.111439" y="1.6375" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">t</tspan>
+      <tspan x="34.658583" y="1.6375" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">r</tspan>
+      <tspan x="36.276254" y="1.6375" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">l</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 5.04px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6670" x="328.532598" y="220.195741" transform="rotate(-0 328.532598 220.195741)">Δ = log₂ fold change</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 5.67px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="458.217638" y="40.122128" transform="rotate(-0 458.217638 40.122128)">RESULT</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 600; font-size: 7.686px; font-family: 'Fraunces'; text-anchor: middle; fill: #161b1f" x="458.217638" y="54.838483" transform="rotate(-0 458.217638 54.838483)">Observed vs expected</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 600; font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(425.283773 149.308535)">Triplicated proteins rise</text>
+    <text style="font-weight: 600; font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(422.029896 157.071267)">only 23% as much as 1.5×</text>
+    <text style="font-weight: 600; font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(422.257607 164.833531)">predicts; control genes do</text>
+    <text style="font-weight: 600; font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(442.106298 172.596263)">not change.</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 4.6px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #5b6670" x="520.466457" y="234.819181" transform="rotate(-0 520.466457 234.819181)">Steps 1–3: schematic · Result: data</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 21.438425 72.890079 
+L 52.562835 72.890079 
+L 52.562835 70.449449 
+L 21.438425 70.449449 
+z
+" clip-path="url(#p4de398a8db)" style="fill: #8ea8ec; opacity: 0.712548"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 21.438425 76.376693 
+L 52.562835 76.376693 
+L 52.562835 73.936063 
+L 21.438425 73.936063 
+z
+" clip-path="url(#p4de398a8db)" style="fill: #8ea8ec; opacity: 0.848607"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 21.438425 79.863307 
+L 52.562835 79.863307 
+L 52.562835 77.422677 
+L 21.438425 77.422677 
+z
+" clip-path="url(#p4de398a8db)" style="fill: #8ea8ec; opacity: 0.787843"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 21.438425 83.349921 
+L 52.562835 83.349921 
+L 52.562835 80.909291 
+L 21.438425 80.909291 
+z
+" clip-path="url(#p4de398a8db)" style="fill: #8ea8ec; opacity: 0.512604"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 21.438425 86.836535 
+L 52.562835 86.836535 
+L 52.562835 84.395906 
+L 21.438425 84.395906 
+z
+" clip-path="url(#p4de398a8db)" style="fill: #8ea8ec; opacity: 0.550083"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 21.438425 90.32315 
+L 52.562835 90.32315 
+L 52.562835 87.88252 
+L 21.438425 87.88252 
+z
+" clip-path="url(#p4de398a8db)" style="fill: #8ea8ec; opacity: 0.836777"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 21.438425 93.809764 
+L 52.562835 93.809764 
+L 52.562835 91.369134 
+L 21.438425 91.369134 
+z
+" clip-path="url(#p4de398a8db)" style="fill: #8ea8ec; opacity: 0.402633"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 21.438425 97.296378 
+L 52.562835 97.296378 
+L 52.562835 94.855748 
+L 21.438425 94.855748 
+z
+" clip-path="url(#p4de398a8db)" style="fill: #8ea8ec; opacity: 0.810614"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 21.438425 100.782992 
+L 52.562835 100.782992 
+L 52.562835 98.342362 
+L 21.438425 98.342362 
+z
+" clip-path="url(#p4de398a8db)" style="fill: #8ea8ec; opacity: 0.798535"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 21.438425 104.269606 
+L 52.562835 104.269606 
+L 52.562835 101.828976 
+L 21.438425 101.828976 
+z
+" clip-path="url(#p4de398a8db)" style="fill: #8ea8ec; opacity: 0.633967"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 21.438425 107.75622 
+L 52.562835 107.75622 
+L 52.562835 105.315591 
+L 21.438425 105.315591 
+z
+" clip-path="url(#p4de398a8db)" style="fill: #8ea8ec; opacity: 0.551516"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 21.438425 111.242835 
+L 52.562835 111.242835 
+L 52.562835 108.802205 
+L 21.438425 108.802205 
+z
+" clip-path="url(#p4de398a8db)" style="fill: #8ea8ec; opacity: 0.539213"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 21.438425 114.729449 
+L 52.562835 114.729449 
+L 52.562835 112.288819 
+L 21.438425 112.288819 
+z
+" clip-path="url(#p4de398a8db)" style="fill: #8ea8ec; opacity: 0.527435"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 21.438425 118.216063 
+L 52.562835 118.216063 
+L 52.562835 115.775433 
+L 21.438425 115.775433 
+z
+" clip-path="url(#p4de398a8db)" style="fill: #8ea8ec; opacity: 0.622538"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 21.438425 121.702677 
+L 52.562835 121.702677 
+L 52.562835 119.262047 
+L 21.438425 119.262047 
+z
+" clip-path="url(#p4de398a8db)" style="fill: #8ea8ec; opacity: 0.652274"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 60.785677 97.296378 
+Q 67.086592 97.296378 72.49308 97.296378 
+" clip-path="url(#p4de398a8db)" style="fill: none; stroke: #161b1f; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 69.69308 95.896378 
+L 72.49308 97.296378 
+L 69.69308 98.696378 
+z
+" clip-path="url(#p4de398a8db)" style="fill: #161b1f; stroke: #161b1f; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 81.612283 100.085669 
+L 116.886614 100.085669 
+L 116.886614 94.507087 
+L 81.612283 94.507087 
+z
+" clip-path="url(#p4de398a8db)" style="fill: #161b1f"/>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6670" x="37.00063" y="130.187906" transform="rotate(-0 37.00063 130.187906)">15 measurements</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(90.495964 108.547512)">1 value</text>
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(86.37298 115.567512)">per mouse</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_22">
+    <path d="M 157.348346 106.361575 
+L 163.573228 106.361575 
+L 163.573228 77.074016 
+L 157.348346 77.074016 
+z
+" clip-path="url(#p416b3b1be1)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 167.72315 106.361575 
+L 173.948031 106.361575 
+L 173.948031 77.074016 
+L 167.72315 77.074016 
+z
+" clip-path="url(#p416b3b1be1)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 207.147402 106.361575 
+L 213.372283 106.361575 
+L 213.372283 77.074016 
+L 207.147402 77.074016 
+z
+" clip-path="url(#p416b3b1be1)" style="fill: #e33d3f"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 217.522205 106.361575 
+L 223.747087 106.361575 
+L 223.747087 77.074016 
+L 217.522205 77.074016 
+z
+" clip-path="url(#p416b3b1be1)" style="fill: #e33d3f"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 227.897008 106.361575 
+L 234.12189 106.361575 
+L 234.12189 77.074016 
+L 227.897008 77.074016 
+z
+" clip-path="url(#p416b3b1be1)" style="fill: #e33d3f"/>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6670" x="167.72315" y="118.333417" transform="rotate(-0 167.72315 118.333417)">control</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #2457d6" x="167.72315" y="128.79326" transform="rotate(-0 167.72315 128.79326)">2 gene copies</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6670" x="217.522205" y="118.333417" transform="rotate(-0 217.522205 118.333417)">Ts65Dn</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #e33d3f" x="217.522205" y="128.79326" transform="rotate(-0 217.522205 128.79326)">3 gene copies</text>
+   </g>
+  </g>
+  <g id="axes_4">
+   <g id="FillBetweenPolyCollection_1">
+    <defs>
+     <path id="mac371dc1b9" d="M 276.658583 -117.983712 
+L 276.658583 -117.983622 
+L 277.530415 -117.983622 
+L 278.402247 -117.983622 
+L 279.274079 -117.983622 
+L 280.145911 -117.983622 
+L 281.017744 -117.983622 
+L 281.889576 -117.983622 
+L 282.761408 -117.983622 
+L 283.63324 -117.983622 
+L 284.505072 -117.983622 
+L 285.376905 -117.983622 
+L 286.248737 -117.983622 
+L 287.120569 -117.983622 
+L 287.992401 -117.983622 
+L 288.864233 -117.983622 
+L 289.736066 -117.983622 
+L 290.607898 -117.983622 
+L 291.47973 -117.983622 
+L 292.351562 -117.983622 
+L 293.223394 -117.983622 
+L 294.095227 -117.983622 
+L 294.967059 -117.983622 
+L 295.838891 -117.983622 
+L 296.710723 -117.983622 
+L 297.582555 -117.983622 
+L 298.454388 -117.983622 
+L 299.32622 -117.983622 
+L 300.198052 -117.983622 
+L 301.069884 -117.983622 
+L 301.941716 -117.983622 
+L 302.813549 -117.983622 
+L 303.685381 -117.983622 
+L 304.557213 -117.983622 
+L 305.429045 -117.983622 
+L 306.300877 -117.983622 
+L 307.17271 -117.983622 
+L 308.044542 -117.983622 
+L 308.916374 -117.983622 
+L 309.788206 -117.983622 
+L 310.660038 -117.983622 
+L 311.531871 -117.983622 
+L 312.403703 -117.983622 
+L 313.275535 -117.983622 
+L 314.147367 -117.983622 
+L 315.019199 -117.983622 
+L 315.891032 -117.983622 
+L 316.762864 -117.983622 
+L 317.634696 -117.983622 
+L 318.506528 -117.983622 
+L 319.37836 -117.983622 
+L 320.250193 -117.983622 
+L 321.122025 -117.983622 
+L 321.993857 -117.983622 
+L 322.865689 -117.983622 
+L 323.737521 -117.983622 
+L 324.609354 -117.983622 
+L 325.481186 -117.983622 
+L 326.353018 -117.983622 
+L 327.22485 -117.983622 
+L 328.096682 -117.983622 
+L 328.968515 -117.983622 
+L 329.840347 -117.983622 
+L 330.712179 -117.983622 
+L 331.584011 -117.983622 
+L 332.455843 -117.983622 
+L 333.327676 -117.983622 
+L 334.199508 -117.983622 
+L 335.07134 -117.983622 
+L 335.943172 -117.983622 
+L 336.815004 -117.983622 
+L 337.686836 -117.983622 
+L 338.558669 -117.983622 
+L 339.430501 -117.983622 
+L 340.302333 -117.983622 
+L 341.174165 -117.983622 
+L 342.045997 -117.983622 
+L 342.91783 -117.983622 
+L 343.789662 -117.983622 
+L 344.661494 -117.983622 
+L 345.533326 -117.983622 
+L 346.405158 -117.983622 
+L 347.276991 -117.983622 
+L 348.148823 -117.983622 
+L 349.020655 -117.983622 
+L 349.892487 -117.983622 
+L 350.764319 -117.983622 
+L 351.636152 -117.983622 
+L 352.507984 -117.983622 
+L 353.379816 -117.983622 
+L 354.251648 -117.983622 
+L 355.12348 -117.983622 
+L 355.995313 -117.983622 
+L 356.867145 -117.983622 
+L 357.738977 -117.983622 
+L 358.610809 -117.983622 
+L 359.482641 -117.983622 
+L 360.354474 -117.983622 
+L 361.226306 -117.983622 
+L 362.098138 -117.983622 
+L 362.96997 -117.983622 
+L 363.841802 -117.983622 
+L 364.713635 -117.983622 
+L 365.585467 -117.983622 
+L 366.457299 -117.983622 
+L 367.329131 -117.983622 
+L 368.200963 -117.983622 
+L 369.072796 -117.983622 
+L 369.944628 -117.983622 
+L 370.81646 -117.983622 
+L 371.688292 -117.983622 
+L 372.560124 -117.983622 
+L 373.431957 -117.983622 
+L 374.303789 -117.983622 
+L 375.175621 -117.983622 
+L 376.047453 -117.983622 
+L 376.919285 -117.983622 
+L 377.791118 -117.983622 
+L 378.66295 -117.983622 
+L 379.534782 -117.983622 
+L 380.406614 -117.983622 
+L 380.406614 -117.983622 
+L 380.406614 -117.983622 
+L 379.534782 -117.983622 
+L 378.66295 -117.983622 
+L 377.791118 -117.983622 
+L 376.919285 -117.983622 
+L 376.047453 -117.983622 
+L 375.175621 -117.983622 
+L 374.303789 -117.983622 
+L 373.431957 -117.983622 
+L 372.560124 -117.983622 
+L 371.688292 -117.983622 
+L 370.81646 -117.983622 
+L 369.944628 -117.983622 
+L 369.072796 -117.983622 
+L 368.200963 -117.983622 
+L 367.329131 -117.983622 
+L 366.457299 -117.983622 
+L 365.585467 -117.983622 
+L 364.713635 -117.983622 
+L 363.841802 -117.983622 
+L 362.96997 -117.983622 
+L 362.098138 -117.983622 
+L 361.226306 -117.983622 
+L 360.354474 -117.983622 
+L 359.482641 -117.983622 
+L 358.610809 -117.983622 
+L 357.738977 -117.983623 
+L 356.867145 -117.983624 
+L 355.995313 -117.983625 
+L 355.12348 -117.983628 
+L 354.251648 -117.983633 
+L 353.379816 -117.983643 
+L 352.507984 -117.983662 
+L 351.636152 -117.983696 
+L 350.764319 -117.983758 
+L 349.892487 -117.983866 
+L 349.020655 -117.984056 
+L 348.148823 -117.984382 
+L 347.276991 -117.984934 
+L 346.405158 -117.985855 
+L 345.533326 -117.98737 
+L 344.661494 -117.989824 
+L 343.789662 -117.99374 
+L 342.91783 -117.999898 
+L 342.045997 -118.009437 
+L 341.174165 -118.023993 
+L 340.302333 -118.04587 
+L 339.430501 -118.078257 
+L 338.558669 -118.125476 
+L 337.686836 -118.193274 
+L 336.815004 -118.289129 
+L 335.943172 -118.422569 
+L 335.07134 -118.605447 
+L 334.199508 -118.852163 
+L 333.327676 -119.179755 
+L 332.455843 -119.607804 
+L 331.584011 -120.158107 
+L 330.712179 -120.854035 
+L 329.840347 -121.719551 
+L 328.968515 -122.777856 
+L 328.096682 -124.049674 
+L 327.22485 -125.551244 
+L 326.353018 -127.292107 
+L 325.481186 -129.272868 
+L 324.609354 -131.483107 
+L 323.737521 -133.89969 
+L 322.865689 -136.485709 
+L 321.993857 -139.190267 
+L 321.122025 -141.94929 
+L 320.250193 -144.687446 
+L 319.37836 -147.321162 
+L 318.506528 -149.762624 
+L 317.634696 -151.924507 
+L 316.762864 -153.72509 
+L 315.891032 -155.093365 
+L 315.019199 -155.97367 
+L 314.147367 -156.329445 
+L 313.275535 -156.145753 
+L 312.403703 -155.430318 
+L 311.531871 -154.212986 
+L 310.660038 -152.543664 
+L 309.788206 -150.488918 
+L 308.916374 -148.127584 
+L 308.044542 -145.545758 
+L 307.17271 -142.831639 
+L 306.300877 -140.070632 
+L 305.429045 -137.341086 
+L 304.557213 -134.71094 
+L 303.685381 -132.235447 
+L 302.813549 -129.956016 
+L 301.941716 -127.900109 
+L 301.069884 -126.082056 
+L 300.198052 -124.504567 
+L 299.32622 -123.16072 
+L 298.454388 -122.036174 
+L 297.582555 -121.111408 
+L 296.710723 -120.363813 
+L 295.838891 -119.769505 
+L 294.967059 -119.304798 
+L 294.095227 -118.947305 
+L 293.223394 -118.676688 
+L 292.351562 -118.475074 
+L 291.47973 -118.327223 
+L 290.607898 -118.220483 
+L 289.736066 -118.144612 
+L 288.864233 -118.091509 
+L 287.992401 -118.054909 
+L 287.120569 -118.030064 
+L 286.248737 -118.013454 
+L 285.376905 -118.002516 
+L 284.505072 -117.99542 
+L 283.63324 -117.990886 
+L 282.761408 -117.988032 
+L 281.889576 -117.986262 
+L 281.017744 -117.98518 
+L 280.145911 -117.984528 
+L 279.274079 -117.984142 
+L 278.402247 -117.983916 
+L 277.530415 -117.983786 
+L 276.658583 -117.983712 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p305f301734)">
+     <use xlink:href="#mac371dc1b9" x="0" y="241.080945" style="fill: #2457d6; fill-opacity: 0.3"/>
+    </g>
+   </g>
+   <g id="FillBetweenPolyCollection_2">
+    <defs>
+     <path id="mca120f13f2" d="M 276.658583 -117.983622 
+L 276.658583 -117.983622 
+L 277.530415 -117.983622 
+L 278.402247 -117.983622 
+L 279.274079 -117.983622 
+L 280.145911 -117.983622 
+L 281.017744 -117.983622 
+L 281.889576 -117.983622 
+L 282.761408 -117.983622 
+L 283.63324 -117.983622 
+L 284.505072 -117.983622 
+L 285.376905 -117.983622 
+L 286.248737 -117.983622 
+L 287.120569 -117.983622 
+L 287.992401 -117.983622 
+L 288.864233 -117.983622 
+L 289.736066 -117.983622 
+L 290.607898 -117.983622 
+L 291.47973 -117.983622 
+L 292.351562 -117.983622 
+L 293.223394 -117.983622 
+L 294.095227 -117.983622 
+L 294.967059 -117.983622 
+L 295.838891 -117.983622 
+L 296.710723 -117.983622 
+L 297.582555 -117.983622 
+L 298.454388 -117.983622 
+L 299.32622 -117.983622 
+L 300.198052 -117.983622 
+L 301.069884 -117.983622 
+L 301.941716 -117.983622 
+L 302.813549 -117.983622 
+L 303.685381 -117.983622 
+L 304.557213 -117.983622 
+L 305.429045 -117.983622 
+L 306.300877 -117.983622 
+L 307.17271 -117.983622 
+L 308.044542 -117.983622 
+L 308.916374 -117.983622 
+L 309.788206 -117.983622 
+L 310.660038 -117.983622 
+L 311.531871 -117.983622 
+L 312.403703 -117.983622 
+L 313.275535 -117.983622 
+L 314.147367 -117.983622 
+L 315.019199 -117.983622 
+L 315.891032 -117.983622 
+L 316.762864 -117.983622 
+L 317.634696 -117.983622 
+L 318.506528 -117.983622 
+L 319.37836 -117.983622 
+L 320.250193 -117.983622 
+L 321.122025 -117.983622 
+L 321.993857 -117.983622 
+L 322.865689 -117.983622 
+L 323.737521 -117.983622 
+L 324.609354 -117.983622 
+L 325.481186 -117.983622 
+L 326.353018 -117.983622 
+L 327.22485 -117.983622 
+L 328.096682 -117.983622 
+L 328.968515 -117.983622 
+L 329.840347 -117.983622 
+L 330.712179 -117.983622 
+L 331.584011 -117.983622 
+L 332.455843 -117.983622 
+L 333.327676 -117.983622 
+L 334.199508 -117.983622 
+L 335.07134 -117.983622 
+L 335.943172 -117.983622 
+L 336.815004 -117.983622 
+L 337.686836 -117.983622 
+L 338.558669 -117.983622 
+L 339.430501 -117.983622 
+L 340.302333 -117.983622 
+L 341.174165 -117.983622 
+L 342.045997 -117.983622 
+L 342.91783 -117.983622 
+L 343.789662 -117.983622 
+L 344.661494 -117.983622 
+L 345.533326 -117.983622 
+L 346.405158 -117.983622 
+L 347.276991 -117.983622 
+L 348.148823 -117.983622 
+L 349.020655 -117.983622 
+L 349.892487 -117.983622 
+L 350.764319 -117.983622 
+L 351.636152 -117.983622 
+L 352.507984 -117.983622 
+L 353.379816 -117.983622 
+L 354.251648 -117.983622 
+L 355.12348 -117.983622 
+L 355.995313 -117.983622 
+L 356.867145 -117.983622 
+L 357.738977 -117.983622 
+L 358.610809 -117.983622 
+L 359.482641 -117.983622 
+L 360.354474 -117.983622 
+L 361.226306 -117.983622 
+L 362.098138 -117.983622 
+L 362.96997 -117.983622 
+L 363.841802 -117.983622 
+L 364.713635 -117.983622 
+L 365.585467 -117.983622 
+L 366.457299 -117.983622 
+L 367.329131 -117.983622 
+L 368.200963 -117.983622 
+L 369.072796 -117.983622 
+L 369.944628 -117.983622 
+L 370.81646 -117.983622 
+L 371.688292 -117.983622 
+L 372.560124 -117.983622 
+L 373.431957 -117.983622 
+L 374.303789 -117.983622 
+L 375.175621 -117.983622 
+L 376.047453 -117.983622 
+L 376.919285 -117.983622 
+L 377.791118 -117.983622 
+L 378.66295 -117.983622 
+L 379.534782 -117.983622 
+L 380.406614 -117.983622 
+L 380.406614 -117.983643 
+L 380.406614 -117.983643 
+L 379.534782 -117.983661 
+L 378.66295 -117.983694 
+L 377.791118 -117.983753 
+L 376.919285 -117.983858 
+L 376.047453 -117.984042 
+L 375.175621 -117.984357 
+L 374.303789 -117.984892 
+L 373.431957 -117.985786 
+L 372.560124 -117.987257 
+L 371.688292 -117.989641 
+L 370.81646 -117.993451 
+L 369.944628 -117.999447 
+L 369.072796 -118.008743 
+L 368.200963 -118.02294 
+L 367.329131 -118.044298 
+L 366.457299 -118.075944 
+L 365.585467 -118.122127 
+L 364.713635 -118.188498 
+L 363.841802 -118.282424 
+L 362.96997 -118.413298 
+L 362.098138 -118.59283 
+L 361.226306 -118.835262 
+L 360.354474 -119.157473 
+L 359.482641 -119.5789 
+L 358.610809 -120.12122 
+L 357.738977 -120.807735 
+L 356.867145 -121.662406 
+L 355.995313 -122.708526 
+L 355.12348 -123.96702 
+L 354.251648 -125.454458 
+L 353.379816 -127.180847 
+L 352.507984 -129.147389 
+L 351.636152 -131.344378 
+L 350.764319 -133.749481 
+L 349.892487 -136.326631 
+L 349.020655 -139.02576 
+L 348.148823 -141.78354 
+L 347.276991 -144.525239 
+L 346.405158 -147.167678 
+L 345.533326 -149.623167 
+L 344.661494 -151.80421 
+L 343.789662 -153.628605 
+L 342.91783 -155.024561 
+L 342.045997 -155.93538 
+L 341.174165 -156.323272 
+L 340.302333 -156.171956 
+L 339.430501 -155.487797 
+L 338.558669 -154.299358 
+L 337.686836 -152.655424 
+L 336.815004 -150.62168 
+L 335.943172 -148.27636 
+L 335.07134 -145.705273 
+L 334.199508 -142.996633 
+L 333.327676 -140.236141 
+L 332.455843 -137.502674 
+L 331.584011 -134.864872 
+L 330.712179 -132.378793 
+L 329.840347 -130.086687 
+L 328.968515 -128.016839 
+L 328.096682 -126.184331 
+L 327.22485 -124.592518 
+L 326.353018 -123.234994 
+L 325.481186 -122.097799 
+L 324.609354 -121.161663 
+L 323.737521 -120.404107 
+L 322.865689 -119.801277 
+L 321.993857 -119.329442 
+L 321.122025 -118.966114 
+L 320.250193 -118.690814 
+L 319.37836 -118.485516 
+L 318.506528 -118.33482 
+L 317.634696 -118.225925 
+L 316.762864 -118.148451 
+L 315.891032 -118.094176 
+L 315.019199 -118.056732 
+L 314.147367 -118.031293 
+L 313.275535 -118.014269 
+L 312.403703 -118.003049 
+L 311.531871 -117.995763 
+L 310.660038 -117.991104 
+L 309.788206 -117.988168 
+L 308.916374 -117.986345 
+L 308.044542 -117.985231 
+L 307.17271 -117.984559 
+L 306.300877 -117.98416 
+L 305.429045 -117.983927 
+L 304.557213 -117.983792 
+L 303.685381 -117.983716 
+L 302.813549 -117.983673 
+L 301.941716 -117.983649 
+L 301.069884 -117.983636 
+L 300.198052 -117.98363 
+L 299.32622 -117.983626 
+L 298.454388 -117.983624 
+L 297.582555 -117.983623 
+L 296.710723 -117.983623 
+L 295.838891 -117.983622 
+L 294.967059 -117.983622 
+L 294.095227 -117.983622 
+L 293.223394 -117.983622 
+L 292.351562 -117.983622 
+L 291.47973 -117.983622 
+L 290.607898 -117.983622 
+L 289.736066 -117.983622 
+L 288.864233 -117.983622 
+L 287.992401 -117.983622 
+L 287.120569 -117.983622 
+L 286.248737 -117.983622 
+L 285.376905 -117.983622 
+L 284.505072 -117.983622 
+L 283.63324 -117.983622 
+L 282.761408 -117.983622 
+L 281.889576 -117.983622 
+L 281.017744 -117.983622 
+L 280.145911 -117.983622 
+L 279.274079 -117.983622 
+L 278.402247 -117.983622 
+L 277.530415 -117.983622 
+L 276.658583 -117.983622 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p305f301734)">
+     <use xlink:href="#mca120f13f2" x="0" y="241.080945" style="fill: #e33d3f; fill-opacity: 0.3"/>
+    </g>
+   </g>
+   <g id="patch_27">
+    <path d="M 316.901021 77.074016 
+Q 327.495996 77.074016 338.090971 77.074016 
+" clip-path="url(#p305f301734)" style="fill: none; stroke: #161b1f; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 319.301021 78.274016 
+L 316.901021 77.074016 
+L 319.301021 75.874016 
+z
+" clip-path="url(#p305f301734)" style="fill: #161b1f; stroke: #161b1f; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 335.690971 75.874016 
+L 338.090971 77.074016 
+L 335.690971 78.274016 
+z
+" clip-path="url(#p305f301734)" style="fill: #161b1f; stroke: #161b1f; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 314.007874 123.097323 
+L 314.007874 84.744567 
+" clip-path="url(#p305f301734)" style="fill: none; stroke: #2457d6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 340.982362 123.097323 
+L 340.982362 84.744567 
+" clip-path="url(#p305f301734)" style="fill: none; stroke: #e33d3f; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 281.845984 123.097323 
+L 375.219213 123.097323 
+" clip-path="url(#p305f301734)" style="fill: none; stroke: #161b1f; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #2457d6" x="314.007874" y="132.977197" transform="rotate(-0 314.007874 132.977197)">control</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #e33d3f" x="340.982362" y="132.977197" transform="rotate(-0 340.982362 132.977197)">Ts65Dn</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="327.495118" y="70.915465" transform="rotate(-0 327.495118 70.915465)">difference</text>
+   </g>
+  </g>
+  <g id="axes_5">
+   <g id="patch_28">
+    <path d="M 400.11874 139.833071 
+L 516.316535 139.833071 
+L 516.316535 58.943622 
+L 400.11874 58.943622 
+z
+" style="fill: #f4f6f8"/>
+   </g>
+   <g id="patch_29">
+    <path d="M 412.568504 120.308031 
+L 431.24315 120.308031 
+L 431.24315 112.908652 
+L 412.568504 112.908652 
+z
+" clip-path="url(#pa10849fb75)" style="fill: #e33d3f"/>
+   </g>
+   <g id="patch_30">
+    <path d="M 485.192126 120.308031 
+L 503.866772 120.308031 
+L 503.866772 120.308031 
+L 485.192126 120.308031 
+z
+" clip-path="url(#pa10849fb75)" style="fill: #5b6670"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 408.418583 120.308031 
+L 508.016693 120.308031 
+" clip-path="url(#pa10849fb75)" style="fill: none; stroke: #161b1f; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="421.905827" y="110.236715" transform="rotate(-0 421.905827 110.236715)">+0.13</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #e33d3f" x="421.905827" y="131.528551" transform="rotate(-0 421.905827 131.528551)">triplicated</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="494.529449" y="117.636094" transform="rotate(-0 494.529449 117.636094)">-0.02</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(490.536402 129.117536)">not</text>
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(482.155433 134.228551)">triplicated</text>
+   </g>
+   <g id="line2d_6">
+    <path d="M 408.418583 87.675415 
+L 508.016693 87.675415 
+" clip-path="url(#pa10849fb75)" style="fill: none; stroke-dasharray: 1.4,1.05; stroke-dashoffset: 0; stroke: #5b6670; stroke-width: 0.7"/>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6670" x="408.418583" y="83.957494" transform="rotate(-0 408.418583 83.957494)">1.5× expected</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p83c00c5104">
+   <rect x="4.32" y="4.32" width="518.740157" height="232.440945"/>
+  </clipPath>
+  <clipPath id="p4de398a8db">
+   <rect x="17.288504" y="65.91685" width="103.748031" height="69.732283"/>
+  </clipPath>
+  <clipPath id="p416b3b1be1">
+   <rect x="146.973543" y="65.91685" width="103.748031" height="69.732283"/>
+  </clipPath>
+  <clipPath id="p305f301734">
+   <rect x="276.658583" y="65.91685" width="103.748031" height="69.732283"/>
+  </clipPath>
+  <clipPath id="pa10849fb75">
+   <rect x="406.343622" y="65.91685" width="103.748031" height="69.732283"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,20 @@
+# Settings for the foundation-model study (see docs/study_protocol.md).
+seed: 2026
+raw_data: Data/Raw_Data/Data_Cortex_Nuclear.xls
+threads: 2
+
+# 4.1 accuracy: repeated stratified CV on mouse means
+n_repeats: 5
+n_splits: 5
+
+# 4.3 learning curves
+learning_curve_k: [2, 3, 4, 5, 6]
+learning_curve_draws: 20
+learning_curve_models: [logistic, random_forest, svm, tabpfn, kumo]
+
+# 4.4 validity controls
+n_permutations: 10
+leakage_models: [logistic, random_forest, tabpfn, kumo]
+
+# 4.5 memorisation
+obfuscation_keys: 3

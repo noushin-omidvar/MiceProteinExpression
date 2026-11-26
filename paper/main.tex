@@ -93,16 +93,17 @@ trisomy change how proteins co-vary (Q4)? We combined proteins into one score pe
 prevented any mouse from being scored on a direction it helped define, and used mouse-level
 bootstrap and permutation tests.
 \textbf{Findings.} Holding out whole mice lowered eight-group balanced accuracy from \RowBA{} to
-\GroupedBA. (Q1) Triplicated proteins rose by only \DosageFrac\% of the 1.5-fold expectation,
-while chromosome-21 genes that are not triplicated did not change. (Q2) Saline-treated Ts65Dn
+\GroupedBA. (Q1) Across six selected proteins, the mean log$_2$ difference was
+\DosageFrac\% of the simple 1.5-fold expectation on the log$_2$ scale.
+(Q2) Saline-treated Ts65Dn
 mice showed \LearnRelTsSal{} times the control protein response to learning (95\% CI
-\LearnRelTsSalCI; $p = \LearnAttP$), and memantine restored it to \LearnRelTsMem{}
-($p = \LearnResP$). (Q3) Memantine moved Ts65Dn mice \RescueFrac\% of the way back toward
-controls ($p = \RescueP$) but shifted control mice in the same direction. (Q4) We found no
-evidence of network rewiring ($p = \NetP$).
-\textbf{Conclusion.} Analysed as an experiment, the dataset shows attenuated gene dosage and a
-weakened, drug-restorable response to learning in the trisomic cortex. Memantine partly offsets
-trisomy rather than selectively repairing it.
+\LearnRelTsSalCI; $p = \LearnAttP$), while the treated estimate was \LearnRelTsMem{}
+($p = \LearnResP$ for the specified contrast). (Q3) The estimated shift toward controls was
+\RescueFrac\% of the signature gap, with wide uncertainty (\RescueFracCI).
+(Q4) This analysis detected no covariance difference ($p = \NetP$).
+\textbf{Conclusion.} The data suggest attenuated measured dosage and a weaker
+conditioning-associated signature in untreated trisomic mice. Complete restoration,
+drug specificity and covariance equivalence are not established.
 \end{abstract}
 
 \begin{figure}[h]
@@ -219,6 +220,15 @@ of the same mouse in training and test sets.}
 \textit{Question: do three gene copies give 1.5 times as much protein? Answer: the increase is
 about a quarter of that, and it tracks copy number.}
 
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{../results/mechanisms/figures/workflows/wf_q1_dosage.pdf}
+\caption{\textbf{Workflow for Q1 (gene dosage).} Each step shows its
+defining equation; the last step states the result. Schematic; numbers are generated from the
+results.}
+\label{fig:wfq1}
+\end{figure}
+
 Under strict gene dosage, proteins encoded in the triplicated segment would be 1.5-fold
 (\DosageExpected{} log$_2$ units) higher in Ts65Dn mice. Averaged over the six measured
 triplicated proteins and all \NMice{} mice, the increase was \DosageTri{} log$_2$ units (95\%
@@ -252,9 +262,18 @@ memantine (replication). Dashed line: identity.
 \label{fig:dosage}
 \end{figure}
 
-\subsection{Q2. Trisomy weakens the response to learning; memantine restores it}
+\subsection{Q2. Trisomy and treatment alter a conditioning-associated signature}
 \textit{Question: does trisomy change the protein response to learning? Answer: the response
-points in the same direction but is about a third smaller, and memantine restores its size.}
+projects less strongly in untreated trisomic mice; the treated estimate is near control.}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{../results/mechanisms/figures/workflows/wf_q2_learning.pdf}
+\caption{\textbf{Workflow for Q2 (the learning response).} Each step shows its
+defining equation; the last step states the result. Schematic; numbers are generated from the
+results.}
+\label{fig:wfq2}
+\end{figure}
 
 Conditioning order is the strongest experimental signal in the data: \NCond{} of \NUnique{}
 proteins differ between CS and SC at FDR 5\%, against \NGeno{} for genotype and \NTreat{} for
@@ -267,7 +286,7 @@ All four arms separated CS from SC along this axis (\figref{fig:learning}a), but
 amounts. Relative to control-saline mice, the response was \LearnRelTsSal{} in saline-treated
 Ts65Dn mice (95\% CI \LearnRelTsSalCI; permutation $p = \LearnAttP$ for the difference),
 \LearnRelTsMem{} in memantine-treated Ts65Dn mice (\LearnRelTsMemCI; $p = \LearnResP$ for the
-restoration) and \LearnRelCtrlMem{} in memantine-treated controls (\LearnRelCtrlMemCI;
+specified contrast) and \LearnRelCtrlMem{} in memantine-treated controls (\LearnRelCtrlMemCI;
 \figref{fig:learning}b). The direction of the response was preserved: noise-corrected cosine
 similarities with the control-saline response were \CosTsSal{} (Ts65Dn saline; \CosTsSalCI),
 \CosTsMem{} (Ts65Dn memantine) and \CosCtrlMem{} (control memantine; \figref{fig:learning}c).
@@ -276,8 +295,9 @@ differences, from \NLearnCS{} in control-saline mice to \NLearnTS{} in Ts65Dn-sa
 \NLearnTM{} in Ts65Dn-memantine mice (FDR 5\%), although per-protein counts conflate effect size
 with power.
 
-Thus saline-treated Ts65Dn mice mount a weaker version of the same molecular response to
-conditioning, and memantine restores its magnitude. This matches the behavioural phenotype
+Thus saline-treated Ts65Dn mice show a weaker projection on this control-defined axis,
+while the treated estimate is near the control reference. This does not establish the same
+protein response or equivalence between groups. The pattern is consistent with the behavioural phenotype
 reported for these animals: Ts65Dn mice failed context fear conditioning and memantine rescued
 it \cite{costa2008, ahmed2015}. The workbook does not contain individual behavioural scores, so
 the link to learning is at the level of groups, not individual mice.
@@ -301,6 +321,15 @@ for sampling noise.
 \subsection{Q3. Memantine moves Ts65Dn mice toward control, but not selectively}
 \textit{Question: does memantine reverse the trisomic profile? Answer: partly, but it moves
 control mice the same way, so it is not a trisomy-specific repair.}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{../results/mechanisms/figures/workflows/wf_q3_rescue.pdf}
+\caption{\textbf{Workflow for Q3 (memantine rescue).} Each step shows its
+defining equation; the last step states the result. Schematic; numbers are generated from the
+results.}
+\label{fig:wfq3}
+\end{figure}
 
 The trisomy axis was defined as the Ts65Dn$-$control difference among saline mice, averaged over
 conditioning. Saline Ts65Dn mice lay well above saline controls on this axis, and memantine moved
@@ -380,6 +409,15 @@ Benjamini--Hochberg $q$ within each contrast.}
 \textit{Question: do proteins co-vary differently in trisomic mice? Answer: we found no
 evidence, although only large changes were detectable.}
 
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{../results/mechanisms/figures/workflows/wf_q4_network.pdf}
+\caption{\textbf{Workflow for Q4 (network rewiring).} Each step shows its
+defining equation; the last step states the result. Schematic; numbers are generated from the
+results.}
+\label{fig:wfq4}
+\end{figure}
+
 Trisomy could change how proteins co-vary without changing their means. After removing the eight
 cell means, residual correlation matrices were similar in the two genotypes
 (\figref{fig:network}a). The root-mean-square difference of Fisher-transformed correlations
@@ -423,33 +461,16 @@ three-way interactions are in within-cell SD units. Shaded band: cell sizes in t
 \label{fig:power}
 \end{figure}
 
-\subsection{Can the best prediction scores be trusted?}
-\textit{Question: do pretrained models score well because they learn from the data, or because
-they may have seen this public dataset before? Answer: after hiding the dataset's identity,
-\MemAnswer.}
-
-Table~\ref{tab:validation} reports eight-group prediction for held-out mice. Among models
-trained on this dataset alone, elastic net reached \ElasticBA. Two pretrained tabular foundation
-models scored higher (TabPFN v2 \cite{hollmann2025}: \TabpfnBA; Kumo Tabular Small: \KumoBA).
-Because the dataset is public, it may have been part of their pretraining data. We therefore
-re-scored each model after renaming, reordering and affinely rescaling every protein, which
-removes the dataset's identifiable features without changing its information content. Before
-running the test we fixed the decision rule: a mean drop in balanced accuracy greater than 0.05
-that appears for all three obfuscation keys would count as evidence of reliance on dataset
-identity (\texttt{docs/analysis\_decisions.md}).
-
-Logistic regression, the positive control, was exactly invariant (\MemLogisticOrig{} versus
-\MemLogisticObf). TabPFN scored \MemTabpfnOrig{} on the original data and \MemTabpfnObf{} on
-obfuscated data (mean change \MemTabpfnDrop; verdict: \MemTabpfnVerdict). Kumo scored
-\MemKumoOrig{} and \MemKumoObf{} (change \MemKumoDrop; verdict: \MemKumoVerdict). The test
-detects reliance on names, column order and exact values. It cannot exclude a model that has
-memorised the relationships in the data, so it reduces rather than removes concerns about
-contamination.
+\subsection{Prediction from held-out mice}
+Table~\ref{tab:validation} summarises the leakage audit: with whole mice held out, logistic
+regression and random forests reach similar accuracy, far below the near-perfect scores of
+random row splits. A separate study in this repository (\texttt{foundation\_models/}) compares
+pretrained tabular foundation models with tuned conventional models on these data.
 
 \begin{table}[t]
 \centering
-\caption{\textbf{Eight-group balanced accuracy.} Mean and SD over five repeats of five-fold
-cross-validation. $^\dagger$Pretrained models; see the obfuscation test in the text.}
+\caption{\textbf{Eight-group balanced accuracy under three validation designs.} Mean and SD
+over five repeats of five-fold cross-validation.}
 \label{tab:validation}
 \small
 \input{generated/validation_table.tex}
@@ -461,22 +482,21 @@ cross-validation. $^\dagger$Pretrained models; see the obfuscation test in the t
 We set out to answer four questions that the usual benchmark use of this dataset leaves open.
 Analysed as an experiment, with the mouse as the unit, the data give the following answers.
 \begin{enumerate}[label=\textbf{Q\arabic*.}, leftmargin=2.6em]
-\item \textbf{Gene dosage.} Triplicated genes raise measured protein, but only to about a
-  quarter of the 1.5-fold expectation. The two chromosome-21 genes that are not triplicated do
-  not change, so the increase follows copy number.
-\item \textbf{Learning.} Trisomy reduces the size, but not the direction, of the cortical
-  protein response to learning, and memantine restores its size.
-\item \textbf{Rescue.} Memantine moves trisomic mice toward controls but moves control mice in
-  the same direction, and most of its effect lies off the trisomy axis. It partly offsets
-  trisomy rather than selectively repairing it.
-\item \textbf{Networks.} We found no evidence that trisomy changes how proteins co-vary, but
-  only large changes were detectable with these sample sizes.
+\item \textbf{Gene dosage.} Six selected triplicated-gene proteins show a mean log$_2$
+  difference smaller than the simple dosage expectation; this does not describe all genes.
+\item \textbf{Conditioning.} Untreated trisomic mice project less strongly on a control-defined
+  conditioning axis. The treated estimate is near control, without proving restoration.
+\item \textbf{Rescue.} The signature shift toward controls has wide uncertainty and does not
+  establish a genotype-specific drug effect.
+\item \textbf{Networks.} No covariance difference was detected; modest changes remain possible.
 \end{enumerate}
 
 The answer to Q2 is the most biologically specific. It links a molecular measure to the
 known behavioural phenotype without using behavioural data, and it is robust to the choice of
-estimator: projections are leave-one-out, the reference arm is not compared with itself, and
-inference uses permutations that recompute the whole pipeline. The effect is moderate, however
+estimator: projections use leave-one-out axes and the reference arm is not compared with itself.
+However, label-dependent pooled standardization uses all mice and is held fixed in resampling,
+so the scores are not fully out-of-sample and the permutation inference is conditional on
+observed scaling. The effect is moderate
 (attenuation $p = \LearnAttP$; the upper confidence limit of the relative response is near 1),
 and should be treated as a well-motivated hypothesis for replication rather than an
 established fact.
@@ -564,10 +584,8 @@ per genotype.
 non-central $t$ distribution with non-centrality $L/(\sigma\sqrt{\sum w_c^2/n})$ and pooled
 residual degrees of freedom; it agrees with Monte Carlo simulation in the test suite.
 
-\paragraph{Prediction and obfuscation} Prediction results use five repeats of five-fold
-cross-validation stratified on the eight groups, with all preprocessing fitted inside training
-folds. The obfuscation protocol replaces names with tokens, permutes columns and applies a random
-positive affine map to each feature.
+\paragraph{Prediction} Prediction results use five repeats of five-fold cross-validation
+stratified on the eight groups, with all preprocessing fitted inside training folds.
 
 \paragraph{Software and reproducibility} Analyses used Python \PyVersion{} with scikit-learn
 \SklearnVersion, NumPy, pandas, SciPy and statsmodels; the random seed is \Seed. Tests check data
@@ -620,8 +638,6 @@ powerful approach to multiple testing. \emph{J. R. Stat. Soc. B} 57, 289--300 (1
 \bibitem{fuller1987} Fuller WA. \emph{Measurement Error Models}. Wiley (1987).
 \bibitem{efron1993} Efron B, Tibshirani RJ. \emph{An Introduction to the Bootstrap}. Chapman \&
 Hall (1993).
-\bibitem{hollmann2025} Hollmann N, M\"uller S, Purucker L, et al. Accurate predictions on small
-data with a tabular foundation model. \emph{Nature} 637, 319--326 (2025).
 \end{thebibliography}
 \endgroup
 
@@ -640,14 +656,6 @@ Kruskal--Wallis test of the per-mouse missing fraction across cells.}
 \label{fig:missing}
 \end{figure}
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.55\linewidth]{../results/mechanisms/figures/figS2_obfuscation.pdf}
-\caption{\textbf{Memorisation test.} Eight-group balanced accuracy for each of five
-cross-validation repeats on the original mouse-mean data and after three independent
-obfuscations (renamed, reordered, affinely rescaled), on identical folds. Bars: means. The
-decision rule (drop $>0.05$ for every key) was fixed before the foundation models were run.}
-\label{fig:obfuscation}
-\end{figure}
+
 
 \end{document}

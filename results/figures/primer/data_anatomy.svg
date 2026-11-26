@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="527.380157pt" height="218.40378pt" viewBox="0 0 527.380157 218.40378" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-25T17:01:22.537972</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 218.40378 
+L 527.380157 218.40378 
+L 527.380157 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 19.882205 60.95622 
+L 497.12315 60.95622 
+" clip-path="url(#p2260411a1d)" style="fill: none; stroke: #d9dde0; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 14.694803 153.252283 
+L 14.694803 64.102677 
+" clip-path="url(#p2260411a1d)" style="fill: none; stroke: #e33d3f; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 68.297953 42.07748 
+L 293.085354 42.07748 
+" clip-path="url(#p2260411a1d)" style="fill: none; stroke: #2457d6; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 310.376693 42.07748 
+L 486.748346 42.07748 
+" clip-path="url(#p2260411a1d)" style="fill: none; stroke: #161b1f; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 600; font-size: 9.5px; font-family: 'Fraunces'; text-anchor: start; fill: #161b1f" x="12.101102" y="24.099189" transform="rotate(-0 12.101102 24.099189)">What the data table looks like (real rows)</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 600; font-size: 6.4px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="35.444409" y="54.663307" transform="rotate(-0 35.444409 54.663307)">MouseID</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 600; font-size: 6.4px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="83.860157" y="54.663307" transform="rotate(-0 83.860157 54.663307)">DYRK1A</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 600; font-size: 6.4px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="132.275906" y="54.663307" transform="rotate(-0 132.275906 54.663307)">ITSN1</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 600; font-size: 6.4px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="180.691654" y="54.663307" transform="rotate(-0 180.691654 54.663307)">BDNF</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 600; font-size: 6.4px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="229.107402" y="54.663307" transform="rotate(-0 229.107402 54.663307)">…</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 600; font-size: 6.4px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="277.52315" y="54.663307" transform="rotate(-0 277.52315 54.663307)">CaNA</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 600; font-size: 6.4px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="325.938898" y="54.663307" transform="rotate(-0 325.938898 54.663307)">Genotype</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 600; font-size: 6.4px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="374.354646" y="54.663307" transform="rotate(-0 374.354646 54.663307)">Treatment</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 600; font-size: 6.4px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="422.770394" y="54.663307" transform="rotate(-0 422.770394 54.663307)">Behavior</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 600; font-size: 6.4px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="471.186142" y="54.663307" transform="rotate(-0 471.186142 54.663307)">class</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="35.444409" y="70.395591" transform="rotate(-0 35.444409 70.395591)">309_1</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="83.860157" y="70.395591" transform="rotate(-0 83.860157 70.395591)">0.504</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="132.275906" y="70.395591" transform="rotate(-0 132.275906 70.395591)">0.747</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="180.691654" y="70.395591" transform="rotate(-0 180.691654 70.395591)">0.430</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="229.107402" y="70.395591" transform="rotate(-0 229.107402 70.395591)">…</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="277.52315" y="70.395591" transform="rotate(-0 277.52315 70.395591)">1.676</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="325.938898" y="70.395591" transform="rotate(-0 325.938898 70.395591)">Control</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="374.354646" y="70.395591" transform="rotate(-0 374.354646 70.395591)">Memantine</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="422.770394" y="70.395591" transform="rotate(-0 422.770394 70.395591)">C/S</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="471.186142" y="70.395591" transform="rotate(-0 471.186142 70.395591)">c-CS-m</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="35.444409" y="86.127874" transform="rotate(-0 35.444409 86.127874)">309_2</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="83.860157" y="86.127874" transform="rotate(-0 83.860157 86.127874)">0.515</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="132.275906" y="86.127874" transform="rotate(-0 132.275906 86.127874)">0.689</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="180.691654" y="86.127874" transform="rotate(-0 180.691654 86.127874)">0.412</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="229.107402" y="86.127874" transform="rotate(-0 229.107402 86.127874)">…</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="277.52315" y="86.127874" transform="rotate(-0 277.52315 86.127874)">1.744</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="325.938898" y="86.127874" transform="rotate(-0 325.938898 86.127874)">Control</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="374.354646" y="86.127874" transform="rotate(-0 374.354646 86.127874)">Memantine</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="422.770394" y="86.127874" transform="rotate(-0 422.770394 86.127874)">C/S</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="471.186142" y="86.127874" transform="rotate(-0 471.186142 86.127874)">c-CS-m</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="35.444409" y="101.860157" transform="rotate(-0 35.444409 101.860157)">309_3</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="83.860157" y="101.860157" transform="rotate(-0 83.860157 101.860157)">0.509</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="132.275906" y="101.860157" transform="rotate(-0 132.275906 101.860157)">0.730</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="180.691654" y="101.860157" transform="rotate(-0 180.691654 101.860157)">0.418</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="229.107402" y="101.860157" transform="rotate(-0 229.107402 101.860157)">…</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="277.52315" y="101.860157" transform="rotate(-0 277.52315 101.860157)">1.926</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="325.938898" y="101.860157" transform="rotate(-0 325.938898 101.860157)">Control</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="374.354646" y="101.860157" transform="rotate(-0 374.354646 101.860157)">Memantine</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="422.770394" y="101.860157" transform="rotate(-0 422.770394 101.860157)">C/S</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="471.186142" y="101.860157" transform="rotate(-0 471.186142 101.860157)">c-CS-m</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="35.444409" y="117.592441" transform="rotate(-0 35.444409 117.592441)">309_4</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="83.860157" y="117.592441" transform="rotate(-0 83.860157 117.592441)">0.442</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="132.275906" y="117.592441" transform="rotate(-0 132.275906 117.592441)">0.617</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="180.691654" y="117.592441" transform="rotate(-0 180.691654 117.592441)">0.359</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="229.107402" y="117.592441" transform="rotate(-0 229.107402 117.592441)">…</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="277.52315" y="117.592441" transform="rotate(-0 277.52315 117.592441)">1.701</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="325.938898" y="117.592441" transform="rotate(-0 325.938898 117.592441)">Control</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="374.354646" y="117.592441" transform="rotate(-0 374.354646 117.592441)">Memantine</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="422.770394" y="117.592441" transform="rotate(-0 422.770394 117.592441)">C/S</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="471.186142" y="117.592441" transform="rotate(-0 471.186142 117.592441)">c-CS-m</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(37.684409 134.438962) rotate(-90)">…</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(86.100157 134.438962) rotate(-90)">…</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(134.515906 134.438962) rotate(-90)">…</text>
+   </g>
+   <g id="text_55">
+    <text style="font-size: 8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(182.931654 134.438962) rotate(-90)">…</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(231.347402 134.438962) rotate(-90)">…</text>
+   </g>
+   <g id="text_57">
+    <text style="font-size: 8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(279.76315 134.438962) rotate(-90)">…</text>
+   </g>
+   <g id="text_58">
+    <text style="font-size: 8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(328.178898 134.438962) rotate(-90)">…</text>
+   </g>
+   <g id="text_59">
+    <text style="font-size: 8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(376.594646 134.438962) rotate(-90)">…</text>
+   </g>
+   <g id="text_60">
+    <text style="font-size: 8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(425.010394 134.438962) rotate(-90)">…</text>
+   </g>
+   <g id="text_61">
+    <text style="font-size: 8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(473.426142 134.438962) rotate(-90)">…</text>
+   </g>
+   <g id="text_62">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="35.444409" y="149.057008" transform="rotate(-0 35.444409 149.057008)">309_15</text>
+   </g>
+   <g id="text_63">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="83.860157" y="149.057008" transform="rotate(-0 83.860157 149.057008)">0.374</text>
+   </g>
+   <g id="text_64">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="132.275906" y="149.057008" transform="rotate(-0 132.275906 149.057008)">0.462</text>
+   </g>
+   <g id="text_65">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="180.691654" y="149.057008" transform="rotate(-0 180.691654 149.057008)">0.345</text>
+   </g>
+   <g id="text_66">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="229.107402" y="149.057008" transform="rotate(-0 229.107402 149.057008)">…</text>
+   </g>
+   <g id="text_67">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="277.52315" y="149.057008" transform="rotate(-0 277.52315 149.057008)">1.614</text>
+   </g>
+   <g id="text_68">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="325.938898" y="149.057008" transform="rotate(-0 325.938898 149.057008)">Control</text>
+   </g>
+   <g id="text_69">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="374.354646" y="149.057008" transform="rotate(-0 374.354646 149.057008)">Memantine</text>
+   </g>
+   <g id="text_70">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="422.770394" y="149.057008" transform="rotate(-0 422.770394 149.057008)">C/S</text>
+   </g>
+   <g id="text_71">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="471.186142" y="149.057008" transform="rotate(-0 471.186142 149.057008)">c-CS-m</text>
+   </g>
+   <g id="text_72">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #e33d3f" transform="translate(9.180882 138.523699) rotate(-90)">15 rows = one mouse</text>
+   </g>
+   <g id="text_73">
+    <text style="font-size: 6.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #2457d6" x="180.691654" y="37.882205" transform="rotate(-0 180.691654 37.882205)">77 protein columns</text>
+   </g>
+   <g id="text_74">
+    <text style="font-size: 6.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="398.56252" y="37.882205" transform="rotate(-0 398.56252 37.882205)">experimental labels</text>
+   </g>
+   <g id="text_75">
+    <text style="font-size: 6.6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="19.882205" y="201.497953" transform="rotate(-0 19.882205 201.497953)">1,080 rows in total = 72 mice × 15 readings. The MouseID suffix (_1 … _15) numbers the readings of one mouse.</text>
+   </g>
+   <g id="text_76">
+    <text style="font-size: 5px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #5b6670" x="515.279055" y="211.986142" transform="rotate(-0 515.279055 211.986142)">DATA · UCI Mice Protein Expression workbook</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p2260411a1d">
+   <rect x="4.32" y="4.32" width="518.740157" height="209.76378"/>
+  </clipPath>
+ </defs>
+</svg>

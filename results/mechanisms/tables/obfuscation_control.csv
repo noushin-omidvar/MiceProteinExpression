@@ -1,9 +1,0 @@
-model,version,balanced_accuracy
-logistic,original,0.5775396825396826
-logistic,obfuscated_0,0.5775396825396826
-logistic,obfuscated_1,0.5775396825396826
-logistic,obfuscated_2,0.5775396825396826
-random_forest,original,0.513452380952381
-random_forest,obfuscated_0,0.529047619047619
-random_forest,obfuscated_1,0.5266666666666666
-random_forest,obfuscated_2,0.5253174603174603

@@ -61,24 +61,6 @@ def latex_escape(text: str) -> str:
             .replace("×", r"$\times$"))
 
 
-MEMORIZATION_THRESHOLD = 0.05  # pre-specified in docs/analysis_decisions.md
-
-
-def memorization(model: str) -> dict[str, str]:
-    """Original vs obfuscated balanced accuracy and the pre-specified verdict."""
-    path = RES / f"metrics/memorization_{model}.csv"
-    if not path.exists():
-        return {"Orig": "--", "Obf": "--", "Drop": "--", "Verdict": "not run"}
-    table = pd.read_csv(path)
-    wide = table.pivot(index="repeat", columns="version", values="balanced_accuracy")
-    obf = wide.drop(columns="original")
-    drops = obf.rsub(wide["original"], axis=0)
-    flagged = drops.to_numpy().mean() > MEMORIZATION_THRESHOLD and (drops.mean() > 0).all()
-    return {"Orig": f"{wide['original'].mean():.3f}", "Obf": f"{obf.to_numpy().mean():.3f}",
-            "Drop": f"{drops.to_numpy().mean():+.3f}",
-            "Verdict": "possible memorisation" if flagged else "no evidence of memorisation"}
-
-
 def values(summary: dict) -> dict[str, str]:
     """Map macro names (letters only) to formatted values."""
     d, q = summary["data"], summary["qc"]
@@ -87,11 +69,6 @@ def values(summary: dict) -> dict[str, str]:
     pc = summary["protein_contrasts"]
 
     model_summary = pd.read_csv(RES / "metrics/model_summary.csv").set_index(["design", "model"])
-    bench = pd.read_csv(RES / "metrics/mouse_model_benchmark.csv")
-    bench = bench[bench.target == "class"].groupby("model").balanced_accuracy.mean()
-    kumo = pd.read_csv(RES / "metrics/kumo_mouse_benchmark.csv").balanced_accuracy.mean()
-    tabpfn = pd.read_csv(RES / "metrics/tabpfn_mouse_benchmark.csv").balanced_accuracy.mean()
-    obf = pd.DataFrame(summary["obfuscation"])
 
     per = dos["per_protein"]
     v = {
@@ -107,8 +84,6 @@ def values(summary: dict) -> dict[str, str]:
         "GroupedBA": f"{model_summary.loc[('grouped_animal', 'logistic'), 'balanced_accuracy_mean']:.3f}",
         "GroupedRFBA": f"{model_summary.loc[('grouped_animal', 'random_forest'), 'balanced_accuracy_mean']:.3f}",
         "MouseMeanBA": f"{model_summary.loc[('mouse_mean', 'logistic'), 'balanced_accuracy_mean']:.3f}",
-        "ElasticBA": f"{bench['elastic_net_mean']:.3f}", "LogisticBA": f"{bench['logistic_mean']:.3f}",
-        "KumoBA": f"{kumo:.3f}", "TabpfnBA": f"{tabpfn:.3f}",
         "NCond": str(pc["Conditioning"]), "NGeno": str(pc["Genotype"]), "NTreat": str(pc["Treatment"]),
         "NGxC": str(pc["Genotype×Conditioning"]), "NGxT": str(pc["Genotype×Treatment"]),
         "NGxCxT": str(pc["Genotype×Conditioning×Treatment"]),
@@ -167,11 +142,6 @@ def values(summary: dict) -> dict[str, str]:
         "PowThreeOneNine": pct(pw["Protein 3-way interaction, 1 SD"]["power_at_9"]),
         "NThreeOne": str(pw["Protein 3-way interaction, 1 SD"]["n_for_80"]),
         "NThreeTwo": str(pw["Protein 3-way interaction, 2 SD"]["n_for_80"]),
-        "ObfLog": f"{obf[(obf.model == 'logistic') & ~obf.obfuscated]['mean'].iloc[0]:.3f}",
-        "ObfLogObf": f"{obf[(obf.model == 'logistic') & obf.obfuscated]['mean'].iloc[0]:.3f}",
-        "ObfRF": f"{obf[(obf.model == 'random_forest') & ~obf.obfuscated]['mean'].iloc[0]:.3f}",
-        "ObfRFObfMin": f"{obf[(obf.model == 'random_forest') & obf.obfuscated]['min'].iloc[0]:.3f}",
-        "ObfRFObfMax": f"{obf[(obf.model == 'random_forest') & obf.obfuscated]['max'].iloc[0]:.3f}",
         "NBoot": f"{summary['provenance']['config']['n_bootstrap']:,}".replace(",", "{,}"),
         "NPerm": f"{summary['provenance']['config']['n_permutations']:,}".replace(",", "{,}"),
         "NNetPerm": f"{summary['provenance']['config']['n_network_permutations']:,}".replace(",", "{,}"),
@@ -179,15 +149,6 @@ def values(summary: dict) -> dict[str, str]:
         "PyVersion": summary["provenance"]["python"],
         "SklearnVersion": summary["provenance"]["scikit_learn"],
     }
-    for model, prefix in (("logistic", "MemLogistic"), ("tabpfn", "MemTabpfn"), ("kumo", "MemKumo")):
-        v.update({prefix + k: x for k, x in memorization(model).items()})
-    verdicts = {v["MemTabpfnVerdict"], v["MemKumoVerdict"]}
-    if verdicts == {"no evidence of memorisation"}:
-        v["MemAnswer"] = "neither model lost accuracy beyond the pre-specified threshold"
-    elif "not run" in verdicts:
-        v["MemAnswer"] = "the test has not been run for every model yet"
-    else:
-        v["MemAnswer"] = "at least one model lost accuracy beyond the pre-specified threshold"
     loads = list(L["top_loadings"].items())[:6]
     v["LearnTopProteins"] = ", ".join(display(p) for p, _ in loads)
     return v
@@ -215,28 +176,19 @@ def pathway_table(summary: dict) -> str:
 
 def validation_table() -> str:
     ms = pd.read_csv(RES / "metrics/model_summary.csv").set_index(["design", "model"])
-    bench = pd.read_csv(RES / "metrics/mouse_model_benchmark.csv")
-    bench = bench[bench.target == "class"].groupby("model").balanced_accuracy.agg(["mean", "std"])
-    kumo = pd.read_csv(RES / "metrics/kumo_mouse_benchmark.csv").balanced_accuracy
-    tabpfn = pd.read_csv(RES / "metrics/tabpfn_mouse_benchmark.csv").balanced_accuracy
     rows = [
         ("Random rows (leaky)", "Logistic", ms.loc[("random_observation", "logistic")]),
+        ("Random rows (leaky)", "Random forest", ms.loc[("random_observation", "random_forest")]),
         ("Held-out mice, 15 rows", "Logistic", ms.loc[("grouped_animal", "logistic")]),
         ("Held-out mice, 15 rows", "Random forest", ms.loc[("grouped_animal", "random_forest")]),
         ("Held-out mice, means", "Logistic", ms.loc[("mouse_mean", "logistic")]),
+        ("Held-out mice, means", "Random forest", ms.loc[("mouse_mean", "random_forest")]),
     ]
     lines = [r"\begin{tabular}{llrr}", r"\toprule",
              r"Validation & Model & Balanced accuracy & SD \\", r"\midrule"]
     for design, model, row in rows:
         lines.append(f"{design} & {model} & {row.balanced_accuracy_mean:.3f} & "
                      f"{row.balanced_accuracy_sd:.3f} \\\\")
-    lines.append(r"\midrule")
-    for name, label in (("elastic_net_mean", "Elastic net"), ("rbf_svm_mean", "RBF SVM"),
-                        ("gradient_boosting_mean", "Gradient boosting")):
-        lines.append(f"Held-out mice, means & {label} & {bench.loc[name, 'mean']:.3f} & "
-                     f"{bench.loc[name, 'std']:.3f} \\\\")
-    lines.append(f"Held-out mice, means & TabPFN v2$^\\dagger$ & {tabpfn.mean():.3f} & {tabpfn.std():.3f} \\\\")
-    lines.append(f"Held-out mice, means & Kumo Tabular Small$^\\dagger$ & {kumo.mean():.3f} & {kumo.std():.3f} \\\\")
     lines += [r"Chance & -- & 0.125 & -- \\", r"\bottomrule", r"\end{tabular}"]
     return "\n".join(lines)
 

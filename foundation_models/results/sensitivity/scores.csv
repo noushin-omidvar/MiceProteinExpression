@@ -1,0 +1,17 @@
+version,repeat,model,balanced_accuracy
+arithmetic,0,kumo,0.797420634920635
+arithmetic,0,logistic,0.6311507936507936
+arithmetic,1,kumo,0.8488095238095238
+arithmetic,1,logistic,0.6867063492063492
+geometric,0,kumo,0.8224206349206349
+geometric,0,logistic,0.6311507936507936
+geometric,1,kumo,0.8666666666666667
+geometric,1,logistic,0.6728174603174603
+geometric_no_duplicate_sparse,0,kumo,0.8666666666666667
+geometric_no_duplicate_sparse,0,logistic,0.6325396825396825
+geometric_no_duplicate_sparse,1,kumo,0.8666666666666667
+geometric_no_duplicate_sparse,1,logistic,0.7323412698412698
+missingness_only,0,kumo,0.13472222222222222
+missingness_only,0,logistic,0.10952380952380952
+missingness_only,1,kumo,0.12222222222222222
+missingness_only,1,logistic,0.05416666666666667

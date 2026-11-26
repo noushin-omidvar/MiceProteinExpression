@@ -11,13 +11,15 @@ Avoiding self-projection bias
 A mouse used to estimate an axis is biased toward that axis when projected on it.
 Every mouse in a cell that defines the axis is therefore scored on an axis
 re-estimated *without that mouse* (leave-one-out); all other mice are scored
-out-of-sample by construction. Because the leave-one-out cell mean has a closed
-form, this costs a single pass.
+without contributing to that axis. Because the leave-one-out cell mean has a
+closed form, this costs a single pass. Pooled within-cell standardization below
+is fitted once on the full labeled cohort, however, so these projections are
+descriptive and are not fully out-of-sample scores.
 
 Profiles are standardized per protein by the *pooled within-cell standard
 deviation*, so one unit is one SD of biological mouse-to-mouse variability within
 an experimental cell, and the grand mean is zero. The handful of missing mouse
-means (2 of 5,040 in the analysis panel) are set to that zero, a label-free choice.
+means (2 of 5,040 in the analysis panel) are set to that zero after scaling.
 """
 
 from __future__ import annotations

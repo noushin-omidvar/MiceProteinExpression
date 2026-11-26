@@ -15,9 +15,9 @@ data by one command.
 
 | If you want | Read |
 |---|---|
-| The story in plain language | [`report/study_report.md`](report/study_report.md) ([PDF](report/study_report.pdf)) |
-| The full scientific paper, with methods | [`paper/main.pdf`](paper/main.pdf) |
-| A talk with speaker notes (16 slides) | [`presentation/presentation.pptx`](presentation/presentation.pptx) ([PDF](presentation/presentation.pdf)) |
+| The story in plain language | [`report/study_report.md`](report/study_report.md) ([archived PDF](report/study_report.pdf)) |
+| The full scientific paper, with methods | [Manuscript source](paper/main.tex) ([archived PDF](paper/main.pdf)) |
+| A talk with speaker notes (18 slides) | [`presentation/presentation.pptx`](presentation/presentation.pptx) ([PDF](presentation/presentation.pdf)) |
 | A hands-on tour of the code | [`notebooks/walkthrough.ipynb`](notebooks/walkthrough.ipynb) |
 | Why each statistical choice was made | [`docs/analysis_decisions.md`](docs/analysis_decisions.md) |
 
@@ -52,18 +52,14 @@ measured in the cortex, 15 times per mouse.
 
 | | Question | Answer |
 |---|---|---|
-| **Q1** | Do three gene copies give 1.5 times as much protein? | **No, only about 23% of that increase.** Chromosome-21 genes that are not triplicated do not change, so the effect follows copy number. |
-| **Q2** | Does trisomy change the brain's protein response to learning? | **Yes, it weakens it to 0.67× (p = 0.031), and memantine restores it to 1.04× (p = 0.004).** The same proteins respond in every group; only the size changes. |
-| **Q3** | Does memantine move the trisomic brain back toward normal? | **Partly.** It closes 64% of the trisomy gap (p = 0.019), but moves normal mice the same way, so it is not a targeted repair. |
-| **Q4** | Does trisomy change how proteins co-vary? | **No evidence (p = 0.15)**, though only large changes were detectable with these group sizes. |
+| **Q1** | Do three gene copies give 1.5 times as much measured protein? | Across six selected proteins, the mean log₂ difference was about 23% of the simple 1.5-fold expectation **on the log₂ scale**; observed expression was about 1.10-fold. This does not describe all triplicated genes. |
+| **Q2** | Does trisomy change the conditioning-associated protein signature? | The untreated trisomic estimate was 0.67 times the control reference; the treated estimate was 1.04 times that reference. The latter does not establish equivalence or complete restoration. |
+| **Q3** | Does memantine move the trisomic signature toward control? | The estimated gap closure was 64%, with a wide bootstrap interval from −1.4% to 170.6%. Magnitude and specificity remain uncertain. |
+| **Q4** | Does trisomy change how proteins co-vary? | This analysis detected no difference (p = 0.15); it had limited power for modest changes. |
 
-Two further results support these answers:
-
-- **Counting rows as mice inflates accuracy.** Eight-group balanced accuracy is 0.994 with
-  random row splits and 0.602 when whole mice are held out (chance: 0.125).
-- **The best prediction scores are not explained by memorisation.** Pretrained models score
-  highest (Kumo 0.828, TabPFN 0.730). Hiding the dataset's identity left both unchanged under a
-  decision rule fixed in advance.
+One methodological result supports these answers: **counting rows as mice inflates
+accuracy.** Eight-group balanced accuracy is 0.994 with random row splits and 0.602 when whole
+mice are held out (chance: 0.125).
 
 Exact estimates, intervals and tests are in
 [`results/mechanisms/summary.json`](results/mechanisms/summary.json). They come from one
@@ -90,8 +86,9 @@ Four rules keep the analysis honest:
 1. **The mouse is the unit.** Each mouse's 15 measurements are averaged into one value per protein.
 2. **Signatures, not 77 separate tests.** Proteins are combined into one score per mouse for each
    effect, which is far more reliable with 7–10 mice per group.
-3. **No mouse scores itself.** A mouse is scored on a signature rebuilt without it, and rescue
-   is measured in separate mice to avoid regression to the mean.
+3. **Axes omit the scored mouse.** Signature axes are rebuilt without the scored mouse, and
+   rescue uses separate mice. The pooled label-dependent standardization still uses all mice,
+   so these scores are not fully out-of-sample.
 4. **Uncertainty from the design.** Mice are re-drawn within groups (bootstrap), and labels are
    shuffled only in ways the design allows (permutation tests).
 
@@ -110,18 +107,19 @@ The main analysis takes about two minutes (4,000 bootstrap resamples and 5,000 p
 test). All settings, including the random seed, are in
 [`configs/mechanisms.yaml`](configs/mechanisms.yaml), and results are identical across runs.
 
-The pretrained models (TabPFN, Kumo) need PyTorch, so they run in a separate environment:
+## A second study: tabular foundation models
 
-```bash
-make foundation-install   # creates .venv-foundation (large download)
-make memorization         # original vs identity-hidden data, pre-specified decision rule
-make foundation PYTHON=.venv-foundation/bin/python   # full prediction benchmark
-```
+[`foundation_models/`](foundation_models/) is a separate study on the same data. It compares
+specified TabPFN v2 and NVIDIA Kumo Tabular Small checkpoints with conventional models,
+then tests how the comparison changes when independent training mice are scarce. Its
+[README](foundation_models/README.md) distinguishes the original committed protocol from
+later exploratory analyses and records the remaining baseline and validation gaps.
 
 ## Project layout
 
 ```text
 Data/                 Raw UCI workbook and its provenance
+foundation_models/    Separate study: tabular foundation models vs conventional models
 src/mice_protein/     Library: data checks, contrasts, signatures, dosage, pathways,
                       networks, quality control, power, obfuscation, plotting style
 scripts/              Pipelines: analysis → figures → paper, report, slides

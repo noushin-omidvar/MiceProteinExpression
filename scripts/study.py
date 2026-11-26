@@ -1,16 +1,21 @@
 #!/usr/bin/env python3
-"""Decompose joint mouse-group predictions into experimental factors."""
+"""Decompose joint mouse-group predictions into experimental factors (logistic regression).
 
-import argparse
+Compares predicting the eight groups jointly with predicting each factor directly, using
+repeated stratified cross-validation on one row per mouse.
+"""
+
 from pathlib import Path
 
 import pandas as pd
-from benchmark_foundation_models import KumoClassifier
-from benchmark_mouse_models import ROOT, SEED, evaluate
 from sklearn.metrics import balanced_accuracy_score, log_loss
 
 from mice_protein.data import aggregate_animals, load_data, protein_columns
+from mice_protein.evaluation import MOUSE_CV_SEED as SEED
+from mice_protein.evaluation import mouse_level_cv
 from mice_protein.models import build_model
+
+ROOT = Path(__file__).resolve().parents[1]
 
 FACTORS = ("Genotype", "Treatment", "Behavior")
 
@@ -35,21 +40,10 @@ def marginalize(joint, mapping):
 
 
 def predict(x, y, strata, model):
-    parts = []
-
-    def save(repeat, fold, test, labels, probabilities):
-        part = pd.DataFrame(probabilities, columns=labels, index=x.index[test])
-        parts.append(part.assign(repeat=repeat, fold=fold, observed=y.iloc[test]))
-
-    list(evaluate(x, y, strata, model, {}, prediction_sink=save))
-    return pd.concat(parts)
+    return mouse_level_cv(x, y, strata, model, seed=SEED)
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--foundation", action="store_true")
-    parser.add_argument("--checkpoint", type=Path)
-    args = parser.parse_args()
     raw = load_data(ROOT / "Data/Raw_Data/Data_Cortex_Nuclear.xls")
     features = protein_columns(raw)
     mice = aggregate_animals(raw).set_index("AnimalID")
@@ -58,20 +52,6 @@ def main():
     missing = raw.set_index("AnimalID")[features].isna().groupby(level=0).mean()
     inputs = {"mean": mice[features], "missingness": missing.reindex(mice.index)}
     models = {"logistic": build_model("logistic", SEED)}
-    if args.foundation:
-        import torch
-        from tabpfn import TabPFNClassifier
-
-        torch.set_num_threads(2)
-        models.update(
-            kumo=KumoClassifier(),
-            tabpfn=TabPFNClassifier(
-                device="cpu",
-                n_estimators=4,
-                random_state=SEED,
-                model_path=args.checkpoint or "auto",
-            ),
-        )
     rows, predictions = [], []
     for name, model in models.items():
         for representation, x in inputs.items():
@@ -124,9 +104,8 @@ def main():
                     }
                 )
     out = ROOT / "results/metrics"
-    suffix = "" if args.foundation else "_core"
-    pd.DataFrame(rows).to_csv(out / f"study{suffix}.csv", index=False)
-    pd.concat(predictions).to_csv(out / f"study_predictions{suffix}.csv", index_label="animal_id")
+    pd.DataFrame(rows).to_csv(out / "study.csv", index=False)
+    pd.concat(predictions).to_csv(out / "study_predictions.csv", index_label="animal_id")
 
 
 if __name__ == "__main__":

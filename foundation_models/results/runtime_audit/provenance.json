@@ -1,0 +1,11 @@
+{
+  "status": "descriptive_single_machine",
+  "outer_split": "repeat 0 fold 0",
+  "n_train": 57,
+  "n_test": 15,
+  "threads": 2,
+  "platform": "macOS-14.3-arm64-arm-64bit",
+  "processor": "arm",
+  "tuned_logistic_search_seconds": 0.07544941699597985,
+  "scope": "warm trials reuse OS and model caches; no monetary or energy cost estimate"
+}

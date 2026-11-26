@@ -17,7 +17,3 @@ fdr: 0.05
 # Power analysis grid (mice per cell)
 power_n_grid: [4, 6, 8, 10, 12, 15, 20, 25, 30, 40]
 power_target: 0.8
-
-# Memorization-protocol positive control (classical model only; see README for
-# running the same protocol with TabPFN/Kumo)
-obfuscation_repeats: 3

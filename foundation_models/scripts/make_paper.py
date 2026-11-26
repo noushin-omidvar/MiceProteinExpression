@@ -14,6 +14,8 @@ import subprocess
 import sys
 from pathlib import Path
 
+import pandas as pd
+
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "scripts"))
 from make_paper import document_author, latex_escape
@@ -110,6 +112,9 @@ def values(S: dict) -> dict[str, str]:
     v["TabpfnVersion"] = str(prov.get("tabpfn", "2.2.1"))
     v["TorchVersion"] = str(prov.get("torch", ""))
     v["DocAuthor"] = latex_escape(document_author())
+    est = pd.read_csv(RES / "estimator_sensitivity/summary.csv", index_col=0)
+    v["EstTabpfnBA"] = f3(est.loc["tabpfn_default", "balanced_accuracy"])
+    v["EstKumoBA"] = f3(est.loc["kumo_default", "balanced_accuracy"])
     return v
 
 

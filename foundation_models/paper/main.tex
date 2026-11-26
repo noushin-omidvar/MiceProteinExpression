@@ -183,7 +183,7 @@ separately is secondary.
 Eight models were compared (Table~\ref{tab:performance}): a class-prior baseline; L2 logistic
 regression; elastic net, RBF support-vector machine and histogram gradient boosting, each tuned
 by three-fold inner cross-validation; a random forest; and the two TFMs, TabPFN v2 and Kumo
-Tabular Small, used with default settings. All models were evaluated on five repeats of five-fold
+Tabular Small, used without tuning and with four inference estimators each. All models were evaluated on five repeats of five-fold
 cross-validation stratified by group, with \emph{identical folds for every model}.
 
 \section{Results}
@@ -194,7 +194,8 @@ below explain each one.
 \begin{table}[h]
 \centering
 \caption{\textbf{Verdicts on the pre-specified hypotheses.} Rules are stated in Methods and were
-fixed before the experiments.}
+fixed before the experiments. H1, H2 and H4c were written knowing an earlier benchmark on the
+same data, so they are informed rather than blind; H3, H4a and H4b were blind.}
 \label{tab:hypotheses}
 \small
 \input{generated/hypothesis_table.tex}
@@ -389,8 +390,10 @@ more context to exploit nonlinear structure remains a hypothesis.
 with a simple, well-regularised baseline using corrected paired tests, assess probability quality, and
 run a contamination check. Each of these steps changed or protected a conclusion here.
 
-\paragraph{Limitations} One dataset, one cohort of male mice, CPU inference, default TFM
-settings, no CatBoost or XGBoost comparison, limited baseline tuning, and no external test set.
+\paragraph{Limitations} One dataset, one cohort of male mice, CPU inference, four inference
+estimators per TFM (half of TabPFN's package default; at package defaults, an exploratory re-run
+gave \EstTabpfnBA{} for TabPFN and \EstKumoBA{} for Kumo, so the conclusions do not depend on this
+choice), no CatBoost or XGBoost comparison, limited baseline tuning, and no external test set.
 The representation-robustness control tests sensitivity to names, order and raw values, but cannot establish
 that the checkpoint never saw the dataset. Repeated cross-validation reuses the same
 72 mice, so intervals describe variation across splits rather than a new population.
@@ -423,7 +426,8 @@ $\alpha = 0.05$.
 
 \paragraph{Learning curves} For $k \in \{2, \dots, 6\}$, $k$ mice per group were drawn at random
 for training and all remaining mice were used for testing (20 draws per $k$, identical across
-models; default settings). H3 holds if the 95\% bootstrap interval of
+models; default settings for the conventional models, four estimators for the foundation
+models). H3 holds if the 95\% bootstrap interval of
 (gap at $k = 2$) $-$ (gap at $k = 6$) lies above zero, where the gap is TFM minus logistic
 regression balanced accuracy.
 

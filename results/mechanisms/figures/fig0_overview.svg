@@ -6,7 +6,6 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-25T17:01:13.714713</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -32,22 +31,22 @@ z
    <g id="line2d_1">
     <path d="M 9.507402 37.849809 
 L 123.630236 37.849809 
-" clip-path="url(#p3fe7955b6f)" style="fill: none; stroke: #d9dde0; stroke-linecap: square"/>
+" clip-path="url(#p0cfcddf1d7)" style="fill: none; stroke: #d9dde0; stroke-linecap: square"/>
    </g>
    <g id="line2d_2">
     <path d="M 134.005039 37.849809 
 L 248.127874 37.849809 
-" clip-path="url(#p3fe7955b6f)" style="fill: none; stroke: #d9dde0; stroke-linecap: square"/>
+" clip-path="url(#p0cfcddf1d7)" style="fill: none; stroke: #d9dde0; stroke-linecap: square"/>
    </g>
    <g id="line2d_3">
     <path d="M 263.690079 37.849809 
 L 383.000315 37.849809 
-" clip-path="url(#p3fe7955b6f)" style="fill: none; stroke: #d9dde0; stroke-linecap: square"/>
+" clip-path="url(#p0cfcddf1d7)" style="fill: none; stroke: #d9dde0; stroke-linecap: square"/>
    </g>
    <g id="line2d_4">
     <path d="M 398.56252 37.849809 
 L 517.872756 37.849809 
-" clip-path="url(#p3fe7955b6f)" style="fill: none; stroke: #d9dde0; stroke-linecap: square"/>
+" clip-path="url(#p0cfcddf1d7)" style="fill: none; stroke: #d9dde0; stroke-linecap: square"/>
    </g>
    <g id="text_1">
     <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: start; fill: #161b1f" x="9.507402" y="29.421213" transform="rotate(-0 9.507402 29.421213)">1  The experiment</text>
@@ -202,7 +201,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p3fe7955b6f">
+  <clipPath id="p0cfcddf1d7">
    <rect x="4.32" y="4.32" width="518.740157" height="260.787402"/>
   </clipPath>
  </defs>

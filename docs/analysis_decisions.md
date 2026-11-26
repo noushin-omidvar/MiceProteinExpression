@@ -56,6 +56,8 @@ manufacturing "rescue". We therefore:
 |---|---|
 | Bootstrap mice within cells (4,000×) | Preserves the design; intervals reflect biological sampling. Percentile intervals for ratios are wide when the denominator is small (e.g. rescue in CS), which is reported rather than hidden. |
 | Permute one factor within strata of the other two, recomputing the whole pipeline (5,000×) | Tests exactly the null of interest and accounts for axis estimation. |
+| Two-sided permutation p-values | The direction of each effect was not fixed before the data were examined, so one-sided tests would overstate the evidence. |
+| Treat all p-values as exploratory | The biology analyses were not pre-registered and are not corrected across questions; they generate hypotheses for replication. |
 
 ## 7. What was deliberately *not* done
 

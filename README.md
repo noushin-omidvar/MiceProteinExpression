@@ -65,6 +65,10 @@ Exact estimates, intervals and tests are in
 [`results/mechanisms/summary.json`](results/mechanisms/summary.json). They come from one
 cohort of male mice and have not been replicated in an independent cohort.
 
+**How strong is the evidence?** These analyses were not pre-registered and are not corrected
+across questions, so all p-values are two-sided and exploratory: they point to hypotheses worth
+replicating, not to settled facts.
+
 ## How the analysis works
 
 ```mermaid
@@ -102,6 +106,10 @@ make install      # create .venv and install the package
 make reproduce    # tests → lint → analyses → figures → paper, report, slides
 make help         # list every target
 ```
+
+Two environments are pinned to exact versions: `requirements/lock-core.txt` for the biology
+study (scikit-learn 1.9.1) and `requirements/lock-foundation.txt` for the foundation-model study
+(scikit-learn 1.6.1 with TabPFN and Kumo). Each study's results come from its own environment.
 
 The main analysis takes about two minutes (4,000 bootstrap resamples and 5,000 permutations per
 test). All settings, including the random seed, are in

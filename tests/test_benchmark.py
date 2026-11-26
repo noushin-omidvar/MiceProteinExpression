@@ -98,3 +98,28 @@ def test_factorized_baseline_returns_normalized_eight_class_probabilities():
     assert probability.shape == (8, 8)
     np.testing.assert_allclose(probability.sum(axis=1), 1)
     assert set(model.predict(x)) <= set(labels)
+
+
+@pytest.mark.parametrize("name", ["kumo", "tabpfn"])
+def test_foundation_model_probability_columns_match_classes(name):
+    """A silent column/class mix-up would corrupt every foundation-model score.
+
+    Three well-separated groups with labels deliberately out of alphabetical order: each test
+    point must receive its own group's label, and the probability column for that label must be
+    the largest.
+    """
+    pytest.importorskip("sdm" if name == "kumo" else "tabpfn")
+    from mice_protein.benchmark import models as M
+
+    rng = np.random.default_rng(0)
+    labels = np.array(["zeta", "alpha", "mid"])
+    centres = {"zeta": 6.0, "alpha": -6.0, "mid": 0.0}
+    y = np.repeat(labels, 12)
+    x = pd.DataFrame(rng.normal(size=(len(y), 4)) * 0.3 + np.array([centres[v] for v in y])[:, None],
+                     columns=[f"p{i}" for i in range(4)])
+    test = pd.DataFrame([[c] * 4 for c in centres.values()], columns=x.columns)
+    model = M.build(name).fit(x, y)
+    proba = model.predict_proba(test)
+    assert list(model.classes_) == sorted(labels)
+    assert [model.classes_[i] for i in proba.argmax(axis=1)] == list(centres)
+    assert list(model.predict(test)) == list(centres)

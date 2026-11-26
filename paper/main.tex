@@ -310,7 +310,7 @@ the link to learning is at the level of groups, not individual mice.
 (within-cell SD units; mice defining the axis are scored on a leave-one-out axis). Bars: cell
 means and 95\% CIs; arrows and numbers: CS$-$SC response of each arm.
 \textbf{b}, Response relative to control saline, with 95\% stratified bootstrap CIs and
-one-sided permutation $p$-values (genotype permuted among saline mice; treatment permuted among
+two-sided permutation $p$-values (genotype permuted among saline mice; treatment permuted among
 Ts65Dn mice; \NPerm{} permutations each, recomputing the axis).
 \textbf{c}, Cosine between each arm's CS$-$SC vector and the control-saline vector, corrected
 for sampling noise.
@@ -497,9 +497,17 @@ estimator: projections use leave-one-out axes and the reference arm is not compa
 However, label-dependent pooled standardization uses all mice and is held fixed in resampling,
 so the scores are not fully out-of-sample and the permutation inference is conditional on
 observed scaling. The effect is moderate
-(attenuation $p = \LearnAttP$; the upper confidence limit of the relative response is near 1),
-and should be treated as a well-motivated hypothesis for replication rather than an
+(two-sided attenuation $p = \LearnAttP$; the upper confidence limit of the relative response
+is near 1), and should be treated as a well-motivated hypothesis for replication rather than an
 established fact.
+
+\paragraph{Status of the statistical evidence} The analyses in this article were not
+pre-registered: questions and estimators were refined while the data were being examined, and
+no correction was applied across the separate analyses (dosage, learning response, rescue,
+pathways, networks). All $p$-values are therefore descriptive and hypothesis-generating. Tests
+are two-sided because the direction of each effect was not fixed in advance. Within the three
+signature tests (attenuation, restoration, rescue shift), all remain below 0.05 after Holm
+adjustment, attenuation only marginally.
 
 \paragraph{Methodological lessons} Three general points emerge. (1) Technical replicates must be
 aggregated or modelled; ignoring them changes accuracy from \GroupedBA{} to \RowBA. (2) Selecting
@@ -568,7 +576,8 @@ rescue through regression to the mean.
 \paragraph{Resampling} Confidence intervals are percentile intervals from \NBoot{} bootstrap
 resamples of mice within cells \cite{efron1993}. Permutation tests shuffle one factor among mice
 within strata of the other two factors and recompute the entire analysis, axis included
-(\NPerm{} permutations; $p = (1 + \#\{T^* \ge T\})/(1 + B)$).
+(\NPerm{} permutations; two-sided $p = (1 + \#\{|T^* - m| \ge |T - m|\})/(1 + B)$, where $m$ is the
+median of the permutation distribution).
 
 \paragraph{Pathways} Log-ratios $\log_2(\text{phospho}) - \log_2(\text{total})$ were formed for
 17 pairs. Pathway scores average standardised member ratios. \tech{pS6} was excluded because it

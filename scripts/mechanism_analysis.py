@@ -60,8 +60,15 @@ def interval(draws: np.ndarray) -> list[float]:
 
 
 def perm_p(null: np.ndarray, observed: float) -> float:
-    """One-sided permutation p-value with the +1 correction (null >= observed)."""
-    return float((1 + np.sum(null >= observed)) / (1 + len(null)))
+    """Two-sided permutation p-value with the +1 correction.
+
+    Counts permutations whose effect is at least as extreme as the observed one in either
+    direction, measured from the centre of the null distribution. Two-sided tests are used
+    because the direction of these effects was not fixed before the data were examined.
+    """
+    centre = float(np.median(null))
+    extreme = np.abs(null - centre) >= abs(observed - centre)
+    return float((1 + np.sum(extreme)) / (1 + len(null)))
 
 
 def main() -> None:

@@ -50,6 +50,7 @@ def numbers() -> dict:
     m = curve.groupby(["n_train", "model"]).balanced_accuracy.mean()
     h1 = {t["baseline"]: t for t in S["H1"]["kumo"]["tests"]}
     h1t = {t["baseline"]: t for t in S["H1"]["tabpfn"]["tests"]}
+    est = pd.read_csv(RES / "estimator_sensitivity/summary.csv", index_col=0)
     sens = pd.DataFrame(E["sensitivity"]).set_index(["version", "model"])["mean"]
     return {
         "kumo": perf["kumo"]["balanced_accuracy_mean"], "tabpfn": perf["tabpfn"]["balanced_accuracy_mean"],
@@ -65,6 +66,8 @@ def numbers() -> dict:
         "mem": S["H4c"]["by_model"],
         "miss_kumo": sens.get(("missingness_only", "kumo")),
         "verdicts": {h: S[h] for h in ("H1", "H2", "H3", "H4a", "H4b", "H4c")},
+        "est_tabpfn": est.loc["tabpfn_default", "balanced_accuracy"],
+        "est_kumo": est.loc["kumo_default", "balanced_accuracy"],
     }
 
 
@@ -114,7 +117,8 @@ def build() -> Deck:
                 ("TabPFN v2 (Prior Labs)", "a widely used tabular foundation model"),
                 ("Kumo Tabular Small (NVIDIA)", "a newer tabular foundation model"),
                 ("Same data, same held-out mice for every model", "so differences are fair")],
-               notes="Exact versions: tabpfn 2.2.1, structured-data-models 0.3.0, CPU, defaults."),
+               notes="Exact versions: tabpfn 2.2.1, structured-data-models 0.3.0, CPU, four inference "
+                     "estimators each (TabPFN’s own default is 8)."),
         TableSlide("Key terms used in this talk",
                    ["Term", "Meaning"],
                    [["Balanced accuracy", "Average hit rate across the 8 groups; chance = 0.125"],
@@ -267,6 +271,15 @@ def build() -> Deck:
                    [3.0, 1.4, 1.4], highlight_column=None,
                    notes="And the exploratory caveat: against a tuned logistic regression, Kumo’s "
                          "lead is not statistically clear."),
+        Points("How much weight these verdicts can bear",
+               [("Accuracy and probability hypotheses were informed, not blind",
+                 "an earlier benchmark on the same data was known when they were written"),
+                ("The learning-curve hypothesis and two controls were blind",
+                 "their results had not been seen"),
+                ("Both models used 4 ensemble members",
+                 (f"at package defaults: TabPFN {n['est_tabpfn']:.2f}, Kumo {n['est_kumo']:.2f}; "
+                 "no improvement, so conclusions hold"))],
+               notes="Be candid about what the pre-specification can and cannot claim."),
         Points("Practical lessons for using foundation models on scientific tables",
                [("Count independent units, not rows", "split by animal, patient or experiment"),
                 ("Compare against a well-tuned simple model", "logistic regression was hard to beat"),

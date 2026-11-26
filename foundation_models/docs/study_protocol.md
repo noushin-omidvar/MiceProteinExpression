@@ -112,6 +112,25 @@ but it cannot create independent biological replication. The original obfuscatio
 cannot establish absence of pretraining contamination, because the transformations may be
 invisible to preprocessing or irrelevant to memorized structure.
 
+### What was known when the protocol was written (2026-11-25)
+
+The protocol was committed before the experiments in this folder were run. It was not written
+blind, however: an earlier benchmark on the same data had already reported eight-group balanced
+accuracy for both foundation models (Kumo about 0.83, TabPFN about 0.73) and an earlier
+obfuscation check had shown no drop. H1, H2 and H4c were therefore formulated with knowledge of
+the likely outcome and should be read as **informed** rather than confirmatory. H3 (learning
+curves) and the label-permutation and row-leakage controls (H4a, H4b) concern results that had
+not been seen.
+
+### Ensemble size (2026-11-25)
+
+Both foundation models were run with 4 inference estimators, as fixed in Section 3. This is not
+the package default: TabPFN 2.2.1 defaults to 8, and Kumo resolves its own default when the
+argument is omitted. A post hoc sensitivity analysis (`scripts/estimator_sensitivity.py`) re-runs
+both models at package defaults on identical folds. Result: balanced accuracy 0.727 for TabPFN
+(8 estimators) and 0.807 for Kumo, against 0.744 and 0.818 with 4; neither model improved, so
+the pre-specified conclusions do not depend on ensemble size.
+
 ### Post hoc amendments (2026-11-25)
 
 * `configs/matched_holdout_review.yaml` increases nested subset draws from one to five for

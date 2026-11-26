@@ -68,9 +68,15 @@ def run(models: list[str], pilot: bool) -> None:
     if pilot:
         print("Pilot passed: inner tuning and class-aligned probabilities work.")
     else:
-        (OUT / "provenance.json").write_text(json.dumps({"config": CFG,
-                                                           "outer_folds": "foundation_models/results/folds.csv"},
-                                                          indent=2))
+        import platform
+
+        import numpy
+        import sklearn
+
+        (OUT / "provenance.json").write_text(json.dumps(
+            {"config": CFG, "outer_folds": "foundation_models/results/folds.csv",
+             "python": platform.python_version(), "scikit_learn": sklearn.__version__,
+             "numpy": numpy.__version__, "pandas": pd.__version__}, indent=2))
 
 
 if __name__ == "__main__":

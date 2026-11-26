@@ -43,6 +43,7 @@ def values() -> dict[str, str]:
     h1t = {t["baseline"]: t for t in S["H1"]["tabpfn"]["tests"]}["logistic"]
     curve = pd.read_csv(RES / "matched_holdout_review/scores.csv")
     m = curve.groupby(["n_train", "model"]).balanced_accuracy.mean()
+    est = pd.read_csv(RES / "estimator_sensitivity/summary.csv", index_col=0)
     h4 = S["H4a"]["supported"] and S["H4b"]["supported"] and S["H4c"]["supported"]
     return {
         "KumoBA": f"{perf['kumo']['balanced_accuracy_mean']:.2f}",
@@ -68,6 +69,8 @@ def values() -> dict[str, str]:
         "HthreeTabpfn": verdict(S["H3"]["tabpfn"]["supported"]),
         "HthreeKumo": verdict(S["H3"]["kumo"]["supported"]),
         "HfourAll": "all three controls as expected" if h4 else "at least one control failed",
+        "EstTabpfnBA": f"{est.loc['tabpfn_default', 'balanced_accuracy']:.2f}",
+        "EstKumoBA": f"{est.loc['kumo_default', 'balanced_accuracy']:.2f}",
     }
 
 

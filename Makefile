@@ -6,16 +6,16 @@ export MPLCONFIGDIR := $(CURDIR)/.cache/mpl
 export MPLBACKEND := Agg
 
 .PHONY: help install test lint prediction study mechanisms figures paper report \
-        presentation notebook docs reproduce clean fm-install fm-experiments fm-analyze \
+        presentation notebook docs reproduce lock clean fm-install fm-experiments fm-analyze \
         fm-figures fm-docs fm-reproduce fm-matched fm-matched-review fm-sensitivity \
         fm-tuned fm-factorized fm-svm-audit fm-runtime fm-paper fm-all
 
 help:  ## Show this help
 	@grep -E '^[a-z-]+:.*##' $(MAKEFILE_LIST) | awk -F':.*## ' '{printf "  %-13s %s\n", $$1, $$2}'
 
-install:  ## Create .venv and install the package with dev and docs extras
+install:  ## Create .venv with the exact pinned versions (requirements/lock-core.txt)
 	python3 -m venv .venv
-	.venv/bin/pip install -e '.[dev,docs]'
+	.venv/bin/pip install -c requirements/lock-core.txt -e '.[dev,docs]'
 
 test:  ## Run the test suite
 	$(PYTHON) -m pytest -q
@@ -63,7 +63,7 @@ reproduce: test lint prediction study mechanisms figures docs  ## Biology study,
 # ---- Foundation-model study (foundation_models/) ------------------------------------------
 fm-install:  ## Environment with TabPFN and Kumo (.venv-foundation; large PyTorch download)
 	python3 -m venv .venv-foundation
-	.venv-foundation/bin/pip install -e '.[foundation,docs]'
+	.venv-foundation/bin/pip install -c requirements/lock-foundation.txt -e '.[foundation,docs]'
 
 fm-experiments:  ## Run every pre-specified experiment (slow on CPU)
 	$(FOUNDATION_PYTHON) foundation_models/scripts/run_experiments.py all
@@ -119,6 +119,10 @@ fm-all:  ## Full foundation-model benchmark and figures (requires installed chec
 	$(MAKE) fm-sensitivity
 	$(MAKE) fm-runtime
 	$(MAKE) fm-reproduce
+
+lock:  ## Refresh both lock files from the current environments
+	.venv/bin/pip freeze --exclude-editable | grep -v mice-protein > requirements/lock-core.txt
+	.venv-foundation/bin/pip freeze --exclude-editable | grep -v mice-protein > requirements/lock-foundation.txt
 
 clean:  ## Remove caches and build intermediates (keeps results)
 	find src tests scripts -type d -name __pycache__ -prune -exec rm -rf {} +

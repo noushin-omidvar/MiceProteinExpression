@@ -139,8 +139,8 @@ weaker responses. Brackets show permutation tests.
 We defined a *learning signature* as the protein difference between mice that learned (CS) and
 mice that could not (SC), using normal mice on saline. Measured on that signature, trisomic
 mice on saline responded at **0.67** times the normal level (95% interval
-0.41–1.01; p = 0.031). With memantine they responded at **1.04** times
-(p = 0.004 for the within-analysis contrast). This shared-axis analysis measures the
+0.41–1.01; p = 0.049). With memantine they responded at **1.04** times
+(p = 0.008 for the within-analysis contrast). This shared-axis analysis measures the
 projection of each group on a signature defined in control mice; it cannot establish that
 exactly the same proteins respond in every group. Earlier behavioral work found that
 memantine improved task performance, but this dataset has no per-mouse learning outcome.
@@ -201,6 +201,9 @@ is inconclusive rather than a proof of no effect.
 
 ## 7. Limitations
 
+- **The p-values are exploratory.** The analyses were refined while looking at the data and
+  are not corrected across questions, so they suggest hypotheses to replicate rather than
+  prove them. All tests are two-sided.
 - One laboratory, one measurement method, male mice only, and no independent replication.
 - CS and SC differ in timing as well as in learning, so the learning signature also contains
   protocol differences.

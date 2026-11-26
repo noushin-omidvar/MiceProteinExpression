@@ -201,6 +201,9 @@ is inconclusive rather than a proof of no effect.
 
 ## 7. Limitations
 
+- **The p-values are exploratory.** The analyses were refined while looking at the data and
+  are not corrected across questions, so they suggest hypotheses to replicate rather than
+  prove them. All tests are two-sided.
 - One laboratory, one measurement method, male mice only, and no independent replication.
 - CS and SC differ in timing as well as in learning, so the learning signature also contains
   protocol differences.

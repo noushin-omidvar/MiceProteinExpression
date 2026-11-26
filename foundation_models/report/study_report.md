@@ -177,6 +177,12 @@ synthetic-only pretraining for Kumo.
 - Results apply to the specific versions tested (TabPFN v2, Kumo Tabular Small 0.3.0).
 - CatBoost and XGBoost were not tested.
 - Analyses marked exploratory were designed after seeing the planned results.
+- The accuracy and probability hypotheses were written after an earlier benchmark on the same
+  data had already been seen, so they are informed rather than blind tests. The learning-curve
+  hypothesis and the shuffled-label and leakage checks were blind.
+- Both foundation models used 4 ensemble members; TabPFN's own default is 8. A later check at
+  package defaults gave 0.73 for TabPFN and 0.81 for Kumo, so the conclusions do
+  not depend on this choice.
 
 ## 9. Where everything is
 

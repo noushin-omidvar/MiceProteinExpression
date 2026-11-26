@@ -151,6 +151,7 @@ def apply_style() -> None:
             "figure.facecolor": BACKGROUND,
             "axes.facecolor": BACKGROUND,
             "savefig.facecolor": BACKGROUND,
+            "svg.hashsalt": "mice-protein",  # stable element IDs in SVG output
         }
     )
 
@@ -192,7 +193,10 @@ def no_grid(ax) -> None:
 def save(fig, directory: Path, name: str) -> None:
     """Write SVG, PDF and 300-dpi PNG with a margin (never cropped)."""
     directory.mkdir(parents=True, exist_ok=True)
+    # Fixed metadata so unchanged figures are byte-identical across rebuilds.
+    metadata = {"svg": {"Date": None}, "pdf": {"Creator": "mice_protein", "CreationDate": None},
+                "png": {"Software": None}}
     for ext in ("svg", "pdf", "png"):
         fig.savefig(directory / f"{name}.{ext}", bbox_inches="tight", pad_inches=0.06,
-                    dpi=300, metadata=None if ext != "pdf" else {"Creator": "mice_protein"})
+                    dpi=300, metadata=metadata[ext])
     plt.close(fig)

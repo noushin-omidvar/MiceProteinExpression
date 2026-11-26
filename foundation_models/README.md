@@ -5,7 +5,7 @@ Can pretrained tabular models improve prediction when the independent experiment
 | If you want | Read |
 |---|---|
 | The story in plain language | [`report/study_report.md`](report/study_report.md) ([PDF](report/study_report.pdf)) |
-| The full scientific paper | [`paper/main.pdf`](paper/main.pdf) |
+| The full scientific paper | [`paper/main.tex`](paper/main.tex) ([PDF](paper/main.pdf)) |
 | A talk with speaker notes (33 slides) | [`presentation/presentation.pptx`](presentation/presentation.pptx) ([PDF](presentation/presentation.pdf)) |
 | A long-form article and a short post | [`article.md`](article.md), [`linkedin.md`](linkedin.md) |
 | What was fixed in advance, and what came later | [`docs/study_protocol.md`](docs/study_protocol.md) |
@@ -41,13 +41,13 @@ make fm-tuned           # post hoc nested conventional-model search
 make fm-factorized      # design-informed factorized baseline
 make fm-svm-audit       # SVM classification decision corrections
 make fm-runtime         # descriptive timing decomposition
-make fm-reproduce       # regenerate analysis tables, figures, and presentation
+make fm-reproduce       # regenerate analysis tables, figures, paper, report, and slides
 make fm-all             # single entry point for all available experiments and figures
-make fm-docs            # paper, plain-language report and slides (needs tectonic, pandoc)
+make fm-docs            # paper, plain-language report and slides (needs Tectonic, pandoc)
 make test               # data, split and analysis tests
 ```
 
-The original protocol is preserved for audit. The extension configurations were specified after seeing the original results and are explicitly exploratory. The [paper](paper/main.pdf) reports the pre-specified analyses and labels every later analysis as exploratory; read it with the corrections in the protocol's Section 8: log loss is not a calibration test, the original learning-curve comparison changed test composition, and feature obfuscation is not a contamination proof.
+The original protocol is preserved for audit. The extension configurations were specified after seeing the original results and are explicitly exploratory. The [paper](paper/main.pdf) and [report](report/study_report.pdf) were rebuilt from current sources. The original protocol's Section 8 explains that log loss is not a calibration test, the original learning-curve comparison changed test composition, and feature obfuscation is not a contamination proof.
 
 ## Limits and provenance
 

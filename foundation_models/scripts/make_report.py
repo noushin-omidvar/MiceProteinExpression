@@ -8,6 +8,7 @@ with font paths adjusted for this directory.
 
 from __future__ import annotations
 
+import argparse
 import json
 import shutil
 import subprocess
@@ -71,6 +72,9 @@ def values() -> dict[str, str]:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--no-pdf", action="store_true", help="render Markdown only")
+    args = parser.parse_args()
     REPORT.mkdir(exist_ok=True)
     text = Template((REPORT / "study_report.template.md").read_text()).substitute(values())
     (REPORT / "study_report.md").write_text(text)
@@ -80,6 +84,8 @@ def main() -> None:
                           "TabPFN v2 · Kumo Tabular · 72 mice")
     (REPORT / "style.tex").write_text(style)
     print("wrote foundation_models/report/study_report.md")
+    if args.no_pdf:
+        return
     if shutil.which("pandoc") is None or shutil.which("tectonic") is None:
         print("pandoc or tectonic not found: skipped PDF")
         return

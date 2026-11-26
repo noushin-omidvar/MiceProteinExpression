@@ -21,10 +21,12 @@ six conventional models on a small biological dataset: 72 mice, 77 brain protein
 - **TabPFN could not be told apart from plain logistic regression** in the planned test.
 - **Kumo gave the best probabilities** (lowest log loss), although that alone does not prove its
   probabilities are calibrated.
-- **There was no small-data advantage.** Both foundation models' lead over logistic regression was
-  smallest with the fewest training mice and grew as more were added.
-- **The scores are trustworthy as far as our checks can tell:** shuffled labels give chance
-  accuracy, and hiding the dataset's identity barely changes results.
+- **The small-data pattern is uncertain.** In a later matched analysis, Kumo's average lead
+  over logistic regression was larger with 48 than with 16 labeled mice, but varied widely
+  between training-subset draws.
+- **Pipeline checks behaved as expected:** shuffled labels gave near-chance accuracy and
+  splitting measurement rows made scores look much better. These checks cannot establish
+  generalization to another cohort or rule out pretraining contamination.
 
 ![The study at a glance. Schematic.](../results/figures/fig0_overview.png)
 
@@ -50,8 +52,9 @@ Testing that promise on real biological data is harder than it looks:
 ![How a conventional model and a foundation model make predictions. Schematic.](../results/figures/primer_tfm.png)
 
 *How to read this figure:* a conventional model (top) learns from your training data only. A
-foundation model (bottom) was trained once on millions of synthetic tables; it then reads your
-training data as context and predicts new cases in a single pass, without further training.
+foundation model (bottom) brings prior training on other tables; it uses your labeled mice as
+context to predict new ones. NVIDIA describes Kumo's pretraining tables as synthetic. This
+description does not apply automatically to TabPFN's pretraining data.
 
 | Term | Meaning |
 |---|---|
@@ -133,16 +136,19 @@ calibrated.
 
 ![Workflow for RQ3.](../results/figures/workflows/wf_rq3_learning.png)
 
-We trained every model on 2 to 6 mice per group. Contrary to the hypothesis, the foundation
-models' lead over logistic regression was **smallest with the least data** and grew as data were
-added (Kumo: +0.05 at 2 mice per group, +0.15 at 6).
+In the original analysis, models trained on 2 to 6 mice per group. Its estimated Kumo lead
+over logistic regression was +0.05 at 2 mice per group and +0.15 at 6.
+The test mice changed with training size, so that curve cannot isolate the effect of adding
+labeled mice. Its prespecified hypothesis verdict is an audit of that original analysis,
+not a reliable conclusion about sample efficiency.
 
 ![An exploratory, matched learning curve: the same test mice at every training size.](../results/figures/fig4_matched_learning.png)
 
-*Exploratory:* the planned curve tested on different mice at each size. A later, fairer version
-kept the test mice fixed. It shows the same pattern: with 16 training mice, Kumo 0.43 versus
-logistic regression 0.36; with 48, 0.78 versus 0.66. The gap varied a lot between
-random draws, so there is no dependable size at which the models start to help.
+*Exploratory:* the later curve kept test mice fixed and repeated the matched training-subset
+draw five times per outer split. With 16 training mice, Kumo scored 0.43 versus logistic
+regression's 0.36; with 48, 0.78 versus 0.66. The average lead grew, but only 40 of
+70 paired subset comparisons had a larger gap at 48 mice. These are repeated uses of one
+cohort, not independent biological replications or evidence of a reliable threshold.
 
 ### RQ4 · Can the scores be trusted?
 
@@ -150,18 +156,18 @@ random draws, so there is no dependable size at which the models start to help.
 
 ![The three controls.](../results/figures/fig4_validity.png)
 
-*How to read this figure:* (a) with shuffled labels every model falls to chance; (b) splitting rows
+*How to read this figure:* (a) with shuffled labels every model scores near chance; (b) splitting rows
 instead of mice inflates every model; (c) renaming, reordering and rescaling the proteins barely
-changes accuracy (open circle = original, filled = identity hidden). The last check reduces, but
-cannot remove, the worry that a model memorised this public dataset. NVIDIA reports that Kumo was
-pretrained on synthetic tables only.
+changes accuracy (open circle = original, filled = transformed). The last check cannot rule out
+exposure to this public dataset: preprocessing may undo the transformations. NVIDIA reports
+synthetic-only pretraining for Kumo.
 
 ## 7. What this means
 
 - **For scientists using these models:** split by animal or patient, compare against a well-tuned
   simple model, report probabilities, and use statistics that account for overlapping splits.
-- **For the "small-data" claim:** on these 72 mice, the foundation models helped *more* as data
-  grew, not less.
+- **For the "small-data" claim:** the matched curve does not establish that either model has
+  a consistent relative advantage at any particular training size.
 - **For choosing a model:** Kumo was the best model we tested here, but this does not establish
   that it beats every conventional approach.
 
@@ -176,8 +182,8 @@ pretrained on synthetic tables only.
 
 | What | Where |
 |---|---|
-| Full scientific paper | `foundation_models/paper/main.pdf` |
-| Slides with speaker notes | `foundation_models/presentation/presentation.pptx` (and `.pdf`) |
-| Pre-specified protocol and later amendments | `foundation_models/docs/study_protocol.md` |
-| Long-form article | `foundation_models/article.md` |
-| All numbers | `foundation_models/results/summary.json`, `extension_summary.json` |
+| Full scientific paper | [Manuscript source](../paper/main.tex) ([PDF](../paper/main.pdf)) |
+| Slides with speaker notes | [PowerPoint](../presentation/presentation.pptx) ([PDF](../presentation/presentation.pdf)) |
+| Pre-specified protocol and later amendments | [Study protocol](../docs/study_protocol.md) |
+| Long-form article | [Website article](../article.md) |
+| All numbers | [Planned results](../results/summary.json), [exploratory results](../results/extension_summary.json) |

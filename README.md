@@ -15,9 +15,9 @@ data by one command.
 
 | If you want | Read |
 |---|---|
-| The story in plain language | [`report/study_report.md`](report/study_report.md) ([archived PDF](report/study_report.pdf)) |
-| The full scientific paper, with methods | [Manuscript source](paper/main.tex) ([archived PDF](paper/main.pdf)) |
-| A talk with speaker notes (18 slides) | [`presentation/presentation.pptx`](presentation/presentation.pptx) ([PDF](presentation/presentation.pdf)) |
+| The story in plain language | [`report/study_report.md`](report/study_report.md) ([PDF](report/study_report.pdf)) |
+| The full scientific paper, with methods | [Manuscript source](paper/main.tex) ([PDF](paper/main.pdf)) |
+| A talk with speaker notes (33 slides) | [`presentation/presentation.pptx`](presentation/presentation.pptx) ([PDF](presentation/presentation.pdf)) |
 | A hands-on tour of the code | [`notebooks/walkthrough.ipynb`](notebooks/walkthrough.ipynb) |
 | Why each statistical choice was made | [`docs/analysis_decisions.md`](docs/analysis_decisions.md) |
 

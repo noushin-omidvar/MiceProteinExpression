@@ -1,0 +1,29 @@
+% House typography for the pandoc-rendered report (see docs/figure_style.md).
+\usepackage{fontspec}
+\setmainfont{IBMPlexSans}[Path=../../.cache/fonts/, Extension=.ttf, UprightFont=*-Regular,
+  BoldFont=*-SemiBold, ItalicFont=*-Italic, BoldItalicFont=*-SemiBold]
+\setsansfont{IBMPlexSans}[Path=../../.cache/fonts/, Extension=.ttf, UprightFont=*-Regular,
+  BoldFont=*-SemiBold, ItalicFont=*-Italic, BoldItalicFont=*-SemiBold]
+\setmonofont{IBMPlexMono}[Path=../../.cache/fonts/, Extension=.ttf, UprightFont=*-Regular,
+  BoldFont=*-Medium, Scale=0.9]
+\newfontfamily\editorial{Fraunces}[Path=../../assets/fonts/, Extension=.ttf, UprightFont=*-SemiBold]
+\usepackage{xcolor}
+\definecolor{ink}{HTML}{161B1F}
+\definecolor{cobalt}{HTML}{2457D6}
+\definecolor{subtle}{HTML}{5B6670}
+\color{ink}
+\usepackage{titlesec}
+\titleformat{\section}{\editorial\Large}{}{0pt}{}
+\titleformat{\subsection}{\editorial\large}{}{0pt}{}
+\titlespacing*{\section}{0pt}{1.4em}{0.4em}
+\linespread{1.12}
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0pt}
+\makeatletter
+\renewcommand{\maketitle}{%
+  {\color{cobalt}\ttfamily\small PLAIN-LANGUAGE REPORT\par}\vspace{0.5em}
+  {\editorial\fontsize{22}{26}\selectfont\@title\par}\vspace{0.4em}
+  {\large\color{subtle}TabPFN v2 · Kumo Tabular · 72 mice\par}\vspace{1.2em}}
+\makeatother
+\usepackage{graphicx}
+\setkeys{Gin}{width=\linewidth,height=0.42\textheight,keepaspectratio}

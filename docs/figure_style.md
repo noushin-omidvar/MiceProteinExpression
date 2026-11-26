@@ -57,3 +57,29 @@ P.title(ax, "Takeaway as a statement")
 P.annotate_stat(ax, x, y, "p = 0.03")
 P.save(fig, out_dir, "name")    # writes .svg, .pdf, .png
 ```
+
+## Workflow diagrams
+
+Every research question has one workflow diagram (`src/mice_protein/workflow.py`), built so a
+first-time reader can follow it without the paper:
+
+1. The **question** is the heading; the **result** is the last panel and plots the real numbers
+   (never a generic tick, so a negative or null answer is visible as one).
+2. Each step has a plain verb (`STEP 2 · SCORE`), a short title, a labelled drawing, one
+   plain-language sentence, then the defining equation and a *where* line that defines every
+   symbol.
+3. Colour keeps one meaning per diagram (cobalt = control or baseline, vermilion = Ts65Dn or
+   foundation model). Steps are schematic; the result panel is data, and the footer says so.
+
+## Slides
+
+Decks use the shared engine `src/mice_protein/slides.py` (PowerPoint + PDF from one
+specification), following the assertion–evidence model:
+
+* **Story arc**: WHY → WHAT → HOW → RESULTS → SO WHAT, each opened by a numbered divider; a
+  footer tracker shows the current section.
+* **Claim headlines**: every content slide's title is a full-sentence takeaway; the body is one
+  piece of evidence (a figure, a big number, a table or numbered lead-ins).
+* **One message per slide**; slide figures are single panels with large type
+  (`results/**/figures/slides/`), and each question's workflow precedes its result.
+* **Speaker notes** carry the spoken explanation, so slides stay sparse.

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="527.380157pt" height="184.388031pt" viewBox="0 0 527.380157 184.388031" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 184.388031 
+L 527.380157 184.388031 
+L 527.380157 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 71.75622 95.19874 
+C 80.01051 95.19874 87.927837 91.919276 93.764501 86.082612 
+C 99.601166 80.245947 102.88063 72.328621 102.88063 64.074331 
+C 102.88063 55.820041 99.601166 47.902714 93.764501 42.06605 
+C 87.927837 36.229385 80.01051 32.949921 71.75622 32.949921 
+C 63.501931 32.949921 55.584604 36.229385 49.747939 42.06605 
+C 43.911275 47.902714 40.631811 55.820041 40.631811 64.074331 
+C 40.631811 72.328621 43.911275 80.245947 49.747939 86.082612 
+C 55.584604 91.919276 63.501931 95.19874 71.75622 95.19874 
+z
+" clip-path="url(#p136fe8cc8a)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 201.44126 95.19874 
+C 209.69555 95.19874 217.612876 91.919276 223.449541 86.082612 
+C 229.286205 80.245947 232.565669 72.328621 232.565669 64.074331 
+C 232.565669 55.820041 229.286205 47.902714 223.449541 42.06605 
+C 217.612876 36.229385 209.69555 32.949921 201.44126 32.949921 
+C 193.18697 32.949921 185.269643 36.229385 179.432979 42.06605 
+C 173.596315 47.902714 170.31685 55.820041 170.31685 64.074331 
+C 170.31685 72.328621 173.596315 80.245947 179.432979 86.082612 
+C 185.269643 91.919276 193.18697 95.19874 201.44126 95.19874 
+z
+" clip-path="url(#p136fe8cc8a)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 331.126299 95.19874 
+C 339.380589 95.19874 347.297916 91.919276 353.13458 86.082612 
+C 358.971245 80.245947 362.250709 72.328621 362.250709 64.074331 
+C 362.250709 55.820041 358.971245 47.902714 353.13458 42.06605 
+C 347.297916 36.229385 339.380589 32.949921 331.126299 32.949921 
+C 322.872009 32.949921 314.954683 36.229385 309.118018 42.06605 
+C 303.281354 47.902714 300.00189 55.820041 300.00189 64.074331 
+C 300.00189 72.328621 303.281354 80.245947 309.118018 86.082612 
+C 314.954683 91.919276 322.872009 95.19874 331.126299 95.19874 
+z
+" clip-path="url(#p136fe8cc8a)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 460.811339 95.19874 
+C 469.065628 95.19874 476.982955 91.919276 482.81962 86.082612 
+C 488.656284 80.245947 491.935748 72.328621 491.935748 64.074331 
+C 491.935748 55.820041 488.656284 47.902714 482.81962 42.06605 
+C 476.982955 36.229385 469.065628 32.949921 460.811339 32.949921 
+C 452.557049 32.949921 444.639722 36.229385 438.803058 42.06605 
+C 432.966393 47.902714 429.686929 55.820041 429.686929 64.074331 
+C 429.686929 72.328621 432.966393 80.245947 438.803058 86.082612 
+C 444.639722 91.919276 452.557049 95.19874 460.811339 95.19874 
+z
+" clip-path="url(#p136fe8cc8a)" style="fill: #2457d6"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="71.75622" y="67.327831" transform="rotate(-0 71.75622 67.327831)">1</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 600; font-size: 7px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(52.496377 100.649288)">Count mice,</text>
+    <text style="font-weight: 600; font-size: 7px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(57.707549 109.224288)">not rows</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(40.402939 142.902331)">15 readings of a mouse</text>
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(47.266845 150.702331)">become one value</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="201.44126" y="67.327831" transform="rotate(-0 201.44126 67.327831)">2</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 600; font-size: 7px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(187.039307 101.10757)">Combine</text>
+    <text style="font-weight: 600; font-size: 7px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(188.008916 108.849679)">proteins</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(175.037979 142.902331)">one signature score</text>
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(187.134072 149.502331)">per mouse</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="331.126299" y="67.327831" transform="rotate(-0 331.126299 67.327831)">3</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 600; font-size: 7px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(314.977627 100.939679)">No mouse</text>
+    <text style="font-weight: 600; font-size: 7px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(311.51919 109.50757)">scores itself</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(309.046299 142.902331)">signature rebuilt</text>
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(304.940518 150.702331)">without that mouse</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="460.811339" y="67.327831" transform="rotate(-0 460.811339 67.327831)">4</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 600; font-size: 7px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(443.336495 101.086788)">Let chance</text>
+    <text style="font-weight: 600; font-size: 7px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(451.087901 108.828898)">speak</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(427.927589 139.902331)">shuffle labels thousands</text>
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(433.676807 147.102331)">of times to see what</text>
+    <text style="font-size: 6px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(437.896964 153.738425)">chance produces</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 5px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #5b6670" x="517.872756" y="177.210551" transform="rotate(-0 517.872756 177.210551)">SCHEMATIC</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p136fe8cc8a">
+   <rect x="4.32" y="4.32" width="518.740157" height="175.748031"/>
+  </clipPath>
+ </defs>
+</svg>

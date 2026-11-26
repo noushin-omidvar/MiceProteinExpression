@@ -209,9 +209,9 @@
       ]
     },
     "attenuation": 3.117116962501454,
-    "attenuation_p": 0.03079384123175365,
+    "attenuation_p": 0.04939012197560488,
     "restoration": 3.5216761431256476,
-    "restoration_p": 0.003599280143971206,
+    "restoration_p": 0.007798440311937612,
     "within_cell_sd": 1.6345896870603964,
     "top_loadings": {
       "SOD1_N": -0.43444944596335516,
@@ -623,36 +623,6 @@
       "n_for_80": 16
     }
   },
-  "obfuscation": [
-    {
-      "model": "logistic",
-      "obfuscated": false,
-      "mean": 0.5775396825396826,
-      "min": 0.5775396825396826,
-      "max": 0.5775396825396826
-    },
-    {
-      "model": "logistic",
-      "obfuscated": true,
-      "mean": 0.5775396825396826,
-      "min": 0.5775396825396826,
-      "max": 0.5775396825396826
-    },
-    {
-      "model": "random_forest",
-      "obfuscated": false,
-      "mean": 0.513452380952381,
-      "min": 0.513452380952381,
-      "max": 0.513452380952381
-    },
-    {
-      "model": "random_forest",
-      "obfuscated": true,
-      "mean": 0.5270105820105819,
-      "min": 0.5253174603174603,
-      "max": 0.529047619047619
-    }
-  ],
   "provenance": {
     "config": {
       "seed": 2026,
@@ -675,14 +645,13 @@
         30,
         40
       ],
-      "power_target": 0.8,
-      "obfuscation_repeats": 3
+      "power_target": 0.8
     },
     "python": "3.11.9",
     "platform": "macOS-14.3-arm64-arm-64bit",
     "numpy": "2.4.6",
     "pandas": "3.1.1",
     "scikit_learn": "1.9.1",
-    "generated": "2026-11-25 12:23:11"
+    "generated": "2026-11-25 17:28:19"
   }
 }

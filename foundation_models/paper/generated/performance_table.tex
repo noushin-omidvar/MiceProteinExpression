@@ -1,0 +1,15 @@
+\begin{tabular}{lrrrrrr}
+\toprule
+Model & BA & (SD) & Log loss & Brier & ECE & s/fold \\
+\midrule
+Class prior & 0.125 & 0.000 & 2.09 & 0.88 & 0.00 & 0.00 \\
+Logistic (L2) & 0.660 & 0.029 & 1.23 & 0.47 & 0.09 & 0.01 \\
+Elastic net & 0.619 & 0.018 & 1.36 & 0.54 & 0.18 & 0.96 \\
+RBF SVM & 0.576 & 0.030 & 1.33 & 0.64 & 0.25 & 0.06 \\
+Random forest & 0.536 & 0.034 & 1.25 & 0.62 & 0.17 & 0.30 \\
+Gradient boosting & 0.550 & 0.027 & 2.04 & 0.71 & 0.30 & 0.95 \\
+\midrule
+\textbf{TabPFN v2} & 0.744 & 0.018 & 0.76 & 0.38 & 0.12 & 1.39 \\
+\textbf{Kumo Tabular Small} & 0.818 & 0.017 & 0.56 & 0.29 & 0.07 & 1.01 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="527.380157pt" height="184.388031pt" viewBox="0 0 527.380157 184.388031" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 184.388031 
+L 527.380157 184.388031 
+L 527.380157 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 130.815471 83.406614 
+Q 154.753543 83.406614 177.57358 83.406614 
+" clip-path="url(#p136fe8cc8a)" style="fill: none; stroke: #5b6670; stroke-linecap: round"/>
+    <path d="M 173.97358 81.606614 
+L 177.57358 83.406614 
+L 173.97358 85.206614 
+z
+" clip-path="url(#p136fe8cc8a)" style="fill: #5b6670; stroke: #5b6670; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 237.753071 102.738898 
+C 246.695218 102.738898 255.272322 100.701926 261.595375 97.076603 
+C 267.918428 93.45128 271.471181 88.533596 271.471181 83.406614 
+C 271.471181 78.279633 267.918428 73.361949 261.595375 69.736625 
+C 255.272322 66.111302 246.695218 64.074331 237.753071 64.074331 
+C 228.810924 64.074331 220.23382 66.111302 213.910766 69.736625 
+C 207.587713 73.361949 204.034961 78.279633 204.034961 83.406614 
+C 204.034961 88.533596 207.587713 93.45128 213.910766 97.076603 
+C 220.23382 100.701926 228.810924 102.738898 237.753071 102.738898 
+z
+" clip-path="url(#p136fe8cc8a)" style="fill: #8ea8ec"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 291.62492 83.406614 
+Q 315.562991 83.406614 338.383029 83.406614 
+" clip-path="url(#p136fe8cc8a)" style="fill: none; stroke: #5b6670; stroke-linecap: round"/>
+    <path d="M 334.783029 81.606614 
+L 338.383029 83.406614 
+L 334.783029 85.206614 
+z
+" clip-path="url(#p136fe8cc8a)" style="fill: #5b6670; stroke: #5b6670; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 403.749921 102.738898 
+C 412.692069 102.738898 421.269173 100.701926 427.592226 97.076603 
+C 433.915279 93.45128 437.468031 88.533596 437.468031 83.406614 
+C 437.468031 78.279633 433.915279 73.361949 427.592226 69.736625 
+C 421.269173 66.111302 412.692069 64.074331 403.749921 64.074331 
+C 394.807774 64.074331 386.23067 66.111302 379.907617 69.736625 
+C 373.584564 73.361949 370.031811 78.279633 370.031811 83.406614 
+C 370.031811 88.533596 373.584564 93.45128 379.907617 97.076603 
+C 386.23067 100.701926 394.807774 102.738898 403.749921 102.738898 
+z
+" clip-path="url(#p136fe8cc8a)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 429.686929 80.557795 
+C 433.126217 80.557795 436.425103 79.191352 438.857046 76.759408 
+C 441.28899 74.327465 442.655433 71.028579 442.655433 67.589291 
+C 442.655433 64.150004 441.28899 60.851118 438.857046 58.419174 
+C 436.425103 55.987231 433.126217 54.620787 429.686929 54.620787 
+C 426.247642 54.620787 422.948756 55.987231 420.516812 58.419174 
+C 418.084869 60.851118 416.718425 64.150004 416.718425 67.589291 
+C 416.718425 71.028579 418.084869 74.327465 420.516812 76.759408 
+C 422.948756 79.191352 426.247642 80.557795 429.686929 80.557795 
+z
+" clip-path="url(#p136fe8cc8a)" style="fill: #e33d3f"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 25.069606 92.160313 
+L 27.197771 90.757339 
+L 29.325936 87.608486 
+L 31.454101 83.461643 
+L 33.582265 79.301729 
+L 35.71043 76.116771 
+L 37.838595 74.663232 
+L 39.96676 75.286343 
+L 42.094924 77.838109 
+L 44.223089 81.712456 
+L 46.351254 85.989185 
+L 48.479419 89.652525 
+L 50.607583 91.832391 
+L 52.735748 92.011042 
+L 54.863913 90.146046 
+L 56.992078 86.68036 
+L 59.120242 82.437123 
+L 61.248407 78.424151 
+L 63.376572 75.594569 
+L 65.504737 74.620435 
+L 67.632901 75.733116 
+L 69.761066 78.668338 
+L 71.889231 82.728953 
+L 74.017396 86.95052 
+L 76.14556 90.33037 
+L 78.273725 92.065752 
+L 80.40189 91.744492 
+L 82.530055 89.442893 
+L 84.658219 85.707612 
+L 86.786384 81.425818 
+L 88.914549 77.614485 
+L 91.042714 75.178847 
+L 93.170878 74.697395 
+L 95.299043 76.284479 
+L 97.427208 79.56315 
+L 99.555373 83.754686 
+L 101.683537 87.863551 
+L 103.811702 90.913844 
+L 105.939867 92.181087 
+L 108.068031 91.364295 
+" clip-path="url(#p136fe8cc8a)" style="fill: none; stroke: #2457d6; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 25.069606 74.652916 
+L 27.197771 76.05589 
+L 29.325936 79.204742 
+L 31.454101 83.351586 
+L 33.582265 87.511499 
+L 35.71043 90.696457 
+L 37.838595 92.149996 
+L 39.96676 91.526885 
+L 42.094924 88.97512 
+L 44.223089 85.100772 
+L 46.351254 80.824043 
+L 48.479419 77.160704 
+L 50.607583 74.980837 
+L 52.735748 74.802186 
+L 54.863913 76.667182 
+L 56.992078 80.132868 
+L 59.120242 84.376105 
+L 61.248407 88.389077 
+L 63.376572 91.218659 
+L 65.504737 92.192793 
+L 67.632901 91.080113 
+L 69.761066 88.144891 
+L 71.889231 84.084276 
+L 74.017396 79.862708 
+L 76.14556 76.482858 
+L 78.273725 74.747477 
+L 80.40189 75.068737 
+L 82.530055 77.370335 
+L 84.658219 81.105617 
+L 86.786384 85.387411 
+L 88.914549 89.198744 
+L 91.042714 91.634382 
+L 93.170878 92.115833 
+L 95.299043 90.528749 
+L 97.427208 87.250079 
+L 99.555373 83.058543 
+L 101.683537 78.949678 
+L 103.811702 75.899384 
+L 105.939867 74.632142 
+L 108.068031 75.448933 
+" clip-path="url(#p136fe8cc8a)" style="fill: none; stroke: #8ea8ec; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 6.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(50.207319 119.984681)">gene (DNA)</text>
+    <text style="font-size: 6.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(52.178319 127.639181)">the recipe</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6670" x="154.754646" y="71.457881" transform="rotate(-0 154.754646 71.457881)">made into</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 6.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(227.462071 119.959181)">protein</text>
+    <text style="font-size: 6.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(213.170571 127.904681)">the machine (off)</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #e33d3f" x="315.564094" y="70.877881" transform="rotate(-0 315.564094 70.877881)">+ phosphate tag</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 600; font-size: 9px; font-family: 'Fraunces'; text-anchor: middle; fill: #ffffff" x="429.686929" y="70.842791" transform="rotate(-0 429.686929 70.842791)">p</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 6.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(382.892421 119.920681)">tagged protein</text>
+    <text style="font-size: 6.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(369.814921 127.664681)">switched on (e.g. pERK)</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 6.2px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #161b1f" x="263.690079" y="164.160931" transform="rotate(-0 263.690079 164.160931)">The study measured 77 proteins and tagged forms; names starting with “p” are tagged forms.</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 5px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #5b6670" x="517.872756" y="177.210551" transform="rotate(-0 517.872756 177.210551)">SCHEMATIC</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p136fe8cc8a">
+   <rect x="4.32" y="4.32" width="518.740157" height="175.748031"/>
+  </clipPath>
+ </defs>
+</svg>

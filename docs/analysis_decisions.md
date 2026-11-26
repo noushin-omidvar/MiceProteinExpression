@@ -56,34 +56,18 @@ manufacturing "rescue". We therefore:
 |---|---|
 | Bootstrap mice within cells (4,000×) | Preserves the design; intervals reflect biological sampling. Percentile intervals for ratios are wide when the denominator is small (e.g. rescue in CS), which is reported rather than hidden. |
 | Permute one factor within strata of the other two, recomputing the whole pipeline (5,000×) | Tests exactly the null of interest and accounts for axis estimation. |
+| Two-sided permutation p-values | The direction of each effect was not fixed before the data were examined, so one-sided tests would overstate the evidence. |
+| Treat all p-values as exploratory | The biology analyses were not pre-registered and are not corrected across questions; they generate hypotheses for replication. |
 
 ## 7. What was deliberately *not* done
 
 * No per-protein "rescued" list (regression to the mean, Section 5).
 * No causal claims about proteins: associations only.
 * No nested hyperparameter search for the mechanistic analyses: there are no tuned models.
-* No claims that the foundation models generalise until the obfuscation protocol has been run
-  on them (`memorization.obfuscate`; positive control in Fig. S2).
+* No comparison of prediction models beyond the leakage audit: that is the subject of the
+  separate study in `foundation_models/`.
 
-## 8. Memorisation (contamination) test — pre-specified
-
-Written before running any foundation model on obfuscated data (2026-11-25).
-
-* **Question.** Do TabPFN and Kumo score well because they learn from the data, or partly
-  because they recognise this public dataset?
-* **Manipulation.** Score each model on the original mouse-mean table and on three obfuscated
-  copies (generic names, shuffled columns, random positive affine rescaling per protein), on the
-  identical 5 × 5-fold splits (`scripts/memorization_test.py`).
-* **Decision rule.** Evidence of reliance on dataset identity if the mean balanced-accuracy
-  drop (original − obfuscated) exceeds **0.05** *and* every obfuscation key shows a drop;
-  otherwise, no evidence of memorisation.
-* **Positive control.** Scaled logistic regression must be exactly invariant (it is: 0.610 →
-  0.610).
-* **Limitation.** The test detects reliance on names, order and raw values. A model that
-  memorised the *relationships* in the data would pass it, so a pass reduces but does not
-  eliminate contamination concerns.
-
-## 9. Reproducibility
+## 8. Reproducibility
 
 * All settings: `configs/mechanisms.yaml` (seed, resample counts, thresholds).
 * All numbers in paper, report and slides are generated from `results/` (no hand-typed values).

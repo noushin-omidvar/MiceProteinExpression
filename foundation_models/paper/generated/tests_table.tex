@@ -1,0 +1,34 @@
+\begin{tabular}{llrrrr}
+\toprule
+Comparison & Metric & Difference & 95\% CI & $p_{\mathrm{Holm}}$ & Better? \\
+\midrule
+TabPFN v2 vs Class prior & Balanced accuracy & +0.608 & [+0.487, +0.728] & <0.001 & yes \\
+TabPFN v2 vs Logistic (L2) & Balanced accuracy & +0.072 & [-0.053, +0.198] & 0.277 & no \\
+TabPFN v2 vs Elastic net & Balanced accuracy & +0.113 & [-0.039, +0.264] & 0.277 & no \\
+TabPFN v2 vs RBF SVM & Balanced accuracy & +0.150 & [+0.021, +0.279] & 0.073 & no \\
+TabPFN v2 vs Random forest & Balanced accuracy & +0.190 & [+0.098, +0.282] & 0.001 & yes \\
+TabPFN v2 vs Gradient boosting & Balanced accuracy & +0.170 & [+0.037, +0.303] & 0.057 & no \\
+\addlinespace
+Kumo Tabular Small vs Class prior & Balanced accuracy & +0.685 & [+0.581, +0.789] & <0.001 & yes \\
+Kumo Tabular Small vs Logistic (L2) & Balanced accuracy & +0.150 & [+0.026, +0.274] & 0.020 & yes \\
+Kumo Tabular Small vs Elastic net & Balanced accuracy & +0.190 & [+0.060, +0.320] & 0.012 & yes \\
+Kumo Tabular Small vs RBF SVM & Balanced accuracy & +0.228 & [+0.081, +0.374] & 0.011 & yes \\
+Kumo Tabular Small vs Random forest & Balanced accuracy & +0.268 & [+0.139, +0.396] & 0.001 & yes \\
+Kumo Tabular Small vs Gradient boosting & Balanced accuracy & +0.247 & [+0.110, +0.385] & 0.004 & yes \\
+\addlinespace
+TabPFN v2 vs Class prior & Log loss & +1.323 & [+1.067, +1.580] & <0.001 & yes \\
+TabPFN v2 vs Logistic (L2) & Log loss & +0.464 & [-0.047, +0.976] & 0.073 & no \\
+TabPFN v2 vs Elastic net & Log loss & +0.604 & [+0.075, +1.132] & 0.054 & no \\
+TabPFN v2 vs RBF SVM & Log loss & +0.568 & [+0.376, +0.760] & <0.001 & yes \\
+TabPFN v2 vs Random forest & Log loss & +0.486 & [+0.285, +0.688] & <0.001 & yes \\
+TabPFN v2 vs Gradient boosting & Log loss & +1.277 & [+0.592, +1.961] & 0.002 & yes \\
+\addlinespace
+Kumo Tabular Small vs Class prior & Log loss & +1.521 & [+1.287, +1.756] & <0.001 & yes \\
+Kumo Tabular Small vs Logistic (L2) & Log loss & +0.662 & [+0.220, +1.105] & 0.005 & yes \\
+Kumo Tabular Small vs Elastic net & Log loss & +0.802 & [+0.327, +1.276] & 0.004 & yes \\
+Kumo Tabular Small vs RBF SVM & Log loss & +0.766 & [+0.582, +0.950] & <0.001 & yes \\
+Kumo Tabular Small vs Random forest & Log loss & +0.684 & [+0.507, +0.861] & <0.001 & yes \\
+Kumo Tabular Small vs Gradient boosting & Log loss & +1.475 & [+0.825, +2.125] & <0.001 & yes \\
+\addlinespace
+\bottomrule
+\end{tabular}

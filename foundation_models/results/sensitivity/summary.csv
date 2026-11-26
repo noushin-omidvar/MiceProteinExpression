@@ -1,0 +1,9 @@
+version,model,mean,std
+arithmetic,kumo,0.8231,0.0363
+arithmetic,logistic,0.6589,0.0393
+geometric,kumo,0.8445,0.0313
+geometric,logistic,0.652,0.0295
+geometric_no_duplicate_sparse,kumo,0.8667,0.0
+geometric_no_duplicate_sparse,logistic,0.6824,0.0706
+missingness_only,kumo,0.1285,0.0088
+missingness_only,logistic,0.0818,0.0391

@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="527.380157pt" height="241.080945pt" viewBox="0 0 527.380157 241.080945" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 241.080945 
+L 527.380157 241.080945 
+L 527.380157 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 125.628703 100.782992 
+Q 134.003998 100.782992 141.26126 100.782992 
+" clip-path="url(#pd971b966e3)" style="fill: none; stroke: #2457d6; stroke-linecap: round"/>
+    <path d="M 138.06126 99.182992 
+L 141.26126 100.782992 
+L 138.06126 102.382992 
+z
+" clip-path="url(#pd971b966e3)" style="fill: #2457d6; stroke: #2457d6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 255.313742 100.782992 
+Q 263.689038 100.782992 270.946299 100.782992 
+" clip-path="url(#pd971b966e3)" style="fill: none; stroke: #2457d6; stroke-linecap: round"/>
+    <path d="M 267.746299 99.182992 
+L 270.946299 100.782992 
+L 267.746299 102.382992 
+z
+" clip-path="url(#pd971b966e3)" style="fill: #2457d6; stroke: #2457d6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 384.998782 100.782992 
+Q 393.374077 100.782992 400.631338 100.782992 
+" clip-path="url(#pd971b966e3)" style="fill: none; stroke: #2457d6; stroke-linecap: round"/>
+    <path d="M 397.431338 99.182992 
+L 400.631338 100.782992 
+L 397.431338 102.382992 
+z
+" clip-path="url(#pd971b966e3)" style="fill: #2457d6; stroke: #2457d6; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 10.544882 27.564094 
+L 516.835276 27.564094 
+" clip-path="url(#pd971b966e3)" style="fill: none; stroke: #d9dde0; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 600; font-size: 9.6px; font-family: 'Fraunces'; text-anchor: start; fill: #161b1f" x="10.544882" y="19.519824" transform="rotate(-0 10.544882 19.519824)">Q3 · Does memantine move the trisomic brain back toward normal?</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 5.67px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #2457d6" x="69.16252" y="40.122128" transform="rotate(-0 69.16252 40.122128)">STEP 1 · BUILD</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 600; font-size: 7.686px; font-family: 'Fraunces'; text-anchor: middle; fill: #161b1f" x="69.16252" y="54.838483" transform="rotate(-0 69.16252 54.838483)">Trisomy signature</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(37.555641 149.290767)">In saline mice only, find</text>
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(35.740503 157.071267)">the protein direction that</text>
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(37.8937 164.851767)">separates Ts65Dn from</text>
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(51.725129 173.194763)">control mice.</text>
+   </g>
+   <g id="text_5">
+    <!-- $\mathbf{t}=\bar{\mathbf{z}}_{\mathrm{Ts,sal}}-\bar{\mathbf{z}}_{\mathrm{Ctrl,sal}}$ -->
+    <g style="fill: #161b1f" transform="translate(45.00202 202.159984)">
+     <text>
+      <tspan x="0" y="-0.478125" style="font-weight: 700; font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">t</tspan>
+      <tspan x="8.32572" y="-0.478125" style="font-weight: 700; font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">z</tspan>
+      <tspan x="30.03456" y="-0.478125" style="font-weight: 700; font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">z</tspan>
+      <tspan x="3.479648" y="-0.478125" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">=</tspan>
+      <tspan x="10.016165" y="-0.5625" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">̄</tspan>
+      <tspan x="25.188487" y="-0.478125" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">−</tspan>
+      <tspan x="31.725005" y="-0.5625" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">̄</tspan>
+      <tspan x="11.644375" y="0.496875" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">T</tspan>
+      <tspan x="14.16564" y="0.496875" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">s</tspan>
+      <tspan x="16.312242" y="0.496875" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">,</tspan>
+      <tspan x="18.258734" y="0.496875" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">s</tspan>
+      <tspan x="20.405336" y="0.496875" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">a</tspan>
+      <tspan x="22.759109" y="0.496875" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">l</tspan>
+      <tspan x="33.353214" y="0.496875" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">C</tspan>
+      <tspan x="36.090463" y="0.496875" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">t</tspan>
+      <tspan x="37.637606" y="0.496875" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">r</tspan>
+      <tspan x="39.255277" y="0.496875" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">l</tspan>
+      <tspan x="40.454205" y="0.496875" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">,</tspan>
+      <tspan x="42.400697" y="0.496875" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">s</tspan>
+      <tspan x="44.547299" y="0.496875" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">a</tspan>
+      <tspan x="46.901073" y="0.496875" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">l</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 5.04px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6670" x="69.16252" y="220.699741" transform="rotate(-0 69.16252 220.699741)">sal = saline-treated</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 5.67px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #2457d6" x="198.847559" y="40.122128" transform="rotate(-0 198.847559 40.122128)">STEP 2 · SCORE</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 600; font-size: 7.686px; font-family: 'Fraunces'; text-anchor: middle; fill: #161b1f" x="198.847559" y="54.838483" transform="rotate(-0 198.847559 54.838483)">Every mouse, fairly</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(164.903725 149.254763)">Place all mice on it; drug-</text>
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(162.126779 157.633763)">treated mice were not used</text>
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(170.970084 165.052358)">to build it, and saline</text>
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(166.789468 173.194763)">mice are left out in turn.</text>
+   </g>
+   <g id="text_10">
+    <!-- $s_i=\mathbf{z}_i\cdot\hat{\mathbf{t}}^{(-i)}$ -->
+    <g style="fill: #161b1f" transform="translate(184.767059 205.813984)">
+     <text>
+      <tspan x="0" y="-0.48125" style="font-style: italic; font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">s</tspan>
+      <tspan x="2.96582" y="0.49375" style="font-style: italic; font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">i</tspan>
+      <tspan x="13.524656" y="0.49375" style="font-style: italic; font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">i</tspan>
+      <tspan x="25.319921" y="-5.653125" style="font-style: italic; font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">i</tspan>
+      <tspan x="5.359929" y="-0.48125" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">=</tspan>
+      <tspan x="20.332971" y="-1.753125" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">̂</tspan>
+      <tspan x="10.206001" y="-0.48125" style="font-weight: 700; font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">z</tspan>
+      <tspan x="18.730047" y="-0.48125" style="font-weight: 700; font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">t</tspan>
+      <tspan x="15.918765" y="-0.48125" style="font-size: 6.3px; font-family: 'cmsy10'; fill: #161b1f">¢</tspan>
+      <tspan x="21.198619" y="-5.653125" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">(</tspan>
+      <tspan x="22.675235" y="-5.653125" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">−</tspan>
+      <tspan x="26.483579" y="-5.653125" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">)</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 5.04px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6670" x="198.847559" y="220.699741" transform="rotate(-0 198.847559 220.699741)">s = how trisomic a mouse looks</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 5.67px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #2457d6" x="328.532598" y="40.122128" transform="rotate(-0 328.532598 40.122128)">STEP 3 · MEASURE</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 600; font-size: 7.686px; font-family: 'Fraunces'; text-anchor: middle; fill: #161b1f" x="328.532598" y="54.838483" transform="rotate(-0 328.532598 54.838483)">Gap closed by the drug</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(289.576327 149.290767)">Compare how far memantine</text>
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(289.956936 157.633763)">moves Ts65Dn mice with the</text>
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(297.709381 164.815763)">size of the trisomy gap,</text>
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(291.001037 173.194763)">and check whether it moves</text>
+    <text style="font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(311.739062 180.975263)">controls too.</text>
+   </g>
+   <g id="text_15">
+    <!-- $F=\frac{\bar s_{\mathrm{Ts,sal}}-\bar s_{\mathrm{Ts,mem}}}{\bar s_{\mathrm{Ts,sal}}-\bar s_{\mathrm{Ctrl,sal}}}$ -->
+    <g style="fill: #161b1f" transform="translate(308.971098 204.049984)">
+     <text>
+      <tspan x="0" y="-0.204375" style="font-style: italic; font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">F</tspan>
+      <tspan x="4.480853" y="-0.204375" style="font-size: 6.3px; font-family: 'IBM Plex Sans'; fill: #161b1f">=</tspan>
+      <tspan x="10.789426" y="-3.892188" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">̄</tspan>
+      <tspan x="11.789426" y="2.229688" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">̄</tspan>
+      <tspan x="21.317441" y="-3.82375" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">−</tspan>
+      <tspan x="22.317441" y="2.298125" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">−</tspan>
+      <tspan x="25.778442" y="-3.892188" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">̄</tspan>
+      <tspan x="26.778442" y="2.229688" style="font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">̄</tspan>
+      <tspan x="9.720676" y="-3.82375" style="font-style: italic; font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">s</tspan>
+      <tspan x="10.720676" y="2.298125" style="font-style: italic; font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">s</tspan>
+      <tspan x="24.709692" y="-3.82375" style="font-style: italic; font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">s</tspan>
+      <tspan x="25.709692" y="2.298125" style="font-style: italic; font-size: 4.41px; font-family: 'IBM Plex Sans'; fill: #161b1f">s</tspan>
+      <tspan x="11.836562" y="-3.130313" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">T</tspan>
+      <tspan x="12.836562" y="2.991563" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">T</tspan>
+      <tspan x="13.601448" y="-3.130313" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">s</tspan>
+      <tspan x="14.601448" y="2.991563" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">s</tspan>
+      <tspan x="15.104069" y="-3.130313" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">,</tspan>
+      <tspan x="16.104069" y="2.991563" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">,</tspan>
+      <tspan x="16.466614" y="-3.130313" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">s</tspan>
+      <tspan x="17.466614" y="2.991563" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">s</tspan>
+      <tspan x="17.969235" y="-3.130313" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">a</tspan>
+      <tspan x="18.969235" y="2.991563" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">a</tspan>
+      <tspan x="19.616877" y="-3.130313" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">l</tspan>
+      <tspan x="20.616877" y="2.991563" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">l</tspan>
+      <tspan x="26.825578" y="-3.130313" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">T</tspan>
+      <tspan x="27.825578" y="2.991563" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">C</tspan>
+      <tspan x="28.590464" y="-3.130313" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">s</tspan>
+      <tspan x="29.741652" y="2.991563" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">t</tspan>
+      <tspan x="30.093085" y="-3.130313" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">,</tspan>
+      <tspan x="30.824653" y="2.991563" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">r</tspan>
+      <tspan x="31.45563" y="-3.130313" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">m</tspan>
+      <tspan x="31.957022" y="2.991563" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">l</tspan>
+      <tspan x="32.796272" y="2.991563" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">,</tspan>
+      <tspan x="34.149247" y="-3.130313" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">e</tspan>
+      <tspan x="34.158816" y="2.991563" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">s</tspan>
+      <tspan x="35.661438" y="2.991563" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">a</tspan>
+      <tspan x="35.843169" y="-3.130313" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">m</tspan>
+      <tspan x="37.309079" y="2.991563" style="font-size: 3.087px; font-family: 'IBM Plex Sans'; fill: #161b1f">l</tspan>
+     </text>
+     <rect x="9.720676" y="-2.929375" width="28.929861" height="0.39375"/>
+    </g>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 5.04px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6670" x="328.532598" y="220.195741" transform="rotate(-0 328.532598 220.195741)">F = fraction of the gap closed</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 5.67px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #161b1f" x="458.217638" y="40.122128" transform="rotate(-0 458.217638 40.122128)">RESULT</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 600; font-size: 7.686px; font-family: 'Fraunces'; text-anchor: middle; fill: #161b1f" x="458.217638" y="54.838483" transform="rotate(-0 458.217638 54.838483)">Partial, not specific</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 600; font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(420.794087 149.871031)">Memantine closes ~64% of</text>
+    <text style="font-weight: 600; font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(424.678726 157.095113)">the gap (p = 0.019; wide</text>
+    <text style="font-weight: 600; font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(432.174004 165.097245)">interval) and shifts</text>
+    <text style="font-weight: 600; font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(421.665185 172.820701)">controls too; 61% remains</text>
+    <text style="font-weight: 600; font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(429.618222 180.394531)">against drug-treated</text>
+    <text style="font-weight: 600; font-size: 5.985px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(446.044241 188.755763)">controls.</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 4.6px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #5b6670" x="520.466457" y="234.819181" transform="rotate(-0 520.466457 234.819181)">Steps 1–3: schematic · Result: data</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m6b1adc46a8" d="M 0 1.322876 
+C 0.350831 1.322876 0.68734 1.183489 0.935414 0.935414 
+C 1.183489 0.68734 1.322876 0.350831 1.322876 0 
+C 1.322876 -0.350831 1.183489 -0.68734 0.935414 -0.935414 
+C 0.68734 -1.183489 0.350831 -1.322876 0 -1.322876 
+C -0.350831 -1.322876 -0.68734 -1.183489 -0.935414 -0.935414 
+C -1.183489 -0.68734 -1.322876 -0.350831 -1.322876 0 
+C -1.322876 0.350831 -1.183489 0.68734 -0.935414 0.935414 
+C -0.68734 1.183489 -0.350831 1.322876 0 1.322876 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p58d9844bfd)">
+     <use xlink:href="#m6b1adc46a8" x="46.346887" y="113.271194" style="fill: #8ea8ec"/>
+     <use xlink:href="#m6b1adc46a8" x="44.347064" y="119.076659" style="fill: #8ea8ec"/>
+     <use xlink:href="#m6b1adc46a8" x="43.035969" y="119.569933" style="fill: #8ea8ec"/>
+     <use xlink:href="#m6b1adc46a8" x="46.774737" y="108.18751" style="fill: #8ea8ec"/>
+     <use xlink:href="#m6b1adc46a8" x="42.763371" y="117.758148" style="fill: #8ea8ec"/>
+     <use xlink:href="#m6b1adc46a8" x="49.895363" y="112.987391" style="fill: #8ea8ec"/>
+     <use xlink:href="#m6b1adc46a8" x="47.103509" y="119.271305" style="fill: #8ea8ec"/>
+     <use xlink:href="#m6b1adc46a8" x="46.125515" y="111.335493" style="fill: #8ea8ec"/>
+     <use xlink:href="#m6b1adc46a8" x="36.57578" y="116.96319" style="fill: #8ea8ec"/>
+     <use xlink:href="#m6b1adc46a8" x="32.530585" y="121.024018" style="fill: #8ea8ec"/>
+    </g>
+   </g>
+   <g id="PathCollection_2">
+    <defs>
+     <path id="mc053789a80" d="M 0 1.322876 
+C 0.350831 1.322876 0.68734 1.183489 0.935414 0.935414 
+C 1.183489 0.68734 1.322876 0.350831 1.322876 0 
+C 1.322876 -0.350831 1.183489 -0.68734 0.935414 -0.935414 
+C 0.68734 -1.183489 0.350831 -1.322876 0 -1.322876 
+C -0.350831 -1.322876 -0.68734 -1.183489 -0.935414 -0.935414 
+C -1.183489 -0.68734 -1.322876 -0.350831 -1.322876 0 
+C -1.322876 0.350831 -1.183489 0.68734 -0.935414 0.935414 
+C -0.68734 1.183489 -0.350831 1.322876 0 1.322876 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p58d9844bfd)">
+     <use xlink:href="#mc053789a80" x="78.61174" y="87.984076" style="fill: #2457d6"/>
+     <use xlink:href="#mc053789a80" x="82.782431" y="85.512424" style="fill: #2457d6"/>
+     <use xlink:href="#mc053789a80" x="93.12547" y="87.748994" style="fill: #2457d6"/>
+     <use xlink:href="#mc053789a80" x="73.709466" y="89.466035" style="fill: #2457d6"/>
+     <use xlink:href="#mc053789a80" x="91.634855" y="86.283445" style="fill: #2457d6"/>
+     <use xlink:href="#mc053789a80" x="80.874686" y="89.168573" style="fill: #2457d6"/>
+     <use xlink:href="#mc053789a80" x="84.880727" y="90.78468" style="fill: #2457d6"/>
+     <use xlink:href="#mc053789a80" x="99.691717" y="90.778322" style="fill: #2457d6"/>
+     <use xlink:href="#mc053789a80" x="91.750902" y="82.519599" style="fill: #2457d6"/>
+     <use xlink:href="#mc053789a80" x="87.748769" y="87.381782" style="fill: #2457d6"/>
+    </g>
+   </g>
+   <g id="patch_5">
+    <path d="M 48.048048 113.689508 
+Q 68.125379 101.480109 86.960862 90.0259 
+" clip-path="url(#p58d9844bfd)" style="fill: none; stroke: #161b1f; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 83.395387 90.321511 
+L 86.960862 90.0259 
+L 85.058066 93.055647 
+z
+" clip-path="url(#p58d9844bfd)" style="fill: #161b1f; stroke: #161b1f; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6670" x="33.888189" y="128.79326" transform="rotate(-0 33.888189 128.79326)">control</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #2457d6" x="104.43685" y="74.402079" transform="rotate(-0 104.43685 74.402079)">Ts65Dn</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(78.053296 116.198539) rotate(-40)">signature</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="line2d_2">
+    <path d="M 153.198425 123.097323 
+L 244.496693 78.468661 
+" clip-path="url(#p53d970f86a)" style="fill: none; stroke: #161b1f; stroke-width: 1.1; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 209.099313 87.650431 
+L 214.846839 92.962182 
+" clip-path="url(#p53d970f86a)" style="fill: none; stroke: #d9dde0; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 219.567017 115.766764 
+L 201.795001 99.342216 
+" clip-path="url(#p53d970f86a)" style="fill: none; stroke: #d9dde0; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 186.513102 88.640365 
+L 199.373647 100.525828 
+" clip-path="url(#p53d970f86a)" style="fill: none; stroke: #d9dde0; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 166.014187 90.829612 
+L 184.416891 107.837029 
+" clip-path="url(#p53d970f86a)" style="fill: none; stroke: #d9dde0; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 221.053426 105.611188 
+L 209.954422 95.353706 
+" clip-path="url(#p53d970f86a)" style="fill: none; stroke: #d9dde0; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 186.712331 113.540139 
+L 181.88207 109.076107 
+" clip-path="url(#p53d970f86a)" style="fill: none; stroke: #d9dde0; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="PathCollection_3">
+    <g clip-path="url(#p53d970f86a)">
+     <use xlink:href="#mc053789a80" x="209.099313" y="87.650431" style="fill: #2457d6"/>
+    </g>
+   </g>
+   <g id="PathCollection_4">
+    <defs>
+     <path id="m86d9dac5b0" d="M 0 1.224745 
+C 0.324806 1.224745 0.636353 1.095698 0.866025 0.866025 
+C 1.095698 0.636353 1.224745 0.324806 1.224745 0 
+C 1.224745 -0.324806 1.095698 -0.636353 0.866025 -0.866025 
+C 0.636353 -1.095698 0.324806 -1.224745 0 -1.224745 
+C -0.324806 -1.224745 -0.636353 -1.095698 -0.866025 -0.866025 
+C -1.095698 -0.636353 -1.224745 -0.324806 -1.224745 0 
+C -1.224745 0.324806 -1.095698 0.636353 -0.866025 0.866025 
+C -0.636353 1.095698 -0.324806 1.224745 0 1.224745 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p53d970f86a)">
+     <use xlink:href="#m86d9dac5b0" x="214.846839" y="92.962182" style="fill: #161b1f"/>
+    </g>
+   </g>
+   <g id="PathCollection_5">
+    <g clip-path="url(#p53d970f86a)">
+     <use xlink:href="#mc053789a80" x="219.567017" y="115.766764" style="fill: #2457d6"/>
+    </g>
+   </g>
+   <g id="PathCollection_6">
+    <g clip-path="url(#p53d970f86a)">
+     <use xlink:href="#m86d9dac5b0" x="201.795001" y="99.342216" style="fill: #161b1f"/>
+    </g>
+   </g>
+   <g id="PathCollection_7">
+    <g clip-path="url(#p53d970f86a)">
+     <use xlink:href="#mc053789a80" x="186.513102" y="88.640365" style="fill: #2457d6"/>
+    </g>
+   </g>
+   <g id="PathCollection_8">
+    <g clip-path="url(#p53d970f86a)">
+     <use xlink:href="#m86d9dac5b0" x="199.373647" y="100.525828" style="fill: #161b1f"/>
+    </g>
+   </g>
+   <g id="PathCollection_9">
+    <g clip-path="url(#p53d970f86a)">
+     <use xlink:href="#mc053789a80" x="166.014187" y="90.829612" style="fill: #2457d6"/>
+    </g>
+   </g>
+   <g id="PathCollection_10">
+    <g clip-path="url(#p53d970f86a)">
+     <use xlink:href="#m86d9dac5b0" x="184.416891" y="107.837029" style="fill: #161b1f"/>
+    </g>
+   </g>
+   <g id="PathCollection_11">
+    <g clip-path="url(#p53d970f86a)">
+     <use xlink:href="#mc053789a80" x="221.053426" y="105.611188" style="fill: #2457d6"/>
+    </g>
+   </g>
+   <g id="PathCollection_12">
+    <g clip-path="url(#p53d970f86a)">
+     <use xlink:href="#m86d9dac5b0" x="209.954422" y="95.353706" style="fill: #161b1f"/>
+    </g>
+   </g>
+   <g id="PathCollection_13">
+    <g clip-path="url(#p53d970f86a)">
+     <use xlink:href="#mc053789a80" x="186.712331" y="113.540139" style="fill: #2457d6"/>
+    </g>
+   </g>
+   <g id="PathCollection_14">
+    <g clip-path="url(#p53d970f86a)">
+     <use xlink:href="#m86d9dac5b0" x="181.88207" y="109.076107" style="fill: #161b1f"/>
+    </g>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(154.289078 69.497433)">scored mouse is</text>
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #161b1f" transform="translate(152.607485 76.517433)">left out of the line</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(210.712953 129.467197)">score = position</text>
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(217.263406 136.487197)">on the line</text>
+   </g>
+   <g id="PathCollection_15">
+    <defs>
+     <path id="m4ebfc83fb9" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: #161b1f"/>
+    </defs>
+    <g clip-path="url(#p53d970f86a)">
+     <use xlink:href="#m4ebfc83fb9" x="169.79811" y="85.44189" style="fill: #ffffff; stroke: #161b1f"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_4">
+   <g id="PathCollection_16">
+    <defs>
+     <path id="mb59405c7c5" d="M 0 1.224745 
+C 0.324806 1.224745 0.636353 1.095698 0.866025 0.866025 
+C 1.095698 0.636353 1.224745 0.324806 1.224745 0 
+C 1.224745 -0.324806 1.095698 -0.636353 0.866025 -0.866025 
+C 0.636353 -1.095698 0.324806 -1.224745 0 -1.224745 
+C -0.324806 -1.224745 -0.636353 -1.095698 -0.866025 -0.866025 
+C -1.095698 -0.636353 -1.224745 -0.324806 -1.224745 0 
+C -1.224745 0.324806 -1.095698 0.636353 -0.866025 0.866025 
+C -0.636353 1.095698 -0.324806 1.224745 0 1.224745 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p3816b5a7dd)">
+     <use xlink:href="#mb59405c7c5" x="297.408189" y="91.020472" style="fill: #2457d6"/>
+     <use xlink:href="#mb59405c7c5" x="297.408189" y="87.533858" style="fill: #2457d6"/>
+     <use xlink:href="#mb59405c7c5" x="297.408189" y="84.047244" style="fill: #2457d6"/>
+     <use xlink:href="#mb59405c7c5" x="297.408189" y="80.56063" style="fill: #2457d6"/>
+    </g>
+   </g>
+   <g id="PathCollection_17">
+    <defs>
+     <path id="m0f5d67f9e3" d="M 0 -1.322876 
+L -1.322876 1.322876 
+L 1.322876 1.322876 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p3816b5a7dd)">
+     <use xlink:href="#m0f5d67f9e3" x="297.408189" y="113.334803" style="fill: #2457d6"/>
+     <use xlink:href="#m0f5d67f9e3" x="297.408189" y="109.848189" style="fill: #2457d6"/>
+     <use xlink:href="#m0f5d67f9e3" x="297.408189" y="106.361575" style="fill: #2457d6"/>
+     <use xlink:href="#m0f5d67f9e3" x="297.408189" y="102.874961" style="fill: #2457d6"/>
+    </g>
+   </g>
+   <g id="PathCollection_18">
+    <g clip-path="url(#p3816b5a7dd)">
+     <use xlink:href="#mb59405c7c5" x="320.232756" y="91.020472" style="fill: #2457d6"/>
+     <use xlink:href="#mb59405c7c5" x="320.232756" y="87.533858" style="fill: #2457d6"/>
+     <use xlink:href="#mb59405c7c5" x="320.232756" y="84.047244" style="fill: #2457d6"/>
+     <use xlink:href="#mb59405c7c5" x="320.232756" y="80.56063" style="fill: #2457d6"/>
+    </g>
+   </g>
+   <g id="PathCollection_19">
+    <g clip-path="url(#p3816b5a7dd)">
+     <use xlink:href="#m0f5d67f9e3" x="320.232756" y="113.334803" style="fill: #2457d6"/>
+     <use xlink:href="#m0f5d67f9e3" x="320.232756" y="109.848189" style="fill: #2457d6"/>
+     <use xlink:href="#m0f5d67f9e3" x="320.232756" y="106.361575" style="fill: #2457d6"/>
+     <use xlink:href="#m0f5d67f9e3" x="320.232756" y="102.874961" style="fill: #2457d6"/>
+    </g>
+   </g>
+   <g id="PathCollection_20">
+    <defs>
+     <path id="m4baf8429f5" d="M 0 1.224745 
+C 0.324806 1.224745 0.636353 1.095698 0.866025 0.866025 
+C 1.095698 0.636353 1.224745 0.324806 1.224745 0 
+C 1.224745 -0.324806 1.095698 -0.636353 0.866025 -0.866025 
+C 0.636353 -1.095698 0.324806 -1.224745 0 -1.224745 
+C -0.324806 -1.224745 -0.636353 -1.095698 -0.866025 -0.866025 
+C -1.095698 -0.636353 -1.224745 -0.324806 -1.224745 0 
+C -1.224745 0.324806 -1.095698 0.636353 -0.866025 0.866025 
+C -0.636353 1.095698 -0.324806 1.224745 0 1.224745 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p3816b5a7dd)">
+     <use xlink:href="#m4baf8429f5" x="343.057323" y="91.020472" style="fill: #e33d3f"/>
+     <use xlink:href="#m4baf8429f5" x="343.057323" y="87.533858" style="fill: #e33d3f"/>
+     <use xlink:href="#m4baf8429f5" x="343.057323" y="84.047244" style="fill: #e33d3f"/>
+     <use xlink:href="#m4baf8429f5" x="343.057323" y="80.56063" style="fill: #e33d3f"/>
+    </g>
+   </g>
+   <g id="PathCollection_21">
+    <defs>
+     <path id="m49535ea18f" d="M 0 -1.322876 
+L -1.322876 1.322876 
+L 1.322876 1.322876 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p3816b5a7dd)">
+     <use xlink:href="#m49535ea18f" x="343.057323" y="113.334803" style="fill: #e33d3f"/>
+     <use xlink:href="#m49535ea18f" x="343.057323" y="109.848189" style="fill: #e33d3f"/>
+     <use xlink:href="#m49535ea18f" x="343.057323" y="106.361575" style="fill: #e33d3f"/>
+     <use xlink:href="#m49535ea18f" x="343.057323" y="102.874961" style="fill: #e33d3f"/>
+    </g>
+   </g>
+   <g id="PathCollection_22">
+    <g clip-path="url(#p3816b5a7dd)">
+     <use xlink:href="#m4baf8429f5" x="365.88189" y="91.020472" style="fill: #e33d3f"/>
+     <use xlink:href="#m4baf8429f5" x="365.88189" y="87.533858" style="fill: #e33d3f"/>
+     <use xlink:href="#m4baf8429f5" x="365.88189" y="84.047244" style="fill: #e33d3f"/>
+     <use xlink:href="#m4baf8429f5" x="365.88189" y="80.56063" style="fill: #e33d3f"/>
+    </g>
+   </g>
+   <g id="PathCollection_23">
+    <g clip-path="url(#p3816b5a7dd)">
+     <use xlink:href="#m49535ea18f" x="365.88189" y="113.334803" style="fill: #e33d3f"/>
+     <use xlink:href="#m49535ea18f" x="365.88189" y="109.848189" style="fill: #e33d3f"/>
+     <use xlink:href="#m49535ea18f" x="365.88189" y="106.361575" style="fill: #e33d3f"/>
+     <use xlink:href="#m49535ea18f" x="365.88189" y="102.874961" style="fill: #e33d3f"/>
+    </g>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #2457d6" transform="translate(293.058658 129.336067)">Ctrl</text>
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #2457d6" transform="translate(293.916751 134.736067)">sal</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #2457d6" transform="translate(315.883225 129.336067)">Ctrl</text>
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #2457d6" transform="translate(314.036256 134.163582)">mem</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #e33d3f" transform="translate(340.386854 129.222582)">Ts</text>
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #e33d3f" transform="translate(339.565885 134.736067)">sal</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #e33d3f" transform="translate(363.211421 129.222582)">Ts</text>
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #e33d3f" transform="translate(359.68539 134.163582)">mem</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6670" x="278.733543" y="86.95389" transform="rotate(-0 278.733543 86.95389)">CS</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6670" x="278.733543" y="109.26822" transform="rotate(-0 278.733543 109.26822)">SC</text>
+   </g>
+  </g>
+  <g id="axes_5">
+   <g id="patch_6">
+    <path d="M 400.11874 139.833071 
+L 516.316535 139.833071 
+L 516.316535 58.943622 
+L 400.11874 58.943622 
+z
+" style="fill: #f4f6f8"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 412.568504 120.308031 
+L 431.24315 120.308031 
+L 431.24315 98.887276 
+L 412.568504 98.887276 
+z
+" clip-path="url(#p67aaa01055)" style="fill: #e33d3f"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 485.192126 120.308031 
+L 503.866772 120.308031 
+L 503.866772 99.738014 
+L 485.192126 99.738014 
+z
+" clip-path="url(#p67aaa01055)" style="fill: #5b6670"/>
+   </g>
+   <g id="line2d_9">
+    <path d="M 408.418583 120.308031 
+L 508.016693 120.308031 
+" clip-path="url(#p67aaa01055)" style="fill: none; stroke: #161b1f; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #ffffff" x="421.905827" y="104.583213" transform="rotate(-0 421.905827 104.583213)">64%</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #e33d3f" x="421.905827" y="131.496067" transform="rotate(-0 421.905827 131.496067)">gap closed</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Mono'; text-anchor: middle; fill: #ffffff" x="494.529449" y="105.433951" transform="rotate(-0 494.529449 105.433951)">61%</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(477.365464 128.796067)">gap remaining</text>
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; fill: #5b6670" transform="translate(475.221918 134.196067)">vs drug controls</text>
+   </g>
+   <g id="line2d_10">
+    <path d="M 408.418583 86.836535 
+L 508.016693 86.836535 
+" clip-path="url(#p67aaa01055)" style="fill: none; stroke-dasharray: 1.4,1.05; stroke-dashoffset: 0; stroke: #5b6670; stroke-width: 0.7"/>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 5.4px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6670" x="408.418583" y="83.118614" transform="rotate(-0 408.418583 83.118614)">full gap</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd971b966e3">
+   <rect x="4.32" y="4.32" width="518.740157" height="232.440945"/>
+  </clipPath>
+  <clipPath id="p58d9844bfd">
+   <rect x="17.288504" y="65.91685" width="103.748031" height="69.732283"/>
+  </clipPath>
+  <clipPath id="p53d970f86a">
+   <rect x="146.973543" y="65.91685" width="103.748031" height="69.732283"/>
+  </clipPath>
+  <clipPath id="p3816b5a7dd">
+   <rect x="276.658583" y="65.91685" width="103.748031" height="69.732283"/>
+  </clipPath>
+  <clipPath id="p67aaa01055">
+   <rect x="406.343622" y="65.91685" width="103.748031" height="69.732283"/>
+  </clipPath>
+ </defs>
+</svg>

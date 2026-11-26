@@ -9,6 +9,7 @@ with pandoc + tectonic using the house typography (``report/style.tex``).
 
 from __future__ import annotations
 
+import argparse
 import json
 import shutil
 import subprocess
@@ -27,11 +28,16 @@ REPORT = ROOT / "report"
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--no-pdf", action="store_true", help="render Markdown only")
+    args = parser.parse_args()
     summary = json.loads((ROOT / "results/mechanisms/summary.json").read_text())
     v = {k: x.replace("{,}", ",").replace("--", "–") for k, x in values(summary).items()}
     text = Template((REPORT / "study_report.template.md").read_text()).substitute(v)
     (REPORT / "study_report.md").write_text(text)
     print("wrote report/study_report.md")
+    if args.no_pdf:
+        return
     if shutil.which("pandoc") is None or shutil.which("tectonic") is None:
         print("pandoc or tectonic not found: skipped PDF")
         return

@@ -1,0 +1,54 @@
+{
+  "config": {
+    "seed": 20261127,
+    "inner_folds": 3,
+    "scoring": "balanced_accuracy",
+    "models": {
+      "logistic": {
+        "model__C": [
+          0.01,
+          0.1,
+          1.0,
+          10.0,
+          100.0
+        ]
+      },
+      "svm": {
+        "model__C": [
+          0.1,
+          1.0,
+          10.0,
+          100.0
+        ],
+        "model__gamma": [
+          "scale",
+          0.01,
+          0.1
+        ]
+      },
+      "random_forest": {
+        "model__max_features": [
+          "sqrt",
+          0.5,
+          1.0
+        ],
+        "model__min_samples_leaf": [
+          1,
+          3
+        ]
+      },
+      "gradient_boosting": {
+        "model__max_leaf_nodes": [
+          3,
+          7,
+          15
+        ],
+        "model__min_samples_leaf": [
+          2,
+          5
+        ]
+      }
+    }
+  },
+  "outer_folds": "foundation_models/results/folds.csv"
+}

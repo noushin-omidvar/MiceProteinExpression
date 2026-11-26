@@ -1,0 +1,44 @@
+{
+  "config": {
+    "seed": 20261125,
+    "outer_repeats": 2,
+    "outer_folds": 7,
+    "subset_draws": 5,
+    "per_class_sizes": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "include_full_outer_training_set": true,
+    "models": [
+      "logistic",
+      "tabpfn",
+      "kumo"
+    ],
+    "primary_metric": "balanced_accuracy",
+    "representation": "arithmetic_mean_per_mouse_77_proteins",
+    "preprocessing": "model_pipeline_fit_on_training_subset_only",
+    "subset_rule": "nested_random_permutation_within_each_class_and_outer_training_fold",
+    "test_rule": "same_outer_test_mice_at_every_training_size_and_for_every_model",
+    "uncertainty_rule": "descriptive_paired_outer_split_and_subset_variation;no_independent_mouse_p_values"
+  },
+  "python": "3.11.14",
+  "scikit_learn": "1.6.1",
+  "platform": "macOS-14.3-arm64-arm-64bit",
+  "tabpfn": "2.2.1",
+  "sdm": "0.3.0",
+  "torch": "2.15.0",
+  "checkpoint_inventory": {
+    "tabpfn_v2": {
+      "filename": "tabpfn-v2-classifier-finetuned-zk73skhh.ckpt",
+      "sha256": "cf8c519c01eaf1613ee91239006d57b1c806ff5f23ac1aeb1315ba1015210e49"
+    },
+    "kumo_tabular_small": {
+      "huggingface_revision": "3c3e10bbdb590ace29e7026847f92db3c603096d",
+      "filename": "small/classifier.pt",
+      "sha256": "1ff91f484e19021aaf7d9eff6cc07e6d95a60b4aaad473e83e2ab2c3bfd2b617"
+    }
+  }
+}

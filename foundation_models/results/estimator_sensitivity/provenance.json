@@ -1,0 +1,19 @@
+{
+  "status": "post_hoc_exploratory",
+  "date": "2026-11-25",
+  "python": "3.11.14",
+  "scikit_learn": "1.6.1",
+  "tabpfn": "2.2.1",
+  "torch": "2.15.0",
+  "checkpoints": {
+    "tabpfn_v2": {
+      "filename": "tabpfn-v2-classifier-finetuned-zk73skhh.ckpt",
+      "sha256": "cf8c519c01eaf1613ee91239006d57b1c806ff5f23ac1aeb1315ba1015210e49"
+    },
+    "kumo_tabular_small": {
+      "huggingface_revision": "3c3e10bbdb590ace29e7026847f92db3c603096d",
+      "filename": "small/classifier.pt",
+      "sha256": "1ff91f484e19021aaf7d9eff6cc07e6d95a60b4aaad473e83e2ab2c3bfd2b617"
+    }
+  }
+}

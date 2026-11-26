@@ -1,0 +1,7 @@
+# Post hoc sensitivity analysis specified on 2026-11-25 before execution.
+seed: 20261126
+models: [logistic, kumo]
+repeats: 2
+folds: 5
+representations: [arithmetic, geometric, missingness_only, geometric_no_duplicate_sparse]
+metric: pooled_out_of_fold_balanced_accuracy_per_repeat

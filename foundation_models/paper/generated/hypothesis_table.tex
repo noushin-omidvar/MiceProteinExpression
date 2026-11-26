@@ -1,0 +1,12 @@
+\begin{tabularx}{\linewidth}{lXl}
+\toprule
+Hypothesis & Statement (fixed in advance) & Verdict \\
+\midrule
+H1 & TFMs more accurate than every baseline & TabPFN: not supported; Kumo: supported \\
+H2 & TFMs have lower log loss than every baseline & TabPFN: not supported; Kumo: supported \\
+H3 & TFM advantage larger at 2 than at 6 mice per group & TabPFN: not supported; Kumo: not supported \\
+H4a & All models at chance with shuffled labels & supported \\
+H4b & All models inflated by row-level leakage & supported \\
+H4c & No reliance on dataset identity & supported \\
+\bottomrule
+\end{tabularx}

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="527.380157pt" height="252.419528pt" viewBox="0 0 527.380157 252.419528" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 252.419528 
+L 527.380157 252.419528 
+L 527.380157 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 393.375118 71.968819 
+L 418.274646 71.968819 
+L 418.274646 62.217638 
+L 393.375118 62.217638 
+z
+" clip-path="url(#pff9338a3d3)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 421.905827 71.968819 
+L 446.805354 71.968819 
+L 446.805354 62.217638 
+L 421.905827 62.217638 
+z
+" clip-path="url(#pff9338a3d3)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 450.436535 71.968819 
+L 475.336063 71.968819 
+L 475.336063 62.217638 
+L 450.436535 62.217638 
+z
+" clip-path="url(#pff9338a3d3)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 393.375118 119.505827 
+L 418.274646 119.505827 
+L 418.274646 109.754646 
+L 393.375118 109.754646 
+z
+" clip-path="url(#pff9338a3d3)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 421.905827 119.505827 
+L 446.805354 119.505827 
+L 446.805354 109.754646 
+L 421.905827 109.754646 
+z
+" clip-path="url(#pff9338a3d3)" style="fill: #d9dde0"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 450.436535 119.505827 
+L 475.336063 119.505827 
+L 475.336063 109.754646 
+L 450.436535 109.754646 
+z
+" clip-path="url(#pff9338a3d3)" style="fill: #d9dde0"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 393.375118 167.042835 
+L 418.274646 167.042835 
+L 418.274646 157.291654 
+L 393.375118 157.291654 
+z
+" clip-path="url(#pff9338a3d3)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 421.905827 167.042835 
+L 446.805354 167.042835 
+L 446.805354 157.291654 
+L 421.905827 157.291654 
+z
+" clip-path="url(#pff9338a3d3)" style="fill: #d9dde0"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 450.436535 167.042835 
+L 475.336063 167.042835 
+L 475.336063 157.291654 
+L 450.436535 157.291654 
+z
+" clip-path="url(#pff9338a3d3)" style="fill: #d9dde0"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 393.375118 214.579843 
+L 418.274646 214.579843 
+L 418.274646 204.828661 
+L 393.375118 204.828661 
+z
+" clip-path="url(#pff9338a3d3)" style="fill: #2457d6"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 421.905827 214.579843 
+L 446.805354 214.579843 
+L 446.805354 204.828661 
+L 421.905827 204.828661 
+z
+" clip-path="url(#pff9338a3d3)" style="fill: #d9dde0"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 450.436535 214.579843 
+L 475.336063 214.579843 
+L 475.336063 204.828661 
+L 450.436535 204.828661 
+z
+" clip-path="url(#pff9338a3d3)" style="fill: #d9dde0"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 12.101102 90.861732 
+L 515.279055 90.861732 
+" clip-path="url(#pff9338a3d3)" style="fill: none; stroke: #d9dde0; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 12.101102 138.39874 
+L 515.279055 138.39874 
+" clip-path="url(#pff9338a3d3)" style="fill: none; stroke: #d9dde0; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 12.101102 185.935748 
+L 515.279055 185.935748 
+" clip-path="url(#pff9338a3d3)" style="fill: none; stroke: #d9dde0; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5b6670" x="434.874331" y="39.980243" transform="rotate(-0 434.874331 39.980243)">strength of evidence</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #2457d6" x="12.101102" y="68.786322" transform="rotate(-0 12.101102 68.786322)">Q1 · Dosage</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="159.942047" y="62.793834" transform="rotate(-0 159.942047 62.793834)">Extra gene copies add only ~23% of the expected protein</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6670" x="159.942047" y="78.468409" transform="rotate(-0 159.942047 78.468409)">replicated in separate mice (r = 0.66)</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6670" x="481.560945" y="68.389619" transform="rotate(-0 481.560945 68.389619)">strong</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #2457d6" x="12.101102" y="116.445517" transform="rotate(-0 12.101102 116.445517)">Q2 · Learning</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="159.942047" y="110.398842" transform="rotate(-0 159.942047 110.398842)">Weaker learning response (0.67×); near normal with memantine</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6670" x="159.942047" y="125.947417" transform="rotate(-0 159.942047 125.947417)">two-sided p = 0.049; interval reaches 1; exploratory</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6670" x="481.560945" y="116.741346" transform="rotate(-0 481.560945 116.741346)">weak</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #2457d6" x="12.101102" y="163.97615" transform="rotate(-0 12.101102 163.97615)">Q3 · Rescue</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="159.942047" y="158.54785" transform="rotate(-0 159.942047 158.54785)">Memantine shifts trisomic mice ~64% toward normal</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6670" x="159.942047" y="173.484425" transform="rotate(-0 159.942047 173.484425)">p = 0.019, but interval includes no shift; controls move too</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6670" x="481.560945" y="164.278353" transform="rotate(-0 481.560945 164.278353)">weak</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 600; font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #2457d6" x="12.101102" y="211.615158" transform="rotate(-0 12.101102 211.615158)">Q4 · Networks</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 6.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #161b1f" x="159.942047" y="205.404858" transform="rotate(-0 159.942047 205.404858)">No detectable rewiring</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6670" x="159.942047" y="220.986542" transform="rotate(-0 159.942047 220.986542)">p = 0.15; only large changes detectable</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 5.8px; font-family: 'IBM Plex Sans', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b6670" x="481.560945" y="211.815361" transform="rotate(-0 481.560945 211.815361)">weak</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 5px; font-family: 'IBM Plex Mono'; text-anchor: end; fill: #5b6670" x="517.872756" y="244.561732" transform="rotate(-0 517.872756 244.561732)">SUMMARY</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pff9338a3d3">
+   <rect x="4.32" y="4.32" width="518.740157" height="243.779528"/>
+  </clipPath>
+ </defs>
+</svg>

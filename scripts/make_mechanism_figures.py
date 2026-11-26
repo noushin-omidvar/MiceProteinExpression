@@ -337,7 +337,7 @@ def figure3():
         ax.plot([a, a, b, b], [y - 0.05, y, y, y - 0.05], color=P.INK, lw=0.6)
         P.annotate_stat(ax, (a + b) / 2, y + 0.03, f"p = {pval:.3f}", ha="center", fontsize=5.8)
     ax.set_ylim(0, y1 + 0.28)
-    P.title(ax, "Blunted, then restored")
+    P.title(ax, "Weaker, then near normal")
     P.panel_label(ax, "b", x=-0.42)
 
     ax = fig.add_subplot(gs[1, 1])
@@ -648,34 +648,6 @@ def figure_s1():
     P.save(fig, FIG, "figS1_missingness")
 
 
-def figure_s2():
-    """Memorisation test: original vs obfuscated data for each model (per CV repeat)."""
-    models = [("logistic", "Logistic\n(control)"), ("tabpfn", "TabPFN v2"), ("kumo", "Kumo Tabular\nSmall")]
-    fig, ax = plt.subplots(figsize=(P.SINGLE * 1.25, 58 * P.MM))
-    for i, (model, label) in enumerate(models):
-        path = ROOT / f"results/metrics/memorization_{model}.csv"
-        if not path.exists():
-            continue
-        t = pd.read_csv(path)
-        orig = t[t.version == "original"].balanced_accuracy
-        obf = t[t.version != "original"].balanced_accuracy
-        ax.scatter(np.full(len(orig), i - 0.14), orig, color=P.INK, s=12, lw=0,
-                   label="Original" if i == 0 else None)
-        ax.scatter(i + 0.14 + np.random.default_rng(i).uniform(-0.04, 0.04, len(obf)), obf,
-                   color=P.VERMILION, marker="D", s=10, lw=0,
-                   label="Obfuscated (3 keys)" if i == 0 else None)
-        for x, vals in ((i - 0.14, orig), (i + 0.14, obf)):
-            ax.hlines(vals.mean(), x - 0.08, x + 0.08, color=P.INK, lw=1.3)
-        P.annotate_stat(ax, i, max(orig.max(), obf.max()) + 0.02,
-                        f"{orig.mean():.3f} → {obf.mean():.3f}", ha="center", fontsize=5.8)
-    ax.set_xticks(range(len(models)), [m[1] for m in models])
-    ax.set_ylabel("Eight-group balanced accuracy\n(one dot per CV repeat)")
-    ax.set_ylim(0.5, 0.95)
-    ax.legend(loc="lower right")
-    P.title(ax, "Hiding the dataset’s identity leaves mean accuracy unchanged")
-    P.save(fig, FIG, "figS2_obfuscation")
-
-
 
 # ---------------------------------------------------------------------------
 def figure_overview():
@@ -724,10 +696,10 @@ def figure_overview():
         ("Q1", "Does an extra gene copy\nmean 50% more protein?",
          f"Only {100 * D['set_fraction_of_expected']:.0f}% of that; non-triplicated\ngenes unchanged"),
         ("Q2", "Does trisomy change the\nbrain’s response to learning?",
-         (f"Weaker ({L['relative']['Ts65Dn saline']:.2f}×); memantine\nrestores it "
-         f"({L['relative']['Ts65Dn memantine']:.2f}×)")),
+         (f"Weaker ({L['relative']['Ts65Dn saline']:.2f}×); near normal\nwith memantine "
+         f"({L['relative']['Ts65Dn memantine']:.2f}×); tentative")),
         ("Q3", "Does memantine repair the\ntrisomic proteome?",
-         f"Partly offsets it ({100 * R['rescue_fraction']:.0f}%), but\nmoves controls too"),
+         f"Possibly partly (~{100 * R['rescue_fraction']:.0f}%); wide\ninterval, controls move too"),
         ("Q4", "Does trisomy rewire how\nproteins co-vary?",
          f"No evidence\n(p = {N['p_global']:.2f})"),
     ]
@@ -854,7 +826,7 @@ def slides_all():
 def main():
     P.apply_style()
     for f in (figure_overview, figure1, figure2, figure3, figure4, figure5, figure6, figure7,
-              figure_s1, figure_s2, slides_all):
+              figure_s1, slides_all):
         f()
         print("drew", f.__name__)
 

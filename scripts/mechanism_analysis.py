@@ -10,7 +10,6 @@ Analyses (numbered as in the paper):
   4. Pathway activity from phospho/total ratios.
   5. Network rewiring between genotypes.
   6. Power for a follow-up experiment.
-  7. Obfuscation protocol positive control for the memorization test.
 
 Outputs go to ``results/mechanisms/`` (see the README there). The paper's numbers are
 read from ``summary.json`` so text and results cannot drift apart.
@@ -41,7 +40,6 @@ from mice_protein.data import (
     log2_animal_matrix,
 )
 from mice_protein.dosage import dosage_table, set_mean_bootstrap
-from mice_protein.memorization import obfuscate
 from mice_protein.networks import rewiring_test
 from mice_protein.pathways import pathway_coherence, pathway_scores, phospho_ratios
 from mice_protein.power import contrast_power, required_n
@@ -62,8 +60,15 @@ def interval(draws: np.ndarray) -> list[float]:
 
 
 def perm_p(null: np.ndarray, observed: float) -> float:
-    """One-sided permutation p-value with the +1 correction (null >= observed)."""
-    return float((1 + np.sum(null >= observed)) / (1 + len(null)))
+    """Two-sided permutation p-value with the +1 correction.
+
+    Counts permutations whose effect is at least as extreme as the observed one in either
+    direction, measured from the centre of the null distribution. Two-sided tests are used
+    because the direction of these effects was not fixed before the data were examined.
+    """
+    centre = float(np.median(null))
+    extreme = np.abs(null - centre) >= abs(observed - centre)
+    return float((1 + np.sum(extreme)) / (1 + len(null)))
 
 
 def main() -> None:
@@ -76,8 +81,7 @@ def main() -> None:
     args = parser.parse_args()
     cfg = yaml.safe_load(args.config.read_text())
     if args.fast:
-        cfg.update(n_bootstrap=50, n_permutations=50, n_network_permutations=20,
-                   obfuscation_repeats=1)
+        cfg.update(n_bootstrap=50, n_permutations=50, n_network_permutations=20)
     out = args.output_dir or ROOT / cfg["output_dir"]
     tables = out / "tables"
     tables.mkdir(parents=True, exist_ok=True)
@@ -353,32 +357,6 @@ def main() -> None:
                "n_for_80": required_n(eff, s, w, cfg["power_target"], cfg["alpha"])}
         for name, (eff, s, w) in scenarios.items()
     }
-
-    # 7. Obfuscation protocol positive control ------------------------------
-    log("Obfuscation control")
-    sys.path.insert(0, str(ROOT / "scripts"))
-    from benchmark_mouse_models import evaluate
-
-    from mice_protein.models import build_model
-
-    features = log2_values[unique].pipe(lambda f: 2**f)  # back to intensity scale
-    y = cells.reindex(features.index)
-    rows = []
-    for name, model in (("logistic", build_model("logistic", cfg["seed"])),
-                        ("random_forest", build_model("random_forest", cfg["seed"]))):
-        base = pd.DataFrame(list(evaluate(features, y, y, model, {})))
-        rows.append({"model": name, "version": "original",
-                     "balanced_accuracy": base.balanced_accuracy.mean()})
-        for r in range(cfg["obfuscation_repeats"]):
-            obf, _ = obfuscate(features, np.random.default_rng(cfg["seed"] + r))
-            res = pd.DataFrame(list(evaluate(obf, y, y, model, {})))
-            rows.append({"model": name, "version": f"obfuscated_{r}",
-                         "balanced_accuracy": res.balanced_accuracy.mean()})
-    obf_tab = pd.DataFrame(rows)
-    obf_tab.to_csv(tables / "obfuscation_control.csv", index=False)
-    summary["obfuscation"] = obf_tab.groupby(["model", obf_tab.version.str.startswith("obf")]) \
-        .balanced_accuracy.agg(["mean", "min", "max"]).reset_index() \
-        .rename(columns={"version": "obfuscated"}).to_dict("records")
 
     summary["provenance"] = {
         "config": cfg, "python": sys.version.split()[0], "platform": platform.platform(),
